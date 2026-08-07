@@ -48,20 +48,31 @@ app.use(express.static(ROOT));
 app.use(express.static(__dirname));
 
 // Proxy all /cdn/ paths not found locally back to Shopify CDN
-// Strip the leading /cdn prefix so the Shopify URL is correct
-app.get('/cdn/{*cdnPath}', (req, res) => {
-    const cdnPath = '/' + req.params.cdnPath;
+app.use((req, res, next) => {
+    if (!req.path.startsWith('/cdn')) {
+        return next();
+    }
+    
+    const cdnPath = req.path; // Keep the full path including /cdn
     let shopifyUrl;
-    if (cdnPath.startsWith('/shop/files/')) {
-        shopifyUrl = `https://cdn.shopify.com/s/files/1/0661/2965/7940/files/${cdnPath.replace('/shop/files/', '')}`;
+    if (cdnPath.startsWith('/cdn/shop/files/')) {
+        shopifyUrl = `https://cdn.shopify.com/s/files/1/0661/2965/7940/files/${cdnPath.replace('/cdn/shop/files/', '')}`;
+    } else if (cdnPath.startsWith('/cdn/shop/')) {
+        shopifyUrl = `https://cdn.shopify.com/s/files/1/0661/2965/7940${cdnPath.replace('/cdn/shop', '')}`;
+    } else if (cdnPath.startsWith('/cdn/')) {
+        shopifyUrl = `https://cdn.shopify.com${cdnPath.replace('/cdn', '')}`;
     } else {
         shopifyUrl = `https://cdn.shopify.com${cdnPath}`;
     }
+    console.log(`Proxying CDN request: ${cdnPath} -> ${shopifyUrl}`);
     https.get(shopifyUrl, (proxyRes) => {
         res.set('Content-Type', proxyRes.headers['content-type'] || 'application/octet-stream');
         res.set('Cache-Control', 'public, max-age=86400');
         proxyRes.pipe(res);
-    }).on('error', () => res.status(404).send('Not found'));
+    }).on('error', (err) => {
+        console.error(`CDN proxy error for ${shopifyUrl}:`, err.message);
+        res.status(404).send('Not found');
+    });
 });
 
 // Permanent redirects for moved/renamed product pages
