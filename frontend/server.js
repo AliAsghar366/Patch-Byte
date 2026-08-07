@@ -43,11 +43,7 @@ app.get('/api/stripe-config', (_req, res) => {
     res.json({ publishableKey: process.env.STRIPE_PUBLISHABLE_KEY || '' });
 });
 
-// Serve static assets — patchkraze.com/ first, then frontend/ root (for /cdn/ theme assets)
-app.use(express.static(ROOT));
-app.use(express.static(__dirname));
-
-// Proxy all /cdn/ paths not found locally back to Shopify CDN
+// Proxy all /cdn/ paths to Shopify CDN
 app.use((req, res, next) => {
     if (!req.path.startsWith('/cdn')) {
         return next();
@@ -74,6 +70,10 @@ app.use((req, res, next) => {
         res.status(404).send('Not found');
     });
 });
+
+// Serve static assets — patchkraze.com/ first, then frontend/ root
+app.use(express.static(ROOT));
+app.use(express.static(__dirname));
 
 // Permanent redirects for moved/renamed product pages
 const permanentRedirects = {
