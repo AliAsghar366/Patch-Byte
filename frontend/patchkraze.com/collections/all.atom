@@ -1,0 +1,2213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://patchkraze.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://patchkraze.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://patchkraze.com/collections/all.atom"/>
+  <title>patchkraze</title>
+  <updated>2026-04-27T17:04:52-04:00</updated>
+  <author>
+    <name>patchkraze</name>
+  </author>
+  <entry>
+    <id>https://patchkraze.com/products/10159504490580</id>
+    <published>2026-04-27T17:04:52-04:00</published>
+    <updated>2026-04-27T17:04:52-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/print-embroidery"/>
+    <title>Print Embroidery</title>
+    <s:type>embroidered</s:type>
+    <s:vendor>Patch Kraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/McpEmbdetailImagecollage.jpg?v=1774398155"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Patch Kraze<br>
+        <strong>Type: </strong>embroidered<br>
+        <strong>Price: </strong>
+            0.38 - 14.82
+            <a href="https://patchkraze.com/products/print-embroidery">(96 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Custom embroidered patches with sleek thin-stitched edge or robust Merrow border.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Embroidered Patches</s:tag>
+    <s:tag>patches</s:tag>
+    <s:tag>Popular</s:tag>
+    <s:tag>rush</s:tag>
+    <s:tag>Standard Patches</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>1.0 inch - 25-49</title>
+      <s:price currency="USD">1.23</s:price>
+      <s:sku>00840400502500-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>1.0 inch - 50-99</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>00840400502500-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>1.0 inch - 100-199</title>
+      <s:price currency="USD">0.80</s:price>
+      <s:sku>00840400502500-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>1.0 inch - 200-499</title>
+      <s:price currency="USD">0.57</s:price>
+      <s:sku>00840400502500-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>1.0 inch - 500-999</title>
+      <s:price currency="USD">0.41</s:price>
+      <s:sku>00840400502500-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>1.0 inch - 1000+</title>
+      <s:price currency="USD">0.38</s:price>
+      <s:sku>00840400502500-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>1.5 inch - 25-49</title>
+      <s:price currency="USD">1.86</s:price>
+      <s:sku>00840400502501-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>1.5 inch - 50-99</title>
+      <s:price currency="USD">1.62</s:price>
+      <s:sku>00840400502501-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>1.5 inch - 100-199</title>
+      <s:price currency="USD">1.19</s:price>
+      <s:sku>00840400502501-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>1.5 inch - 200-499</title>
+      <s:price currency="USD">0.84</s:price>
+      <s:sku>00840400502501-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>1.5 inch - 500-999</title>
+      <s:price currency="USD">0.62</s:price>
+      <s:sku>00840400502501-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>1.5 inch - 1000+</title>
+      <s:price currency="USD">0.56</s:price>
+      <s:sku>00840400502501-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>2.0 inch - 25-49</title>
+      <s:price currency="USD">2.48</s:price>
+      <s:sku>00840400502502-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>2.0 inch - 50-99</title>
+      <s:price currency="USD">2.15</s:price>
+      <s:sku>00840400502502-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>2.0 inch - 100-199</title>
+      <s:price currency="USD">1.59</s:price>
+      <s:sku>00840400502502-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>2.0 inch - 200-499</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>00840400502502-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>2.0 inch - 500-999</title>
+      <s:price currency="USD">0.81</s:price>
+      <s:sku>00840400502502-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>2.0 inch - 1000+</title>
+      <s:price currency="USD">0.74</s:price>
+      <s:sku>00840400502502-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>2.5 inch - 25-49</title>
+      <s:price currency="USD">3.11</s:price>
+      <s:sku>00840400503318-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>2.5 inch - 50-99</title>
+      <s:price currency="USD">2.69</s:price>
+      <s:sku>00840400503318-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>2.5 inch - 100-199</title>
+      <s:price currency="USD">2.00</s:price>
+      <s:sku>00840400503318-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>2.5 inch - 200-499</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>00840400503318-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>2.5 inch - 500-999</title>
+      <s:price currency="USD">1.02</s:price>
+      <s:sku>00840400503318-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>2.5 inch - 1000+</title>
+      <s:price currency="USD">0.92</s:price>
+      <s:sku>00840400503318-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>3.0 inch - 25-49</title>
+      <s:price currency="USD">3.71</s:price>
+      <s:sku>00840400503219-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>3.0 inch - 50-99</title>
+      <s:price currency="USD">3.21</s:price>
+      <s:sku>00840400503219-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>3.0 inch - 100-199</title>
+      <s:price currency="USD">2.39</s:price>
+      <s:sku>00840400503219-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>3.0 inch - 200-499</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>00840400503219-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>3.0 inch - 500-999</title>
+      <s:price currency="USD">1.22</s:price>
+      <s:sku>00840400503219-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>3.0 inch - 1000+</title>
+      <s:price currency="USD">1.10</s:price>
+      <s:sku>00840400503219-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>3.5 inch - 25-49</title>
+      <s:price currency="USD">4.31</s:price>
+      <s:sku>00840400502137-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>3.5 inch - 50-99</title>
+      <s:price currency="USD">3.75</s:price>
+      <s:sku>00840400502137-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>3.5 inch - 100-199</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>00840400502137-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>3.5 inch - 200-499</title>
+      <s:price currency="USD">1.95</s:price>
+      <s:sku>00840400502137-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>3.5 inch - 500-999</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>00840400502137-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>3.5 inch - 1000+</title>
+      <s:price currency="USD">1.26</s:price>
+      <s:sku>00840400502137-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>4.0 inch - 25-49</title>
+      <s:price currency="USD">4.95</s:price>
+      <s:sku>00840400503226-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>4.0 inch - 50-99</title>
+      <s:price currency="USD">4.29</s:price>
+      <s:sku>00840400503226-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>4.0 inch - 100-199</title>
+      <s:price currency="USD">3.17</s:price>
+      <s:sku>00840400503226-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>4.0 inch - 200-499</title>
+      <s:price currency="USD">2.24</s:price>
+      <s:sku>00840400503226-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>4.0 inch - 500-999</title>
+      <s:price currency="USD">1.64</s:price>
+      <s:sku>00840400503226-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>4.0 inch - 1000+</title>
+      <s:price currency="USD">1.47</s:price>
+      <s:sku>00840400503226-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>4.5 inch - 25-49</title>
+      <s:price currency="USD">5.55</s:price>
+      <s:sku>00840400502915-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>4.5 inch - 50-99</title>
+      <s:price currency="USD">4.82</s:price>
+      <s:sku>00840400502915-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>4.5 inch - 100-199</title>
+      <s:price currency="USD">3.57</s:price>
+      <s:sku>00840400502915-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>4.5 inch - 200-499</title>
+      <s:price currency="USD">2.52</s:price>
+      <s:sku>00840400502915-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>4.5 inch - 500-999</title>
+      <s:price currency="USD">1.83</s:price>
+      <s:sku>00840400502915-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>4.5 inch - 1000+</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>00840400502915-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>5.0 inch - 25-49</title>
+      <s:price currency="USD">6.18</s:price>
+      <s:sku>00840400502984-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>5.0 inch - 50-99</title>
+      <s:price currency="USD">5.37</s:price>
+      <s:sku>00840400502984-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>5.0 inch - 100-199</title>
+      <s:price currency="USD">3.96</s:price>
+      <s:sku>00840400502984-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>5.0 inch - 200-499</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>00840400502984-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>5.0 inch - 500-999</title>
+      <s:price currency="USD">2.04</s:price>
+      <s:sku>00840400502984-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>5.0 inch - 1000+</title>
+      <s:price currency="USD">1.82</s:price>
+      <s:sku>00840400502984-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>6.0 inch - 25-49</title>
+      <s:price currency="USD">7.41</s:price>
+      <s:sku>00840400503011-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>6.0 inch - 50-99</title>
+      <s:price currency="USD">6.44</s:price>
+      <s:sku>00840400503011-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>6.0 inch - 100-199</title>
+      <s:price currency="USD">4.77</s:price>
+      <s:sku>00840400503011-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>6.0 inch - 200-499</title>
+      <s:price currency="USD">3.36</s:price>
+      <s:sku>00840400503011-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>6.0 inch - 500-999</title>
+      <s:price currency="USD">2.46</s:price>
+      <s:sku>00840400503011-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>6.0 inch - 1000+</title>
+      <s:price currency="USD">2.19</s:price>
+      <s:sku>00840400503011-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>7.0 inch - 25-49</title>
+      <s:price currency="USD">8.64</s:price>
+      <s:sku>00840400502427-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>7.0 inch - 50-99</title>
+      <s:price currency="USD">7.52</s:price>
+      <s:sku>00840400502427-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>7.0 inch - 100-199</title>
+      <s:price currency="USD">5.57</s:price>
+      <s:sku>00840400502427-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>7.0 inch - 200-499</title>
+      <s:price currency="USD">3.90</s:price>
+      <s:sku>00840400502427-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>7.0 inch - 500-999</title>
+      <s:price currency="USD">2.85</s:price>
+      <s:sku>00840400502427-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>7.0 inch - 1000+</title>
+      <s:price currency="USD">2.55</s:price>
+      <s:sku>00840400502427-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>8.0 inch - 25-49</title>
+      <s:price currency="USD">9.87</s:price>
+      <s:sku>00840400502892-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>8.0 inch - 50-99</title>
+      <s:price currency="USD">8.58</s:price>
+      <s:sku>00840400502892-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>8.0 inch - 100-199</title>
+      <s:price currency="USD">6.35</s:price>
+      <s:sku>00840400502892-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>8.0 inch - 200-499</title>
+      <s:price currency="USD">4.47</s:price>
+      <s:sku>00840400502892-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>8.0 inch - 500-999</title>
+      <s:price currency="USD">3.26</s:price>
+      <s:sku>00840400502892-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>8.0 inch - 1000+</title>
+      <s:price currency="USD">2.94</s:price>
+      <s:sku>00840400502892-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>9.0 inch - 25-49</title>
+      <s:price currency="USD">11.10</s:price>
+      <s:sku>00840400503127-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>9.0 inch - 50-99</title>
+      <s:price currency="USD">9.65</s:price>
+      <s:sku>00840400503127-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>9.0 inch - 100-199</title>
+      <s:price currency="USD">7.14</s:price>
+      <s:sku>00840400503127-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>9.0 inch - 200-499</title>
+      <s:price currency="USD">5.01</s:price>
+      <s:sku>00840400503127-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>9.0 inch - 500-999</title>
+      <s:price currency="USD">3.68</s:price>
+      <s:sku>00840400503127-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>9.0 inch - 1000+</title>
+      <s:price currency="USD">3.29</s:price>
+      <s:sku>00840400503127-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>10.0 inch - 25-49</title>
+      <s:price currency="USD">12.33</s:price>
+      <s:sku>00840400503127B-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>10.0 inch - 50-99</title>
+      <s:price currency="USD">10.73</s:price>
+      <s:sku>00840400503127B-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>10.0 inch - 100-199</title>
+      <s:price currency="USD">7.95</s:price>
+      <s:sku>00840400503127B-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>10.0 inch - 200-499</title>
+      <s:price currency="USD">5.58</s:price>
+      <s:sku>00840400503127B-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>10.0 inch - 500-999</title>
+      <s:price currency="USD">4.08</s:price>
+      <s:sku>00840400503127B-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>10.0 inch - 1000+</title>
+      <s:price currency="USD">3.65</s:price>
+      <s:sku>00840400503127B-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>11.0 inch - 25-49</title>
+      <s:price currency="USD">13.58</s:price>
+      <s:sku>00840400503127C-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>11.0 inch - 50-99</title>
+      <s:price currency="USD">11.81</s:price>
+      <s:sku>00840400503127C-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>11.0 inch - 100-199</title>
+      <s:price currency="USD">8.73</s:price>
+      <s:sku>00840400503127C-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>11.0 inch - 200-499</title>
+      <s:price currency="USD">6.14</s:price>
+      <s:sku>00840400503127C-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>11.0 inch - 500-999</title>
+      <s:price currency="USD">4.49</s:price>
+      <s:sku>00840400503127C-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>11.0 inch - 1000+</title>
+      <s:price currency="USD">4.01</s:price>
+      <s:sku>00840400503127C-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>12.0 inch - 25-49</title>
+      <s:price currency="USD">14.82</s:price>
+      <s:sku>00840400503127D-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>12.0 inch - 50-99</title>
+      <s:price currency="USD">12.89</s:price>
+      <s:sku>00840400503127D-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>12.0 inch - 100-199</title>
+      <s:price currency="USD">9.53</s:price>
+      <s:sku>00840400503127D-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>12.0 inch - 200-499</title>
+      <s:price currency="USD">6.71</s:price>
+      <s:sku>00840400503127D-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>12.0 inch - 500-999</title>
+      <s:price currency="USD">4.89</s:price>
+      <s:sku>00840400503127D-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10159504490580</id>
+      <title>12.0 inch - 1000+</title>
+      <s:price currency="USD">4.38</s:price>
+      <s:sku>00840400503127D-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10155105845332</id>
+    <published>2026-04-23T19:08:25-04:00</published>
+    <updated>2026-04-23T19:08:25-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/cool-bucket-hat-embroidered-patch"/>
+    <title>Cool Bucket Hat Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/hat.jpg?v=1776985680"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><span>Add some style to your gear with this "COOL" Bucket Hat patch, made with high quality embroidery. The iron-on backing makes it easy for you to apply to your gear. A funny patch for bucket hats, and a great addition to any of your jackets, backpacks or other accessories. Approx. 3" wide.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10155105845332</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10155088740436</id>
+    <published>2026-04-23T18:46:10-04:00</published>
+    <updated>2026-04-23T18:46:10-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/american-flag-dove-embroidered-patch"/>
+    <title>American Flag Dove Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/dove.webp?v=1776984356"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div data-appears-component-name="product_details">
+<div id="product_details" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle">
+<div id="product_details_content_toggle" class="wt-content-toggle__body" aria-hidden="false">
+<div class="wt-mb-xs-6">
+<div data-id="description-text">
+<div id="content-toggle-product-details-read-more" class="" aria-hidden="false">
+<p data-product-details-description-text-content="" class="wt-text-body-01 wt-break-word">Show your patriotic spirit with this American flag styled dove patch! Made from high quality embroidery, the patch includes an iron-on backing to make it easy to apply to your gear. Approx. 4" wide. A great addition to any jackets, backpacks, tactical gear or any other accessories.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10155088740436</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10155075764308</id>
+    <published>2026-04-23T18:25:15-04:00</published>
+    <updated>2026-04-23T18:25:15-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/unsupervised-embroidered-patch"/>
+    <title>Unsupervised Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/imd.jpg?v=1776983097"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div data-appears-component-name="product_details">
+<div id="product_details" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle">
+<div id="product_details_content_toggle" class="wt-content-toggle__body" aria-hidden="false">
+<div class="wt-mb-xs-6">
+<div data-id="description-text">
+<div id="content-toggle-product-details-read-more" class="" aria-hidden="false">
+<p data-product-details-description-text-content="" class="wt-text-body-01 wt-break-word">"In My Defense I Was Left Unsupervised" - Add a little humor to your gear with this patch made of high quality embroidery. Includes an iron-on backing, making it easy to apply to any of your bags, jackets or other accessories. Approx. 3"</p>
+</div>
+<div class="wt-text-center-xs"><br></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div data-appears-component-name="listing_page_policy_shipping_variant" data-appears-event-data='{"estimated_delivery_date_days_from_now_min":8,"estimated_delivery_date_days_from_now_max":17}'>
+<div data-appears-component-name="shipping_and_returns" class="appears-ready">
+<div id="shipping_and_returns" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle"></div>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10155075764308</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10155065507924</id>
+    <published>2026-04-23T18:08:26-04:00</published>
+    <updated>2026-04-23T18:08:26-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/pink-rabbit-embroidered-patch"/>
+    <title>Pink Rabbit Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/rab.webp?v=1776982097"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div data-appears-component-name="product_details">
+<div id="product_details" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle">
+<div id="product_details_content_toggle" class="wt-content-toggle__body" aria-hidden="false">
+<div class="wt-mb-xs-6">
+<div data-id="description-text">
+<div id="content-toggle-product-details-read-more" class="" aria-hidden="false">
+<p data-product-details-description-text-content="" class="wt-text-body-01 wt-break-word">This adorable pink bunny patch is the perfect addition to your gear! Made from high quality embroidery and including an iron-on backing, it's easy to add to your backpacks, hats, jackets or other accessories. Approx. 3"</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10155065507924</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10155030380628</id>
+    <published>2026-04-23T17:00:44-04:00</published>
+    <updated>2026-04-23T17:00:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/low-social-battery-embroidered-patch"/>
+    <title>Low Social Battery Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/battery.webp?v=1776981704"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div data-appears-component-name="product_details">
+<div id="product_details" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle">
+<div id="product_details_content_toggle" class="wt-content-toggle__body" aria-hidden="false">
+<div class="wt-mb-xs-6">
+<div data-id="description-text">
+<div id="content-toggle-product-details-read-more" class="" aria-hidden="false">
+<p data-product-details-description-text-content="" class="wt-text-body-01 wt-break-word">"Warning! Low Social Battery." Let everyone know your vibe with this funny patch made from high quality embroidery. Includes an iron-on backing that makes it easy to apply to your gear. A great gift for the introverts in your life! Approx. 3.5" wide</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10155030380628</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10152489517140</id>
+    <published>2026-04-21T14:09:41-04:00</published>
+    <updated>2026-04-21T14:09:41-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/classic-dad-cap"/>
+    <title>Classic Dad Cap</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/IMG_0048.jpg?v=1776798705"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            7.00 - 60.00
+            <a href="https://patchkraze.com/products/classic-dad-cap">(18 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Classic six-panel solid color dad cap with brass buckle.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Blanks</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Wine / 1 cap</title>
+      <s:price currency="USD">7.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Wine / 12 caps</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Navy / 1 cap</title>
+      <s:price currency="USD">7.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Navy / 12 caps</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Red / 1 cap</title>
+      <s:price currency="USD">7.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Red / 12 caps</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Gray / 1 cap</title>
+      <s:price currency="USD">7.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Gray / 12 caps</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>White / 1 cap</title>
+      <s:price currency="USD">7.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>White / 12 caps</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Beige / 1 cap</title>
+      <s:price currency="USD">7.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Beige / 12 caps</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Brown / 1 cap</title>
+      <s:price currency="USD">7.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Brown / 12 caps</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Sky Blue / 1 cap</title>
+      <s:price currency="USD">7.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Sky Blue / 12 caps</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Black / 1 cap</title>
+      <s:price currency="USD">7.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152489517140</id>
+      <title>Black / 12 caps</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10152481849428</id>
+    <published>2026-04-21T13:59:33-04:00</published>
+    <updated>2026-04-21T13:59:33-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/two-tone-foam-trucker-cap"/>
+    <title>Two Tone Foam Trucker Cap</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/IMG_0072.jpg?v=1776803772"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            5.00 - 36.00
+            <a href="https://patchkraze.com/products/two-tone-foam-trucker-cap">(20 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8">Sponge mesh baseball trucker cap with white front panel.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Yellow / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Yellow / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Purple / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Purple / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Green / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Green / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Light Blue / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Light Blue / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Black / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Black / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Pink / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Pink / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Hot Pink / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Hot Pink / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Blue / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Blue / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Red / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Red / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Orange / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152481849428</id>
+      <title>Orange / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10152477098068</id>
+    <published>2026-04-21T13:51:43-04:00</published>
+    <updated>2026-04-21T13:51:43-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/solid-color-foam-trucker-rope-cap"/>
+    <title>Solid Color Foam Trucker Rope Cap</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/IMG_0059.jpg?v=1776799751"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            5.00 - 36.00
+            <a href="https://patchkraze.com/products/solid-color-foam-trucker-rope-cap">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8">Sponge mesh baseball trucker cap with rope, single solid color.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152477098068</id>
+      <title>Aqua Blue / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152477098068</id>
+      <title>Aqua Blue / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152477098068</id>
+      <title>Gray / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152477098068</id>
+      <title>Gray / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10152466546772</id>
+    <published>2026-04-21T13:31:27-04:00</published>
+    <updated>2026-04-21T13:31:27-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/foam-trucker-cap"/>
+    <title>Solid Color Foam Trucker Cap</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/IMG_0061.jpg?v=1776802671"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            5.00 - 36.00
+            <a href="https://patchkraze.com/products/foam-trucker-cap">(22 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Sponge mesh baseball trucker cap, single solid color.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Navy / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Navy / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Gray / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Gray / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Purple / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Purple / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>White / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>White / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Olive / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Olive / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Yellow / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Yellow / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Black / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Black / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Red / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Red / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Pink / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Pink / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Orange / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Orange / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Green / 1 cap</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/10152466546772</id>
+      <title>Green / 12 caps</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10151815479380</id>
+    <published>2026-04-20T18:48:30-04:00</published>
+    <updated>2026-04-20T18:48:30-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/sunflower-embroidered-patch"/>
+    <title>Sunflower Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/sunf.jpg?v=1776725302"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><span>Brighten up your gear with this sunflower patch made with high quality embroidery. The iron-on backing makes it easy for you to upgrade your jackets, hats, bags or other accessories. Approx. 3".</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10151815479380</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10148422123604</id>
+    <published>2026-04-17T16:38:05-04:00</published>
+    <updated>2026-04-17T16:38:05-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/velcro-backing"/>
+    <title>Velcro Backing</title>
+    <s:type>backing</s:type>
+    <s:vendor>Backing</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/velcro-backing.jpg?v=1776458481"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Backing<br>
+        <strong>Type: </strong>backing<br>
+        <strong>Price: </strong>
+            0.25
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>backing</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10148422123604</id>
+      <title>Default Title</title>
+      <s:price currency="USD">0.25</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10147770400852</id>
+    <published>2026-04-16T18:21:38-04:00</published>
+    <updated>2026-04-16T18:21:38-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/go-outside-bear-embroidered-patch"/>
+    <title>Go Outside Bear Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/bear2.webp?v=1776378086"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><span>This outdoorsy bear patch is made from high quality embroidery, and pictures a golden sunset over forest and mountains. The iron-on backing makes it easy to apply to your backpacks, jackets or accessories. A colorful addition to any gear and a great gift for any nature lovers. Approx. 3.5"</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10147770400852</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10147767320660</id>
+    <published>2026-04-16T18:13:49-04:00</published>
+    <updated>2026-04-16T18:13:49-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/california-bear-embroidered-patch"/>
+    <title>California Bear Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/ca1.jpg?v=1776377603"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><span>Show your California pride with this bear patch made of high quality embroidery. This stylish design resembles the grizzly bear on the Californian flag. Iron-on backing makes it easy to apply to your gear. A great souvenir from the Golden State! Approx. 3.5"</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10147767320660</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10147696934996</id>
+    <published>2026-04-16T17:44:02-04:00</published>
+    <updated>2026-04-16T17:44:02-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/red-strawberry-embroidered-patch"/>
+    <title>Red Strawberry Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/berry1.webp?v=1776375830"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div data-appears-component-name="product_details">
+<div id="product_details" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle">
+<div id="product_details_content_toggle" class="wt-content-toggle__body" aria-hidden="false">
+<div class="wt-mb-xs-6">
+<div data-id="description-text">
+<div id="content-toggle-product-details-read-more" class="" aria-hidden="false">
+<p data-product-details-description-text-content="" class="wt-text-body-01 wt-break-word">This red strawberry is made from high quality embroidery and makes a great addition to any jacket, hats, bags or other accessories. The iron-on backing makes it easy to apply to your gear. Approx. 3"</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10147696934996</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10147679567956</id>
+    <published>2026-04-16T17:30:01-04:00</published>
+    <updated>2026-04-16T17:30:01-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/peeled-banana-embroidered-patch"/>
+    <title>Peeled Banana Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/nana.jpg?v=1776374989"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div data-appears-component-name="product_details">
+<div id="product_details" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle">
+<div id="product_details_content_toggle" class="wt-content-toggle__body" aria-hidden="false">
+<div class="wt-mb-xs-6">
+<div data-id="description-text">
+<div id="content-toggle-product-details-read-more" class="" aria-hidden="false">
+<p data-product-details-description-text-content="" class="wt-text-body-01 wt-break-word">This peeled banana is made from high quality embroidery and makes a great addition to any jacket, hats, bags or other accessories. The iron-on backing makes it easy to apply to your gear. Approx. 3"</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10147679567956</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10147665248340</id>
+    <published>2026-04-16T17:10:46-04:00</published>
+    <updated>2026-04-16T17:10:46-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/rubiks-cube-embroidered-patch"/>
+    <title>Rubik&apos;s Cube Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/rubik.webp?v=1776373829"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div data-appears-component-name="product_details">
+<div id="product_details" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle">
+<div id="product_details_content_toggle" class="wt-content-toggle__body" aria-hidden="false">
+<div class="wt-mb-xs-6">
+<div data-id="description-text">
+<div id="content-toggle-product-details-read-more" class="" aria-hidden="false">
+<p data-product-details-description-text-content="" class="wt-text-body-01 wt-break-word">This colorful puzzle cube patch is made from high-quality embroidery. With an iron-on backing that makes it easy to apply, this patch is a great way to upgrade your gear. Approx. 4"</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10147665248340</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10147623436372</id>
+    <published>2026-04-16T16:03:08-04:00</published>
+    <updated>2026-04-16T16:03:08-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/colorful-headphones-embroidered-patch"/>
+    <title>Colorful Headphones Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/headphones.webp?v=1776369773"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div data-appears-component-name="product_details">
+<div id="product_details" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle">
+<div id="product_details_content_toggle" class="wt-content-toggle__body" aria-hidden="false">
+<div class="wt-mb-xs-6">
+<div data-id="description-text">
+<div id="content-toggle-product-details-read-more" class="" aria-hidden="false">
+<p data-product-details-description-text-content="" class="wt-text-body-01 wt-break-word">Colorful orange headphones made from high-quality embroidery. The iron-on backing makes it easy to apply to your jackets, bags and gear. A great gift for producers and music lovers! Approx. 4"</p>
+</div>
+<div class="wt-text-center-xs"><br></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div data-appears-component-name="listing_page_policy_shipping_variant" data-appears-event-data='{"estimated_delivery_date_days_from_now_min":8,"estimated_delivery_date_days_from_now_max":17}'>
+<div data-appears-component-name="shipping_and_returns" class="appears-ready">
+<div id="shipping_and_returns" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle"></div>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10147623436372</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10147614851156</id>
+    <published>2026-04-16T15:30:59-04:00</published>
+    <updated>2026-04-16T15:30:59-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/orange-dragonfly-embroidered-patch"/>
+    <title>Orange Dragonfly Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/dragonfly.webp?v=1776367835"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div data-appears-component-name="product_details">
+<div id="product_details" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle">
+<div id="product_details_content_toggle" class="wt-content-toggle__body" aria-hidden="false">
+<div class="wt-mb-xs-6">
+<div data-id="description-text">
+<div id="content-toggle-product-details-read-more" class="" aria-hidden="false">
+<p data-product-details-description-text-content="" class="wt-text-body-01 wt-break-word">Add a little whimsy to your gear with this orange and blue dragonfly patch! The high quality embroidered patch looks great on jackets, backpacks, or any other gear, and is a wonderful gift for all ages. Iron-on makes for easy application. Approximately 3" x 2"</p>
+</div>
+<div class="wt-text-center-xs"><br></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div data-appears-component-name="listing_page_policy_shipping_variant" data-appears-event-data='{"estimated_delivery_date_days_from_now_min":8,"estimated_delivery_date_days_from_now_max":17}'>
+<div data-appears-component-name="shipping_and_returns" class="appears-ready">
+<div id="shipping_and_returns" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle"></div>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10147614851156</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10147603480660</id>
+    <published>2026-04-16T15:12:42-04:00</published>
+    <updated>2026-04-16T15:12:42-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/pink-butterfly-embroidered-patch"/>
+    <title>Pink Butterfly Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/bf.webp?v=1776366731"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div data-appears-component-name="product_details">
+<div id="product_details" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle">
+<div id="product_details_content_toggle" class="wt-content-toggle__body" aria-hidden="false">
+<div class="wt-mb-xs-6">
+<div data-id="description-text">
+<div id="content-toggle-product-details-read-more" class="" aria-hidden="false">
+<p data-product-details-description-text-content="" class="wt-text-body-01 wt-break-word">Add a little whimsy to your gear with this pink butterfly patch! The high quality embroidered patch looks great on jackets, backpacks, or any other gear, and is a wonderful gift for all ages. Iron-on makes for easy application. Approximately 3" x 2"</p>
+</div>
+<div class="wt-text-center-xs"><br></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div data-appears-component-name="listing_page_policy_shipping_variant" data-appears-event-data='{"estimated_delivery_date_days_from_now_min":8,"estimated_delivery_date_days_from_now_max":17}'>
+<div data-appears-component-name="shipping_and_returns" class="appears-ready">
+<div id="shipping_and_returns" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle"></div>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10147603480660</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10147597451348</id>
+    <published>2026-04-16T14:45:18-04:00</published>
+    <updated>2026-04-16T14:45:18-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/striped-lips-embroidered-patch"/>
+    <title>Striped Lips Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/lips.jpg?v=1776365095"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><span>Green, black and red striped lips made from high quality embroidery. The iron-on backing makes for easy application to your backpacks, jackets and accessories. Approx. 3"</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10147597451348</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10147589750868</id>
+    <published>2026-04-16T14:39:40-04:00</published>
+    <updated>2026-04-16T14:39:40-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/peace-heart-embroidered-patch"/>
+    <title>Peace Heart Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/heart.webp?v=1776364751"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div data-appears-component-name="product_details">
+<div id="product_details" class="appears-ready">
+<div class="wt-content-toggle" data-selector="info-section-content-toggle">
+<div id="product_details_content_toggle" class="wt-content-toggle__body" aria-hidden="false">
+<div class="wt-mb-xs-6">
+<div data-id="description-text">
+<div id="content-toggle-product-details-read-more" class="" aria-hidden="false">
+<p data-product-details-description-text-content="" class="wt-text-body-01 wt-break-word">Red, black and green striped "PEACE" heart. Made from high quality embroidery and includes an iron-on backing for easy application to your jackets, bags and accessories. Approx. 3"</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10147589750868</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10147587457108</id>
+    <published>2026-04-16T14:33:02-04:00</published>
+    <updated>2026-04-16T14:33:02-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/raised-fist-embroidered-patch"/>
+    <title>Raised Fist Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/pal.webp?v=1776364365"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><span>Black fist raised over red, black and green striped background. Made from high quality embroidered and including an iron-on backing for easy application to your gear. Approx. 3.5"</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10147587457108</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10147579494484</id>
+    <published>2026-04-16T13:47:51-04:00</published>
+    <updated>2026-04-16T13:47:51-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/jesus-i-saw-that-embroidered-patch"/>
+    <title>Jesus &quot;I Saw That&quot; Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/jc.webp?v=1776361649"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><span>Add some humor to your gear with this funny Jesus "I Saw That!" patch. The high quality embroidery and iron-on backing makes a great addition to any jackets, bags or accessories. A great gift for Christians with a sense of humor.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10147579494484</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/10147577069652</id>
+    <published>2026-04-16T13:38:35-04:00</published>
+    <updated>2026-04-16T13:38:35-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/white-cross-embroidered-patch"/>
+    <title>White Cross Embroidered Patch</title>
+    <s:type></s:type>
+    <s:vendor>patchkraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/cross.jpg?v=1776361080"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>patchkraze<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            8.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><span>Show your faith with this patch made of high quality embroidery. The iron-on backing makes it easy to apply to your jackets, bags and gear. Approx. 3.5" long.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Ready Made</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/10147577069652</id>
+      <title>Default Title</title>
+      <s:price currency="USD">8.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

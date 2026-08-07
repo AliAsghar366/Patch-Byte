@@ -1,0 +1,1 @@
+Root of the PatchByte project that wires a static Shopify Dawn theme served by an Express server, with deployment and build scripts for Netlify/Vercel/Supabase.

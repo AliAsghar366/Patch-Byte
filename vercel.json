@@ -1,0 +1,12 @@
+{
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "frontend/patchkraze.com/**/*.html,frontend/patchkraze.com/robots.txt,frontend/js/**,frontend/cdn/shop/t/**"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ]
+}

@@ -1,0 +1,1 @@
+Netlify (Node 18, custom build script), Vercel serverless functions, Supabase PostgreSQL with Row Level Security policies; Shopify CDN proxied through Netlify rewrites.

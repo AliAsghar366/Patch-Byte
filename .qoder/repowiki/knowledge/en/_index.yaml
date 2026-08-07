@@ -1,0 +1,62 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: en-US
+branch: Q0DeR-MaG1C-BrAnCh-Fo2-NoN-GiT-Or-No-C0MmIt
+nodes_managed: true
+exported_at: "2026-08-07T16:58:18Z"
+modules:
+    "":
+        dir_name: PatchByte Static E-Commerce Site
+        title: PatchByte Static E-Commerce Site
+        scope:
+            - .env.example
+            - .gitignore
+            - package-lock.json
+            - package.json
+        source_files: []
+        children:
+            - frontend
+            - infra
+            - scripts
+        depends_on: []
+        related_to: []
+    frontend:
+        dir_name: Patch Kraft Static E-Commerce Frontend (Shopify Theme + Express Server)
+        title: Patch Kraft Static E-Commerce Frontend (Shopify Theme + Express Server)
+        scope:
+            - frontend/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: infra
+            - path: scripts
+    infra:
+        dir_name: Deployment & Database Migration Infrastructure
+        title: Deployment & Database Migration Infrastructure
+        scope:
+            - netlify.toml
+            - vercel.json
+            - netlify-build.js
+            - migrate-tables.sql
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: frontend
+            - path: scripts
+    scripts:
+        dir_name: Static Site Build & Migration Utilities
+        title: Static Site Build & Migration Utilities
+        scope:
+            - download-images.ps1
+            - fix-urls.ps1
+            - inject-patchbyte.ps1
+            - rebrand.ps1
+            - seed-products.ps1
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: frontend
+            - path: infra

@@ -1,0 +1,4 @@
+- Netlify redirects are declared as repeated `[[redirects]]` blocks grouped by purpose (product redirects, collection redirects, policy/page redirects, clean URLs, CDN proxies).
+- CDN asset requests are proxied to Shopify using wildcard splats (`/cdn/shop/files/*`, `/cdn/s/*`, `/cdn/fonts/*`) with `status = 200` and `force = true` to bypass client-side caching.
+- Database migrations use idempotent `ALTER TABLE ... ADD COLUMN IF NOT EXISTS` statements so the same script can be run multiple times without error.
+- RLS policies follow a uniform pattern: enable RLS, drop any existing policy with the same name, then create a permissive `FOR ALL USING (true) WITH CHECK (true)` policy named after the table's anonymous role.

@@ -1,0 +1,357 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Checkout – Patch Kraft</title>
+  <link rel="icon" type="image/jpeg" href="/cdn/shop/files/Patch_Kraft_Logo.jpg">
+  <link href="/cdn/shop/t/38/assets/base.css" rel="stylesheet">
+  <script src="/js/patchbyte.js"></script>
+  <script src="https://js.stripe.com/v3/" async></script>
+  <style>
+    body { font-family: 'Work Sans', system-ui, sans-serif; margin: 0; background: #f9fafb; color: #111827; }
+    .pb-topbar { background:#fff; border-bottom:1px solid #e5e7eb; padding:0 1.5rem; display:flex; align-items:center; justify-content:space-between; height:64px; position:sticky; top:0; z-index:100; }
+    .pb-logo { display:flex; align-items:center; gap:0.5rem; text-decoration:none; }
+    .pb-logo img { height:2rem; width:auto; object-fit:contain; }
+    .pb-nav-links { display:flex; gap:1.5rem; list-style:none; margin:0; padding:0; }
+    .pb-nav-links a { text-decoration:none; color:#374151; font-size:0.875rem; font-weight:500; }
+    .pb-nav-links a:hover { color:#10b981; }
+    .pb-wrap { max-width:960px; margin:0 auto; padding:2rem 1rem; display:grid; grid-template-columns:1fr; gap:2rem; }
+    @media(min-width:768px) { .pb-wrap { grid-template-columns:1fr 380px; } }
+    .pb-card { background:#fff; border-radius:12px; border:1px solid #e5e7eb; padding:1.5rem; }
+    h1 { font-size:1.75rem; font-weight:700; margin:0 0 1.5rem; }
+    h2 { font-size:1.125rem; font-weight:600; margin:0 0 1rem; padding-bottom:.75rem; border-bottom:1px solid #e5e7eb; }
+    .pb-field { margin-bottom:.875rem; }
+    .pb-field label { display:block; font-size:.8125rem; font-weight:500; margin-bottom:.3rem; color:#374151; }
+    .pb-field input, .pb-field textarea { width:100%; padding:.625rem .75rem; border:1px solid #d1d5db; border-radius:8px; font-size:.9375rem; font-family:inherit; box-sizing:border-box; }
+    .pb-field input:focus, .pb-field textarea:focus { outline:none; border-color:#10b981; box-shadow:0 0 0 3px rgba(16,185,129,.12); }
+    .pb-row-2 { display:grid; grid-template-columns:1fr 1fr; gap:.75rem; }
+    .pb-row-3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:.75rem; }
+    @media(max-width:480px) { .pb-row-2, .pb-row-3 { grid-template-columns:1fr; } }
+    .pb-submit { width:100%; background:#10b981; color:#fff; border:none; padding:1rem; border-radius:100px; font-size:1.0625rem; font-weight:700; cursor:pointer; transition:background .15s; margin-top:.5rem; font-family:inherit; }
+    .pb-submit:hover { background:#059669; }
+    .pb-submit:disabled { background:#9ca3af; cursor:default; }
+    .pb-error { display:none; color:#dc2626; background:#fef2f2; border:1px solid #fecaca; border-radius:6px; padding:.75rem; margin-bottom:1rem; font-size:.875rem; }
+    .pb-note { margin:.5rem 0 0; font-size:.8125rem; color:#9ca3af; text-align:center; }
+    #pb-payment-element { padding:.625rem .75rem; border:1px solid #d1d5db; border-radius:8px; background:#fff; }
+    .pb-secure-note { display:flex; align-items:center; justify-content:center; gap:.35rem; margin:.5rem 0 0; font-size:.8125rem; color:#6b7280; text-align:center; }
+    .pb-spinner { display:inline-block; width:1rem; height:1rem; border:2px solid rgba(255,255,255,0.4); border-top-color:#fff; border-radius:50%; animation:pb-spin 1s linear infinite; vertical-align:middle; margin-right:.5rem; }
+    @keyframes pb-spin { to { transform: rotate(360deg); } }
+    .pb-order-line { display:flex; justify-content:space-between; font-size:.875rem; margin-bottom:.375rem; }
+    .pb-order-line span:last-child { font-weight:600; }
+    .pb-total-row { display:flex; justify-content:space-between; font-size:1rem; font-weight:700; padding-top:.75rem; border-top:1px solid #e5e7eb; margin-top:.5rem; }
+    .pb-badge { background:#f0fdf4; color:#166534; font-size:.75rem; font-weight:600; border-radius:4px; padding:.25rem .5rem; display:inline-block; margin-bottom:1rem; }
+    .pb-thankyou { display:none; text-align:center; padding:4rem 1rem; }
+    .pb-thankyou .pb-icon { font-size:4rem; margin-bottom:1rem; }
+    .pb-thankyou h2 { border:none; font-size:1.5rem; }
+    .pb-continue { display:inline-block; background:#10b981; color:#fff; padding:.75rem 2rem; border-radius:100px; text-decoration:none; font-weight:600; }
+  </style>
+</head>
+<body>
+  <header class="pb-topbar">
+    <a class="pb-logo" href="/">
+      <img src="/cdn/shop/files/Patch_Kraft_Logo.jpg" alt="Patch Kraft">
+      <span style="font-weight:700;font-size:1.1rem;color:#111827;">Patch Kraft</span>
+    </a>
+    <nav>
+      <ul class="pb-nav-links">
+        <li><a href="/cart">&larr; Back to Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="pb-co-loading" style="text-align:center;padding:4rem;color:#6b7280;">Loading…</div>
+
+  <div id="pb-co-empty" style="display:none;text-align:center;padding:4rem;">
+    <p style="color:#6b7280;font-size:1.125rem;margin-bottom:1.5rem;">Your cart is empty.</p>
+    <a href="/collections/all" style="display:inline-block;background:#10b981;color:#fff;padding:.75rem 2rem;border-radius:100px;text-decoration:none;font-weight:600;">Shop Now</a>
+  </div>
+
+  <div id="pb-co-main" style="display:none;">
+    <div class="pb-wrap">
+
+      <!-- Left: Form -->
+      <div>
+        <h1 style="margin-bottom:1.5rem;">Checkout</h1>
+        <div class="pb-card">
+          <h2>Contact Information</h2>
+          <form id="pb-checkout-form" novalidate>
+            <div class="pb-row-2">
+              <div class="pb-field">
+                <label>Full Name *</label>
+                <input id="co-name" type="text" required placeholder="Jane Smith">
+              </div>
+              <div class="pb-field">
+                <label>Email *</label>
+                <input id="co-email" type="email" required placeholder="jane@example.com">
+              </div>
+            </div>
+            <div class="pb-field">
+              <label>Phone</label>
+              <input id="co-phone" type="tel" placeholder="+1 (555) 000-0000">
+            </div>
+
+            <h2 style="margin-top:1.5rem;">Shipping Address</h2>
+            <div class="pb-field">
+              <label>Street Address *</label>
+              <input id="co-street" type="text" required placeholder="123 Main St">
+            </div>
+            <div class="pb-row-3">
+              <div class="pb-field">
+                <label>City *</label>
+                <input id="co-city" type="text" required placeholder="New York">
+              </div>
+              <div class="pb-field">
+                <label>State</label>
+                <input id="co-state" type="text" placeholder="NY">
+              </div>
+              <div class="pb-field">
+                <label>ZIP *</label>
+                <input id="co-zip" type="text" required placeholder="10001">
+              </div>
+            </div>
+            <div class="pb-field">
+              <label>Country</label>
+              <input id="co-country" type="text" value="United States" placeholder="United States">
+            </div>
+            <div class="pb-field">
+              <label>Order Notes (optional)</label>
+              <textarea id="co-notes" rows="3" placeholder="Artwork details, special instructions…" style="resize:vertical;"></textarea>
+            </div>
+
+            <h2 style="margin-top:1.5rem;">Payment</h2>
+            <div class="pb-field">
+              <label>Card or digital wallet</label>
+              <div id="pb-payment-element"><!-- Stripe injects here --></div>
+            </div>
+
+            <div id="pb-co-error" class="pb-error"></div>
+            <button type="submit" id="pb-place-order" class="pb-submit">Pay & Place Order</button>
+            <p class="pb-secure-note"><svg width="14" height="14" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 1a4 4 0 00-4 4v2H4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2v-8a2 2 0 00-2-2h-2V5a4 4 0 00-4-4zm-2 6V5a2 2 0 114 0v2H8z" clip-rule="evenodd"/></svg> Secure payment powered by Stripe</p>
+          </form>
+        </div>
+      </div>
+
+      <!-- Right: Order Summary -->
+      <div>
+        <h1 style="margin-bottom:1.5rem;opacity:0;pointer-events:none;">.</h1>
+        <div class="pb-card" style="position:sticky;top:80px;">
+          <h2>Order Summary</h2>
+          <div id="pb-co-summary-items"></div>
+          <div class="pb-total-row">
+            <span>Total</span>
+            <span id="pb-co-total">$0.00</span>
+          </div>
+          <div class="pb-badge" style="margin-top:1rem;">Pay securely with Stripe</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Thank You Screen -->
+  <div id="pb-co-thankyou" class="pb-thankyou">
+    <div class="pb-icon">??</div>
+    <h2>Order Placed!</h2>
+    <p style="color:#374151;margin-bottom:.25rem;">Thank you! We've received your order and will contact you shortly.</p>
+    <p id="pb-co-order-ref" style="font-size:.875rem;color:#9ca3af;margin-bottom:1.5rem;"></p>
+    <a href="/" class="pb-continue">Continue Shopping</a>
+  </div>
+
+  <script>
+  (async function () {
+    var loadEl   = document.getElementById('pb-co-loading');
+    var emptyEl  = document.getElementById('pb-co-empty');
+    var mainEl   = document.getElementById('pb-co-main');
+    var thankEl  = document.getElementById('pb-co-thankyou');
+    var summEl   = document.getElementById('pb-co-summary-items');
+    var totalEl  = document.getElementById('pb-co-total');
+    var errorEl  = document.getElementById('pb-co-error');
+    var form     = document.getElementById('pb-checkout-form');
+    var placeBtn = document.getElementById('pb-place-order');
+
+    function fmt(n) { return '$' + (n || 0).toFixed(2); }
+    var cartItems = [];
+    var orderTotalCents = 0;
+    var stripe = null;
+    var elements = null;
+    var paymentElement = null;
+    var clientSecret = null;
+
+    function waitForStripe() {
+      return new Promise(function (resolve) {
+        if (window.Stripe) return resolve();
+        var check = setInterval(function () {
+          if (window.Stripe) { clearInterval(check); resolve(); }
+        }, 100);
+        setTimeout(function () { clearInterval(check); resolve(); }, 10000);
+      });
+    }
+
+    async function getStripeKey() {
+      try {
+        var res = await fetch('/api/stripe-config');
+        var cfg = await res.json();
+        if (cfg && cfg.publishableKey) return cfg.publishableKey;
+      } catch (e) { /* fall through */ }
+      return '';
+    }
+
+    async function createPaymentIntent(totalCents) {
+      var res = await fetch('/api/create-payment-intent', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          amount: totalCents,
+          metadata: { session_id: window.PatchByte ? window.PatchByte.getSession() : '' }
+        })
+      });
+      var data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Could not initialize payment.');
+      return data.clientSecret;
+    }
+
+    function showError(msg) {
+      errorEl.textContent = msg;
+      errorEl.style.display = '';
+    }
+
+    async function init() {
+      if (!window.PatchByte) { loadEl.textContent = 'Checkout unavailable.'; return; }
+      cartItems = await window.PatchByte.getCart();
+      loadEl.style.display = 'none';
+      if (!cartItems || cartItems.length === 0) { emptyEl.style.display = ''; return; }
+
+      var total = cartItems.reduce(function (s, i) { return s + (i.unit_price || 0) * (i.quantity || 0); }, 0);
+      orderTotalCents = Math.round(total * 100);
+
+      cartItems.forEach(function (item) {
+        var line = (item.unit_price || 0) * (item.quantity || 0);
+        var row = document.createElement('div');
+        row.className = 'pb-order-line';
+        row.innerHTML = '<span>' + (item.product_name || item.product_slug) + ' &times; ' + item.quantity + '</span>' +
+                        '<span>' + fmt(line) + '</span>';
+        summEl.appendChild(row);
+      });
+      totalEl.textContent = fmt(total);
+
+      await waitForStripe();
+      var publishableKey = await getStripeKey();
+      if (!publishableKey || !window.Stripe) {
+        showError('Payment system is not configured. Please contact support.');
+        placeBtn.disabled = true;
+        return;
+      }
+
+      try {
+        clientSecret = await createPaymentIntent(orderTotalCents);
+        stripe = window.Stripe(publishableKey);
+        elements = stripe.elements({ clientSecret: clientSecret, appearance: { theme: 'stripe' } });
+        paymentElement = elements.create('payment');
+        paymentElement.mount('#pb-payment-element');
+        mainEl.style.display = '';
+      } catch (err) {
+        showError(err.message || 'Could not load payment form.');
+        placeBtn.disabled = true;
+        console.error('[PatchByte] Stripe init error:', err);
+      }
+    }
+
+    form && form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      errorEl.style.display = 'none';
+
+      var name   = document.getElementById('co-name').value.trim();
+      var email  = document.getElementById('co-email').value.trim();
+      var phone  = document.getElementById('co-phone').value.trim();
+      var street = document.getElementById('co-street').value.trim();
+      var city   = document.getElementById('co-city').value.trim();
+      var state  = document.getElementById('co-state').value.trim();
+      var zip    = document.getElementById('co-zip').value.trim();
+      var country = document.getElementById('co-country').value.trim();
+      var notes  = document.getElementById('co-notes').value.trim();
+
+      if (!name || !email || !street || !city || !zip) {
+        showError('Please fill in all required fields (marked with *).');
+        return;
+      }
+      if (!stripe || !elements || !clientSecret) {
+        showError('Payment form is not ready. Please wait or refresh.');
+        return;
+      }
+
+      placeBtn.disabled = true;
+      placeBtn.innerHTML = '<span class="pb-spinner"></span>Processing…';
+
+      try {
+        var total = orderTotalCents / 100;
+
+        var { error: submitError } = await elements.submit();
+        if (submitError) throw new Error(submitError.message);
+
+        var { error: confirmError, paymentIntent } = await stripe.confirmPayment({
+          elements: elements,
+          clientSecret: clientSecret,
+          confirmParams: {
+            payment_method_data: {
+              billing_details: { name: name, email: email, phone: phone }
+            },
+            return_url: window.location.origin + '/checkout'
+          },
+          redirect: 'if_required'
+        });
+
+        if (confirmError) throw new Error(confirmError.message);
+        if (paymentIntent && paymentIntent.status !== 'succeeded') {
+          throw new Error('Payment not completed. Status: ' + paymentIntent.status);
+        }
+
+        var orders = await window.PatchByte.sbPost('orders', {
+          session_id: window.PatchByte.getSession(),
+          customer_name: name,
+          customer_email: email,
+          customer_phone: phone,
+          shipping_address: { street: street, city: city, state: state, zip: zip, country: country },
+          notes: notes,
+          subtotal: total,
+          total: total,
+          status: 'paid',
+          payment_intent_id: paymentIntent ? paymentIntent.id : null
+        });
+
+        var order = Array.isArray(orders) ? orders[0] : orders;
+        var orderId = order && order.id;
+
+        if (orderId) {
+          var lineItems = cartItems.map(function (item) {
+            return {
+              order_id: orderId,
+              product_slug: item.product_slug,
+              product_name: item.product_name,
+              unit_price: item.unit_price,
+              quantity: item.quantity,
+              properties: item.properties || {}
+            };
+          });
+          await window.PatchByte.sbPost('order_items', lineItems);
+          await window.PatchByte.clearCart();
+        }
+
+        mainEl.style.display = 'none';
+        thankEl.style.display = '';
+        if (orderId) {
+          document.getElementById('pb-co-order-ref').textContent = 'Reference: ' + orderId;
+        }
+      } catch (err) {
+        placeBtn.disabled = false;
+        placeBtn.textContent = 'Pay & Place Order';
+        showError(err.message || 'Something went wrong. Please try again.');
+        console.error('[PatchByte] Checkout error:', err);
+      }
+    });
+
+    await init();
+  }());
+  </script>
+</body>
+</html>

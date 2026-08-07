@@ -1,0 +1,13 @@
+schema_version: 1
+module_path: infra
+title: Deployment & Database Migration Infrastructure
+scope:
+    - netlify.toml
+    - vercel.json
+    - netlify-build.js
+    - migrate-tables.sql
+source_files: []
+depends_on: []
+related_to:
+    - path: frontend
+    - path: scripts

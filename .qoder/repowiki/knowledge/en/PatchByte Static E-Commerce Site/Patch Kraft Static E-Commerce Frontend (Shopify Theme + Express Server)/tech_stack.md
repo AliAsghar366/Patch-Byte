@@ -1,0 +1,1 @@
+Express 5 + Node ≥18 as a minimal serverless-compatible host (Vercel `@vercel/node`); Stripe SDK for PaymentIntent creation; Shopify Dawn theme v38 with native ES modules and an importmap-based component system; fonts Work Sans and Anonymous Pro cached locally under `patchkraze.com/cdn/fonts/`.

@@ -1,0 +1,1 @@
+Run `migrate-tables.sql` in the Supabase Dashboard SQL Editor to add columns and RLS policies; Netlify builds via `node netlify-build.js` before publishing `public/`; Vercel deploys by including files matched by the `includeFiles` glob under `api/index.js`.

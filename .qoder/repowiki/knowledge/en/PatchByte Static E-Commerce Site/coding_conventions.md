@@ -1,0 +1,2 @@
+- Runtime configuration is loaded from environment variables via `dotenv` (see `.env.example`).
+- Static site assets are generated once by PowerShell scripts and then served directly by the Express server without a build step.

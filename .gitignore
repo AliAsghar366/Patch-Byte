@@ -1,0 +1,19 @@
+﻿# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Downloaded CDN images (large binary assets)
+frontend/cdn/shop/files/
+
+# Netlify build output (generated at deploy time)
+/public/
+
+# Zip archives
+*.zip
+
+# Logs
+wget-log.txt
+*.log
+
+# Secrets
+.env

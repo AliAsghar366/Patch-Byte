@@ -1,0 +1,4247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://patchkraze.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://patchkraze.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://patchkraze.com/collections/custom-patches.atom"/>
+  <title>patchkraze</title>
+  <updated>2025-11-03T11:01:59-05:00</updated>
+  <author>
+    <name>patchkraze</name>
+  </author>
+  <entry>
+    <id>https://patchkraze.com/products/7820591628372</id>
+    <published>2025-11-03T11:01:59-05:00</published>
+    <updated>2025-11-03T11:01:59-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/patches-for-hats"/>
+    <title>Custom Patches For Hats</title>
+    <s:type>embroidered</s:type>
+    <s:vendor>Patch Kraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/EMBhat_5a5c5126-b80e-4601-be8c-37850843c52f.png?v=1762185722"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Patch Kraze<br>
+        <strong>Type: </strong>embroidered<br>
+        <strong>Price: </strong>
+            0.38 - 14.82
+            <a href="https://patchkraze.com/products/patches-for-hats">(96 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Custom hat patches are crafted to provide the premium appearance of direct embroidery without the long-term commitment. These custom hat patches can feature either a sleek thin-stitched edge or a robust Merrow border.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Embroidered Patches</s:tag>
+    <s:tag>patches</s:tag>
+    <s:tag>rush</s:tag>
+    <s:tag>SEO Patches</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>1.0 inch - 25-49</title>
+      <s:price currency="USD">1.23</s:price>
+      <s:sku>PFH-10-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>1.0 inch - 50-99</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>PFH-10-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>1.0 inch - 100-199</title>
+      <s:price currency="USD">0.80</s:price>
+      <s:sku>PFH-10-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>1.0 inch - 200-499</title>
+      <s:price currency="USD">0.57</s:price>
+      <s:sku>PFH-10-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>1.0 inch - 500-999</title>
+      <s:price currency="USD">0.41</s:price>
+      <s:sku>PFH-10-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>1.0 inch - 1000+</title>
+      <s:price currency="USD">0.38</s:price>
+      <s:sku>PFH-10-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>1.5 inch - 25-49</title>
+      <s:price currency="USD">1.86</s:price>
+      <s:sku>PFH-15-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>1.5 inch - 50-99</title>
+      <s:price currency="USD">1.62</s:price>
+      <s:sku>PFH-15-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>1.5 inch - 100-199</title>
+      <s:price currency="USD">1.19</s:price>
+      <s:sku>PFH-15-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>1.5 inch - 200-499</title>
+      <s:price currency="USD">0.84</s:price>
+      <s:sku>PFH-15-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>1.5 inch - 500-999</title>
+      <s:price currency="USD">0.62</s:price>
+      <s:sku>PFH-15-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>1.5 inch - 1000+</title>
+      <s:price currency="USD">0.56</s:price>
+      <s:sku>PFH-15-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>2.0 inch - 25-49</title>
+      <s:price currency="USD">2.48</s:price>
+      <s:sku>PFH-20-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>2.0 inch - 50-99</title>
+      <s:price currency="USD">2.15</s:price>
+      <s:sku>PFH-20-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>2.0 inch - 100-199</title>
+      <s:price currency="USD">1.59</s:price>
+      <s:sku>PFH-20-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>2.0 inch - 200-499</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>PFH-20-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>2.0 inch - 500-999</title>
+      <s:price currency="USD">0.81</s:price>
+      <s:sku>PFH-20-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>2.0 inch - 1000+</title>
+      <s:price currency="USD">0.74</s:price>
+      <s:sku>PFH-20-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>2.5 inch - 25-49</title>
+      <s:price currency="USD">3.11</s:price>
+      <s:sku>PFH-25-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>2.5 inch - 50-99</title>
+      <s:price currency="USD">2.69</s:price>
+      <s:sku>PFH-25-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>2.5 inch - 100-199</title>
+      <s:price currency="USD">2.00</s:price>
+      <s:sku>PFH-25-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>2.5 inch - 200-499</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>PFH-25-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>2.5 inch - 500-999</title>
+      <s:price currency="USD">1.02</s:price>
+      <s:sku>PFH-25-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>2.5 inch - 1000+</title>
+      <s:price currency="USD">0.92</s:price>
+      <s:sku>PFH-25-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>3.0 inch - 25-49</title>
+      <s:price currency="USD">3.71</s:price>
+      <s:sku>PFH-30-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>3.0 inch - 50-99</title>
+      <s:price currency="USD">3.21</s:price>
+      <s:sku>PFH-30-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>3.0 inch - 100-199</title>
+      <s:price currency="USD">2.39</s:price>
+      <s:sku>PFH-30-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>3.0 inch - 200-499</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>PFH-30-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>3.0 inch - 500-999</title>
+      <s:price currency="USD">1.22</s:price>
+      <s:sku>PFH-30-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>3.0 inch - 1000+</title>
+      <s:price currency="USD">1.10</s:price>
+      <s:sku>PFH-30-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>3.5 inch - 25-49</title>
+      <s:price currency="USD">4.31</s:price>
+      <s:sku>PFH-35-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>3.5 inch - 50-99</title>
+      <s:price currency="USD">3.75</s:price>
+      <s:sku>PFH-35-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>3.5 inch - 100-199</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>PFH-35-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>3.5 inch - 200-499</title>
+      <s:price currency="USD">1.95</s:price>
+      <s:sku>PFH-35-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>3.5 inch - 500-999</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>PFH-35-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>3.5 inch - 1000+</title>
+      <s:price currency="USD">1.26</s:price>
+      <s:sku>PFH-35-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>4.0 inch - 25-49</title>
+      <s:price currency="USD">4.95</s:price>
+      <s:sku>PFH-40-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>4.0 inch - 50-99</title>
+      <s:price currency="USD">4.29</s:price>
+      <s:sku>PFH-40-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>4.0 inch - 100-199</title>
+      <s:price currency="USD">3.17</s:price>
+      <s:sku>PFH-40-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>4.0 inch - 200-499</title>
+      <s:price currency="USD">2.24</s:price>
+      <s:sku>PFH-40-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>4.0 inch - 500-999</title>
+      <s:price currency="USD">1.64</s:price>
+      <s:sku>PFH-40-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>4.0 inch - 1000+</title>
+      <s:price currency="USD">1.47</s:price>
+      <s:sku>PFH-40-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>4.5 inch - 25-49</title>
+      <s:price currency="USD">5.55</s:price>
+      <s:sku>PFH-45-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>4.5 inch - 50-99</title>
+      <s:price currency="USD">4.82</s:price>
+      <s:sku>PFH-45-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>4.5 inch - 100-199</title>
+      <s:price currency="USD">3.57</s:price>
+      <s:sku>PFH-45-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>4.5 inch - 200-499</title>
+      <s:price currency="USD">2.52</s:price>
+      <s:sku>PFH-45-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>4.5 inch - 500-999</title>
+      <s:price currency="USD">1.83</s:price>
+      <s:sku>PFH-45-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>4.5 inch - 1000+</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>PFH-45-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>5.0 inch - 25-49</title>
+      <s:price currency="USD">6.18</s:price>
+      <s:sku>PFH-50-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>5.0 inch - 50-99</title>
+      <s:price currency="USD">5.37</s:price>
+      <s:sku>PFH-50-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>5.0 inch - 100-199</title>
+      <s:price currency="USD">3.96</s:price>
+      <s:sku>PFH-50-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>5.0 inch - 200-499</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>PFH-50-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>5.0 inch - 500-999</title>
+      <s:price currency="USD">2.04</s:price>
+      <s:sku>PFH-50-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>5.0 inch - 1000+</title>
+      <s:price currency="USD">1.82</s:price>
+      <s:sku>PFH-50-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>6.0 inch - 25-49</title>
+      <s:price currency="USD">7.41</s:price>
+      <s:sku>PFH-60-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>6.0 inch - 50-99</title>
+      <s:price currency="USD">6.44</s:price>
+      <s:sku>PFH-60-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>6.0 inch - 100-199</title>
+      <s:price currency="USD">4.77</s:price>
+      <s:sku>PFH-60-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>6.0 inch - 200-499</title>
+      <s:price currency="USD">3.36</s:price>
+      <s:sku>PFH-60-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>6.0 inch - 500-999</title>
+      <s:price currency="USD">2.46</s:price>
+      <s:sku>PFH-60-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>6.0 inch - 1000+</title>
+      <s:price currency="USD">2.19</s:price>
+      <s:sku>PFH-60-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>7.0 inch - 25-49</title>
+      <s:price currency="USD">8.64</s:price>
+      <s:sku>PFH-70-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>7.0 inch - 50-99</title>
+      <s:price currency="USD">7.52</s:price>
+      <s:sku>PFH-70-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>7.0 inch - 100-199</title>
+      <s:price currency="USD">5.57</s:price>
+      <s:sku>PFH-70-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>7.0 inch - 200-499</title>
+      <s:price currency="USD">3.90</s:price>
+      <s:sku>PFH-70-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>7.0 inch - 500-999</title>
+      <s:price currency="USD">2.85</s:price>
+      <s:sku>PFH-70-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>7.0 inch - 1000+</title>
+      <s:price currency="USD">2.55</s:price>
+      <s:sku>PFH-70-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>8.0 inch - 25-49</title>
+      <s:price currency="USD">9.87</s:price>
+      <s:sku>PFH-80-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>8.0 inch - 50-99</title>
+      <s:price currency="USD">8.58</s:price>
+      <s:sku>PFH-80-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>8.0 inch - 100-199</title>
+      <s:price currency="USD">6.35</s:price>
+      <s:sku>PFH-80-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>8.0 inch - 200-499</title>
+      <s:price currency="USD">4.47</s:price>
+      <s:sku>PFH-80-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>8.0 inch - 500-999</title>
+      <s:price currency="USD">3.26</s:price>
+      <s:sku>PFH-80-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>8.0 inch - 1000+</title>
+      <s:price currency="USD">2.94</s:price>
+      <s:sku>PFH-80-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>9.0 inch - 25-49</title>
+      <s:price currency="USD">11.10</s:price>
+      <s:sku>PFH-90-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>9.0 inch - 50-99</title>
+      <s:price currency="USD">9.65</s:price>
+      <s:sku>PFH-90-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>9.0 inch - 100-199</title>
+      <s:price currency="USD">7.14</s:price>
+      <s:sku>PFH-90-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>9.0 inch - 200-499</title>
+      <s:price currency="USD">5.01</s:price>
+      <s:sku>PFH-90-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>9.0 inch - 500-999</title>
+      <s:price currency="USD">3.68</s:price>
+      <s:sku>PFH-90-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>9.0 inch - 1000+</title>
+      <s:price currency="USD">3.29</s:price>
+      <s:sku>PFH-90-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>10.0 inch - 25-49</title>
+      <s:price currency="USD">12.33</s:price>
+      <s:sku>PFH-100-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>10.0 inch - 50-99</title>
+      <s:price currency="USD">10.73</s:price>
+      <s:sku>PFH-100-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>10.0 inch - 100-199</title>
+      <s:price currency="USD">7.95</s:price>
+      <s:sku>PFH-100-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>10.0 inch - 200-499</title>
+      <s:price currency="USD">5.58</s:price>
+      <s:sku>PFH-100-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>10.0 inch - 500-999</title>
+      <s:price currency="USD">4.08</s:price>
+      <s:sku>PFH-100-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>10.0 inch - 1000+</title>
+      <s:price currency="USD">3.65</s:price>
+      <s:sku>PFH-100-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>11.0 inch - 25-49</title>
+      <s:price currency="USD">13.58</s:price>
+      <s:sku>PFH-110-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>11.0 inch - 50-99</title>
+      <s:price currency="USD">11.81</s:price>
+      <s:sku>PFH-110-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>11.0 inch - 100-199</title>
+      <s:price currency="USD">8.73</s:price>
+      <s:sku>PFH-110-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>11.0 inch - 200-499</title>
+      <s:price currency="USD">6.14</s:price>
+      <s:sku>PFH-110-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>11.0 inch - 500-999</title>
+      <s:price currency="USD">4.49</s:price>
+      <s:sku>PFH-110-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>11.0 inch - 1000+</title>
+      <s:price currency="USD">4.01</s:price>
+      <s:sku>PFH-110-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>12.0 inch - 25-49</title>
+      <s:price currency="USD">14.82</s:price>
+      <s:sku>PFH-120-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>12.0 inch - 50-99</title>
+      <s:price currency="USD">12.89</s:price>
+      <s:sku>PFH-120-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>12.0 inch - 100-199</title>
+      <s:price currency="USD">9.53</s:price>
+      <s:sku>PFH-120-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>12.0 inch - 200-499</title>
+      <s:price currency="USD">6.71</s:price>
+      <s:sku>PFH-120-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>12.0 inch - 500-999</title>
+      <s:price currency="USD">4.89</s:price>
+      <s:sku>PFH-120-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591628372</id>
+      <title>12.0 inch - 1000+</title>
+      <s:price currency="USD">4.38</s:price>
+      <s:sku>PFH-120-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/7820591595604</id>
+    <published>2025-11-03T11:01:58-05:00</published>
+    <updated>2025-11-03T11:01:58-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/patches-for-shirts"/>
+    <title>Custom Patches For Shirts</title>
+    <s:type>embroidered</s:type>
+    <s:vendor>Patch Kraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/ShirtsPatchMOCK.png?v=1762185721"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Patch Kraze<br>
+        <strong>Type: </strong>embroidered<br>
+        <strong>Price: </strong>
+            0.38 - 14.82
+            <a href="https://patchkraze.com/products/patches-for-shirts">(96 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Custom shirt patches are designed to offer the upscale look of direct embroidery while remaining versatile. These patches can be tailored with either a refined thin-stitched edge or a sturdy Merrow border, making them ideal for adding a personalized touch to shirts.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Embroidered Patches</s:tag>
+    <s:tag>patches</s:tag>
+    <s:tag>rush</s:tag>
+    <s:tag>SEO Patches</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>1.0 inch - 25-49</title>
+      <s:price currency="USD">1.23</s:price>
+      <s:sku>PFS-10-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>1.0 inch - 50-99</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>PFS-10-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>1.0 inch - 100-199</title>
+      <s:price currency="USD">0.80</s:price>
+      <s:sku>PFS-10-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>1.0 inch - 200-499</title>
+      <s:price currency="USD">0.57</s:price>
+      <s:sku>PFS-10-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>1.0 inch - 500-999</title>
+      <s:price currency="USD">0.41</s:price>
+      <s:sku>PFS-10-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>1.0 inch - 1000+</title>
+      <s:price currency="USD">0.38</s:price>
+      <s:sku>PFS-10-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>1.5 inch - 25-49</title>
+      <s:price currency="USD">1.86</s:price>
+      <s:sku>PFS-15-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>1.5 inch - 50-99</title>
+      <s:price currency="USD">1.62</s:price>
+      <s:sku>PFS-15-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>1.5 inch - 100-199</title>
+      <s:price currency="USD">1.19</s:price>
+      <s:sku>PFS-15-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>1.5 inch - 200-499</title>
+      <s:price currency="USD">0.84</s:price>
+      <s:sku>PFS-15-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>1.5 inch - 500-999</title>
+      <s:price currency="USD">0.62</s:price>
+      <s:sku>PFS-15-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>1.5 inch - 1000+</title>
+      <s:price currency="USD">0.56</s:price>
+      <s:sku>PFS-15-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>2.0 inch - 25-49</title>
+      <s:price currency="USD">2.48</s:price>
+      <s:sku>PFS-20-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>2.0 inch - 50-99</title>
+      <s:price currency="USD">2.15</s:price>
+      <s:sku>PFS-20-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>2.0 inch - 100-199</title>
+      <s:price currency="USD">1.59</s:price>
+      <s:sku>PFS-20-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>2.0 inch - 200-499</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>PFS-20-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>2.0 inch - 500-999</title>
+      <s:price currency="USD">0.81</s:price>
+      <s:sku>PFS-20-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>2.0 inch - 1000+</title>
+      <s:price currency="USD">0.74</s:price>
+      <s:sku>PFS-20-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>2.5 inch - 25-49</title>
+      <s:price currency="USD">3.11</s:price>
+      <s:sku>PFS-25-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>2.5 inch - 50-99</title>
+      <s:price currency="USD">2.69</s:price>
+      <s:sku>PFS-25-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>2.5 inch - 100-199</title>
+      <s:price currency="USD">2.00</s:price>
+      <s:sku>PFS-25-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>2.5 inch - 200-499</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>PFS-25-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>2.5 inch - 500-999</title>
+      <s:price currency="USD">1.02</s:price>
+      <s:sku>PFS-25-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>2.5 inch - 1000+</title>
+      <s:price currency="USD">0.92</s:price>
+      <s:sku>PFS-25-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>3.0 inch - 25-49</title>
+      <s:price currency="USD">3.71</s:price>
+      <s:sku>PFS-30-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>3.0 inch - 50-99</title>
+      <s:price currency="USD">3.21</s:price>
+      <s:sku>PFS-30-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>3.0 inch - 100-199</title>
+      <s:price currency="USD">2.39</s:price>
+      <s:sku>PFS-30-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>3.0 inch - 200-499</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>PFS-30-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>3.0 inch - 500-999</title>
+      <s:price currency="USD">1.22</s:price>
+      <s:sku>PFS-30-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>3.0 inch - 1000+</title>
+      <s:price currency="USD">1.10</s:price>
+      <s:sku>PFS-30-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>3.5 inch - 25-49</title>
+      <s:price currency="USD">4.31</s:price>
+      <s:sku>PFS-35-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>3.5 inch - 50-99</title>
+      <s:price currency="USD">3.75</s:price>
+      <s:sku>PFS-35-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>3.5 inch - 100-199</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>PFS-35-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>3.5 inch - 200-499</title>
+      <s:price currency="USD">1.95</s:price>
+      <s:sku>PFS-35-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>3.5 inch - 500-999</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>PFS-35-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>3.5 inch - 1000+</title>
+      <s:price currency="USD">1.26</s:price>
+      <s:sku>PFS-35-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>4.0 inch - 25-49</title>
+      <s:price currency="USD">4.95</s:price>
+      <s:sku>PFS-40-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>4.0 inch - 50-99</title>
+      <s:price currency="USD">4.29</s:price>
+      <s:sku>PFS-40-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>4.0 inch - 100-199</title>
+      <s:price currency="USD">3.17</s:price>
+      <s:sku>PFS-40-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>4.0 inch - 200-499</title>
+      <s:price currency="USD">2.24</s:price>
+      <s:sku>PFS-40-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>4.0 inch - 500-999</title>
+      <s:price currency="USD">1.64</s:price>
+      <s:sku>PFS-40-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>4.0 inch - 1000+</title>
+      <s:price currency="USD">1.47</s:price>
+      <s:sku>PFS-40-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>4.5 inch - 25-49</title>
+      <s:price currency="USD">5.55</s:price>
+      <s:sku>PFS-45-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>4.5 inch - 50-99</title>
+      <s:price currency="USD">4.82</s:price>
+      <s:sku>PFS-45-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>4.5 inch - 100-199</title>
+      <s:price currency="USD">3.57</s:price>
+      <s:sku>PFS-45-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>4.5 inch - 200-499</title>
+      <s:price currency="USD">2.52</s:price>
+      <s:sku>PFS-45-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>4.5 inch - 500-999</title>
+      <s:price currency="USD">1.83</s:price>
+      <s:sku>PFS-45-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>4.5 inch - 1000+</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>PFS-45-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>5.0 inch - 25-49</title>
+      <s:price currency="USD">6.18</s:price>
+      <s:sku>PFS-50-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>5.0 inch - 50-99</title>
+      <s:price currency="USD">5.37</s:price>
+      <s:sku>PFS-50-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>5.0 inch - 100-199</title>
+      <s:price currency="USD">3.96</s:price>
+      <s:sku>PFS-50-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>5.0 inch - 200-499</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>PFS-50-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>5.0 inch - 500-999</title>
+      <s:price currency="USD">2.04</s:price>
+      <s:sku>PFS-50-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>5.0 inch - 1000+</title>
+      <s:price currency="USD">1.82</s:price>
+      <s:sku>PFS-50-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>6.0 inch - 25-49</title>
+      <s:price currency="USD">7.41</s:price>
+      <s:sku>PFS-60-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>6.0 inch - 50-99</title>
+      <s:price currency="USD">6.44</s:price>
+      <s:sku>PFS-60-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>6.0 inch - 100-199</title>
+      <s:price currency="USD">4.77</s:price>
+      <s:sku>PFS-60-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>6.0 inch - 200-499</title>
+      <s:price currency="USD">3.36</s:price>
+      <s:sku>PFS-60-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>6.0 inch - 500-999</title>
+      <s:price currency="USD">2.46</s:price>
+      <s:sku>PFS-60-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>6.0 inch - 1000+</title>
+      <s:price currency="USD">2.19</s:price>
+      <s:sku>PFS-60-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>7.0 inch - 25-49</title>
+      <s:price currency="USD">8.64</s:price>
+      <s:sku>PFS-70-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>7.0 inch - 50-99</title>
+      <s:price currency="USD">7.52</s:price>
+      <s:sku>PFS-70-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>7.0 inch - 100-199</title>
+      <s:price currency="USD">5.57</s:price>
+      <s:sku>PFS-70-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>7.0 inch - 200-499</title>
+      <s:price currency="USD">3.90</s:price>
+      <s:sku>PFS-70-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>7.0 inch - 500-999</title>
+      <s:price currency="USD">2.85</s:price>
+      <s:sku>PFS-70-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>7.0 inch - 1000+</title>
+      <s:price currency="USD">2.55</s:price>
+      <s:sku>PFS-70-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>8.0 inch - 25-49</title>
+      <s:price currency="USD">9.87</s:price>
+      <s:sku>PFS-80-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>8.0 inch - 50-99</title>
+      <s:price currency="USD">8.58</s:price>
+      <s:sku>PFS-80-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>8.0 inch - 100-199</title>
+      <s:price currency="USD">6.35</s:price>
+      <s:sku>PFS-80-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>8.0 inch - 200-499</title>
+      <s:price currency="USD">4.47</s:price>
+      <s:sku>PFS-80-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>8.0 inch - 500-999</title>
+      <s:price currency="USD">3.26</s:price>
+      <s:sku>PFS-80-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>8.0 inch - 1000+</title>
+      <s:price currency="USD">2.94</s:price>
+      <s:sku>PFS-80-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>9.0 inch - 25-49</title>
+      <s:price currency="USD">11.10</s:price>
+      <s:sku>PFS-90-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>9.0 inch - 50-99</title>
+      <s:price currency="USD">9.65</s:price>
+      <s:sku>PFS-90-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>9.0 inch - 100-199</title>
+      <s:price currency="USD">7.14</s:price>
+      <s:sku>PFS-90-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>9.0 inch - 200-499</title>
+      <s:price currency="USD">5.01</s:price>
+      <s:sku>PFS-90-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>9.0 inch - 500-999</title>
+      <s:price currency="USD">3.68</s:price>
+      <s:sku>PFS-90-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>9.0 inch - 1000+</title>
+      <s:price currency="USD">3.29</s:price>
+      <s:sku>PFS-90-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>10.0 inch - 25-49</title>
+      <s:price currency="USD">12.33</s:price>
+      <s:sku>PFS-100-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>10.0 inch - 50-99</title>
+      <s:price currency="USD">10.73</s:price>
+      <s:sku>PFS-100-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>10.0 inch - 100-199</title>
+      <s:price currency="USD">7.95</s:price>
+      <s:sku>PFS-100-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>10.0 inch - 200-499</title>
+      <s:price currency="USD">5.58</s:price>
+      <s:sku>PFS-100-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>10.0 inch - 500-999</title>
+      <s:price currency="USD">4.08</s:price>
+      <s:sku>PFS-100-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>10.0 inch - 1000+</title>
+      <s:price currency="USD">3.65</s:price>
+      <s:sku>PFS-100-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>11.0 inch - 25-49</title>
+      <s:price currency="USD">13.58</s:price>
+      <s:sku>PFS-110-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>11.0 inch - 50-99</title>
+      <s:price currency="USD">11.81</s:price>
+      <s:sku>PFS-110-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>11.0 inch - 100-199</title>
+      <s:price currency="USD">8.73</s:price>
+      <s:sku>PFS-110-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>11.0 inch - 200-499</title>
+      <s:price currency="USD">6.14</s:price>
+      <s:sku>PFS-110-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>11.0 inch - 500-999</title>
+      <s:price currency="USD">4.49</s:price>
+      <s:sku>PFS-110-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>11.0 inch - 1000+</title>
+      <s:price currency="USD">4.01</s:price>
+      <s:sku>PFS-110-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>12.0 inch - 25-49</title>
+      <s:price currency="USD">14.82</s:price>
+      <s:sku>PFS-120-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>12.0 inch - 50-99</title>
+      <s:price currency="USD">12.89</s:price>
+      <s:sku>PFS-120-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>12.0 inch - 100-199</title>
+      <s:price currency="USD">9.53</s:price>
+      <s:sku>PFS-120-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>12.0 inch - 200-499</title>
+      <s:price currency="USD">6.71</s:price>
+      <s:sku>PFS-120-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>12.0 inch - 500-999</title>
+      <s:price currency="USD">4.89</s:price>
+      <s:sku>PFS-120-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591595604</id>
+      <title>12.0 inch - 1000+</title>
+      <s:price currency="USD">4.38</s:price>
+      <s:sku>PFS-120-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/7820591530068</id>
+    <published>2025-11-03T11:01:57-05:00</published>
+    <updated>2025-11-03T11:01:57-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/patches-for-jackets"/>
+    <title>Custom Patches For Jackets</title>
+    <s:type>embroidered</s:type>
+    <s:vendor>Patch Kraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/JacketPatchMOCK.png?v=1762185720"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Patch Kraze<br>
+        <strong>Type: </strong>embroidered<br>
+        <strong>Price: </strong>
+            0.38 - 14.82
+            <a href="https://patchkraze.com/products/patches-for-jackets">(96 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Elevate your wardrobe with custom patches for jackets, designed to add a unique flair to any outfit. These custom jacket patches can be tailored with either a refined thin-stitched edge or a sturdy merrow border.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Embroidered Patches</s:tag>
+    <s:tag>patches</s:tag>
+    <s:tag>rush</s:tag>
+    <s:tag>SEO Patches</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>1.0 inch - 25-49</title>
+      <s:price currency="USD">1.23</s:price>
+      <s:sku>PFJ-10-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>1.0 inch - 50-99</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>PFJ-10-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>1.0 inch - 100-199</title>
+      <s:price currency="USD">0.80</s:price>
+      <s:sku>PFJ-10-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>1.0 inch - 200-499</title>
+      <s:price currency="USD">0.57</s:price>
+      <s:sku>PFJ-10-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>1.0 inch - 500-999</title>
+      <s:price currency="USD">0.41</s:price>
+      <s:sku>PFJ-10-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>1.0 inch - 1000+</title>
+      <s:price currency="USD">0.38</s:price>
+      <s:sku>PFJ-10-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>1.5 inch - 25-49</title>
+      <s:price currency="USD">1.86</s:price>
+      <s:sku>PFJ-15-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>1.5 inch - 50-99</title>
+      <s:price currency="USD">1.62</s:price>
+      <s:sku>PFJ-15-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>1.5 inch - 100-199</title>
+      <s:price currency="USD">1.19</s:price>
+      <s:sku>PFJ-15-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>1.5 inch - 200-499</title>
+      <s:price currency="USD">0.84</s:price>
+      <s:sku>PFJ-15-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>1.5 inch - 500-999</title>
+      <s:price currency="USD">0.62</s:price>
+      <s:sku>PFJ-15-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>1.5 inch - 1000+</title>
+      <s:price currency="USD">0.56</s:price>
+      <s:sku>PFJ-15-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>2.0 inch - 25-49</title>
+      <s:price currency="USD">2.48</s:price>
+      <s:sku>PFJ-20-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>2.0 inch - 50-99</title>
+      <s:price currency="USD">2.15</s:price>
+      <s:sku>PFJ-20-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>2.0 inch - 100-199</title>
+      <s:price currency="USD">1.59</s:price>
+      <s:sku>PFJ-20-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>2.0 inch - 200-499</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>PFJ-20-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>2.0 inch - 500-999</title>
+      <s:price currency="USD">0.81</s:price>
+      <s:sku>PFJ-20-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>2.0 inch - 1000+</title>
+      <s:price currency="USD">0.74</s:price>
+      <s:sku>PFJ-20-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>2.5 inch - 25-49</title>
+      <s:price currency="USD">3.11</s:price>
+      <s:sku>PFJ-25-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>2.5 inch - 50-99</title>
+      <s:price currency="USD">2.69</s:price>
+      <s:sku>PFJ-25-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>2.5 inch - 100-199</title>
+      <s:price currency="USD">2.00</s:price>
+      <s:sku>PFJ-25-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>2.5 inch - 200-499</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>PFJ-25-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>2.5 inch - 500-999</title>
+      <s:price currency="USD">1.02</s:price>
+      <s:sku>PFJ-25-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>2.5 inch - 1000+</title>
+      <s:price currency="USD">0.92</s:price>
+      <s:sku>PFJ-25-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>3.0 inch - 25-49</title>
+      <s:price currency="USD">3.71</s:price>
+      <s:sku>PFJ-30-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>3.0 inch - 50-99</title>
+      <s:price currency="USD">3.21</s:price>
+      <s:sku>PFJ-30-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>3.0 inch - 100-199</title>
+      <s:price currency="USD">2.39</s:price>
+      <s:sku>PFJ-30-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>3.0 inch - 200-499</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>PFJ-30-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>3.0 inch - 500-999</title>
+      <s:price currency="USD">1.22</s:price>
+      <s:sku>PFJ-30-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>3.0 inch - 1000+</title>
+      <s:price currency="USD">1.10</s:price>
+      <s:sku>PFJ-30-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>3.5 inch - 25-49</title>
+      <s:price currency="USD">4.31</s:price>
+      <s:sku>PFJ-35-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>3.5 inch - 50-99</title>
+      <s:price currency="USD">3.75</s:price>
+      <s:sku>PFJ-35-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>3.5 inch - 100-199</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>PFJ-35-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>3.5 inch - 200-499</title>
+      <s:price currency="USD">1.95</s:price>
+      <s:sku>PFJ-35-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>3.5 inch - 500-999</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>PFJ-35-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>3.5 inch - 1000+</title>
+      <s:price currency="USD">1.26</s:price>
+      <s:sku>PFJ-35-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>4.0 inch - 25-49</title>
+      <s:price currency="USD">4.95</s:price>
+      <s:sku>PFJ-40-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>4.0 inch - 50-99</title>
+      <s:price currency="USD">4.29</s:price>
+      <s:sku>PFJ-40-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>4.0 inch - 100-199</title>
+      <s:price currency="USD">3.17</s:price>
+      <s:sku>PFJ-40-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>4.0 inch - 200-499</title>
+      <s:price currency="USD">2.24</s:price>
+      <s:sku>PFJ-40-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>4.0 inch - 500-999</title>
+      <s:price currency="USD">1.64</s:price>
+      <s:sku>PFJ-40-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>4.0 inch - 1000+</title>
+      <s:price currency="USD">1.47</s:price>
+      <s:sku>PFJ-40-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>4.5 inch - 25-49</title>
+      <s:price currency="USD">5.55</s:price>
+      <s:sku>PFJ-45-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>4.5 inch - 50-99</title>
+      <s:price currency="USD">4.82</s:price>
+      <s:sku>PFJ-45-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>4.5 inch - 100-199</title>
+      <s:price currency="USD">3.57</s:price>
+      <s:sku>PFJ-45-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>4.5 inch - 200-499</title>
+      <s:price currency="USD">2.52</s:price>
+      <s:sku>PFJ-45-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>4.5 inch - 500-999</title>
+      <s:price currency="USD">1.83</s:price>
+      <s:sku>PFJ-45-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>4.5 inch - 1000+</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>PFJ-45-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>5.0 inch - 25-49</title>
+      <s:price currency="USD">6.18</s:price>
+      <s:sku>PFJ-50-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>5.0 inch - 50-99</title>
+      <s:price currency="USD">5.37</s:price>
+      <s:sku>PFJ-50-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>5.0 inch - 100-199</title>
+      <s:price currency="USD">3.96</s:price>
+      <s:sku>PFJ-50-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>5.0 inch - 200-499</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>PFJ-50-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>5.0 inch - 500-999</title>
+      <s:price currency="USD">2.04</s:price>
+      <s:sku>PFJ-50-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>5.0 inch - 1000+</title>
+      <s:price currency="USD">1.82</s:price>
+      <s:sku>PFJ-50-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>6.0 inch - 25-49</title>
+      <s:price currency="USD">7.41</s:price>
+      <s:sku>PFJ-60-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>6.0 inch - 50-99</title>
+      <s:price currency="USD">6.44</s:price>
+      <s:sku>PFJ-60-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>6.0 inch - 100-199</title>
+      <s:price currency="USD">4.77</s:price>
+      <s:sku>PFJ-60-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>6.0 inch - 200-499</title>
+      <s:price currency="USD">3.36</s:price>
+      <s:sku>PFJ-60-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>6.0 inch - 500-999</title>
+      <s:price currency="USD">2.46</s:price>
+      <s:sku>PFJ-60-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>6.0 inch - 1000+</title>
+      <s:price currency="USD">2.19</s:price>
+      <s:sku>PFJ-60-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>7.0 inch - 25-49</title>
+      <s:price currency="USD">8.64</s:price>
+      <s:sku>PFJ-70-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>7.0 inch - 50-99</title>
+      <s:price currency="USD">7.52</s:price>
+      <s:sku>PFJ-70-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>7.0 inch - 100-199</title>
+      <s:price currency="USD">5.57</s:price>
+      <s:sku>PFJ-70-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>7.0 inch - 200-499</title>
+      <s:price currency="USD">3.90</s:price>
+      <s:sku>PFJ-70-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>7.0 inch - 500-999</title>
+      <s:price currency="USD">2.85</s:price>
+      <s:sku>PFJ-70-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>7.0 inch - 1000+</title>
+      <s:price currency="USD">2.55</s:price>
+      <s:sku>PFJ-70-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>8.0 inch - 25-49</title>
+      <s:price currency="USD">9.87</s:price>
+      <s:sku>PFJ-80-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>8.0 inch - 50-99</title>
+      <s:price currency="USD">8.58</s:price>
+      <s:sku>PFJ-80-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>8.0 inch - 100-199</title>
+      <s:price currency="USD">6.35</s:price>
+      <s:sku>PFJ-80-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>8.0 inch - 200-499</title>
+      <s:price currency="USD">4.47</s:price>
+      <s:sku>PFJ-80-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>8.0 inch - 500-999</title>
+      <s:price currency="USD">3.26</s:price>
+      <s:sku>PFJ-80-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>8.0 inch - 1000+</title>
+      <s:price currency="USD">2.94</s:price>
+      <s:sku>PFJ-80-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>9.0 inch - 25-49</title>
+      <s:price currency="USD">11.10</s:price>
+      <s:sku>PFJ-90-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>9.0 inch - 50-99</title>
+      <s:price currency="USD">9.65</s:price>
+      <s:sku>PFJ-90-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>9.0 inch - 100-199</title>
+      <s:price currency="USD">7.14</s:price>
+      <s:sku>PFJ-90-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>9.0 inch - 200-499</title>
+      <s:price currency="USD">5.01</s:price>
+      <s:sku>PFJ-90-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>9.0 inch - 500-999</title>
+      <s:price currency="USD">3.68</s:price>
+      <s:sku>PFJ-90-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>9.0 inch - 1000+</title>
+      <s:price currency="USD">3.29</s:price>
+      <s:sku>PFJ-90-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>10.0 inch - 25-49</title>
+      <s:price currency="USD">12.33</s:price>
+      <s:sku>PFJ-100-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>10.0 inch - 50-99</title>
+      <s:price currency="USD">10.73</s:price>
+      <s:sku>PFJ-100-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>10.0 inch - 100-199</title>
+      <s:price currency="USD">7.95</s:price>
+      <s:sku>PFJ-100-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>10.0 inch - 200-499</title>
+      <s:price currency="USD">5.58</s:price>
+      <s:sku>PFJ-100-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>10.0 inch - 500-999</title>
+      <s:price currency="USD">4.08</s:price>
+      <s:sku>PFJ-100-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>10.0 inch - 1000+</title>
+      <s:price currency="USD">3.65</s:price>
+      <s:sku>PFJ-100-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>11.0 inch - 25-49</title>
+      <s:price currency="USD">13.58</s:price>
+      <s:sku>PFJ-110-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>11.0 inch - 50-99</title>
+      <s:price currency="USD">11.81</s:price>
+      <s:sku>PFJ-110-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>11.0 inch - 100-199</title>
+      <s:price currency="USD">8.73</s:price>
+      <s:sku>PFJ-110-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>11.0 inch - 200-499</title>
+      <s:price currency="USD">6.14</s:price>
+      <s:sku>PFJ-110-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>11.0 inch - 500-999</title>
+      <s:price currency="USD">4.49</s:price>
+      <s:sku>PFJ-110-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>11.0 inch - 1000+</title>
+      <s:price currency="USD">4.01</s:price>
+      <s:sku>PFJ-110-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>12.0 inch - 25-49</title>
+      <s:price currency="USD">14.82</s:price>
+      <s:sku>PFJ-120-2549</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>12.0 inch - 50-99</title>
+      <s:price currency="USD">12.89</s:price>
+      <s:sku>PFJ-120-5099</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>12.0 inch - 100-199</title>
+      <s:price currency="USD">9.53</s:price>
+      <s:sku>PFJ-120-100199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>12.0 inch - 200-499</title>
+      <s:price currency="USD">6.71</s:price>
+      <s:sku>PFJ-120-200499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>12.0 inch - 500-999</title>
+      <s:price currency="USD">4.89</s:price>
+      <s:sku>PFJ-120-500999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591530068</id>
+      <title>12.0 inch - 1000+</title>
+      <s:price currency="USD">4.38</s:price>
+      <s:sku>PFJ-120-1000</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/7820591366228</id>
+    <published>2025-11-03T11:01:54-05:00</published>
+    <updated>2025-11-03T11:01:54-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/patches-for-hoodies"/>
+    <title>Custom Patches For Hoodies</title>
+    <s:type>embroidered</s:type>
+    <s:vendor>Patch Kraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/HoodiePatchMOCK.png?v=1762185717"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Patch Kraze<br>
+        <strong>Type: </strong>embroidered<br>
+        <strong>Price: </strong>
+            0.38 - 14.82
+            <a href="https://patchkraze.com/products/patches-for-hoodies">(96 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Custom patches with embroidered design.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Embroidered Patches</s:tag>
+    <s:tag>patches</s:tag>
+    <s:tag>Popular</s:tag>
+    <s:tag>rush</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>1.0 inch - 25-49</title>
+      <s:price currency="USD">1.23</s:price>
+      <s:sku>patches-for-hoodies-10-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>1.0 inch - 50-99</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>patches-for-hoodies-10-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>1.0 inch - 100-199</title>
+      <s:price currency="USD">0.80</s:price>
+      <s:sku>patches-for-hoodies-10-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>1.0 inch - 200-499</title>
+      <s:price currency="USD">0.57</s:price>
+      <s:sku>patches-for-hoodies-10-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>1.0 inch - 500-999</title>
+      <s:price currency="USD">0.41</s:price>
+      <s:sku>patches-for-hoodies-10-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>1.0 inch - 1000+</title>
+      <s:price currency="USD">0.38</s:price>
+      <s:sku>patches-for-hoodies-10-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>1.5 inch - 25-49</title>
+      <s:price currency="USD">1.86</s:price>
+      <s:sku>patches-for-hoodies-15-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>1.5 inch - 50-99</title>
+      <s:price currency="USD">1.62</s:price>
+      <s:sku>patches-for-hoodies-15-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>1.5 inch - 100-199</title>
+      <s:price currency="USD">1.19</s:price>
+      <s:sku>patches-for-hoodies-15-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>1.5 inch - 200-499</title>
+      <s:price currency="USD">0.84</s:price>
+      <s:sku>patches-for-hoodies-15-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>1.5 inch - 500-999</title>
+      <s:price currency="USD">0.62</s:price>
+      <s:sku>patches-for-hoodies-15-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>1.5 inch - 1000+</title>
+      <s:price currency="USD">0.56</s:price>
+      <s:sku>patches-for-hoodies-15-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>2.0 inch - 25-49</title>
+      <s:price currency="USD">2.48</s:price>
+      <s:sku>patches-for-hoodies-20-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>2.0 inch - 50-99</title>
+      <s:price currency="USD">2.15</s:price>
+      <s:sku>patches-for-hoodies-20-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>2.0 inch - 100-199</title>
+      <s:price currency="USD">1.59</s:price>
+      <s:sku>patches-for-hoodies-20-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>2.0 inch - 200-499</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>patches-for-hoodies-20-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>2.0 inch - 500-999</title>
+      <s:price currency="USD">0.81</s:price>
+      <s:sku>patches-for-hoodies-20-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>2.0 inch - 1000+</title>
+      <s:price currency="USD">0.74</s:price>
+      <s:sku>patches-for-hoodies-20-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>2.5 inch - 25-49</title>
+      <s:price currency="USD">3.11</s:price>
+      <s:sku>patches-for-hoodies-25-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>2.5 inch - 50-99</title>
+      <s:price currency="USD">2.69</s:price>
+      <s:sku>patches-for-hoodies-25-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>2.5 inch - 100-199</title>
+      <s:price currency="USD">2.00</s:price>
+      <s:sku>patches-for-hoodies-25-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>2.5 inch - 200-499</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>patches-for-hoodies-25-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>2.5 inch - 500-999</title>
+      <s:price currency="USD">1.02</s:price>
+      <s:sku>patches-for-hoodies-25-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>2.5 inch - 1000+</title>
+      <s:price currency="USD">0.92</s:price>
+      <s:sku>patches-for-hoodies-25-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>3.0 inch - 25-49</title>
+      <s:price currency="USD">3.71</s:price>
+      <s:sku>patches-for-hoodies-30-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>3.0 inch - 50-99</title>
+      <s:price currency="USD">3.21</s:price>
+      <s:sku>patches-for-hoodies-30-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>3.0 inch - 100-199</title>
+      <s:price currency="USD">2.39</s:price>
+      <s:sku>patches-for-hoodies-30-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>3.0 inch - 200-499</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>patches-for-hoodies-30-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>3.0 inch - 500-999</title>
+      <s:price currency="USD">1.22</s:price>
+      <s:sku>patches-for-hoodies-30-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>3.0 inch - 1000+</title>
+      <s:price currency="USD">1.10</s:price>
+      <s:sku>patches-for-hoodies-30-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>3.5 inch - 25-49</title>
+      <s:price currency="USD">4.31</s:price>
+      <s:sku>patches-for-hoodies-35-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>3.5 inch - 50-99</title>
+      <s:price currency="USD">3.75</s:price>
+      <s:sku>patches-for-hoodies-35-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>3.5 inch - 100-199</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>patches-for-hoodies-35-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>3.5 inch - 200-499</title>
+      <s:price currency="USD">1.95</s:price>
+      <s:sku>patches-for-hoodies-35-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>3.5 inch - 500-999</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>patches-for-hoodies-35-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>3.5 inch - 1000+</title>
+      <s:price currency="USD">1.26</s:price>
+      <s:sku>patches-for-hoodies-35-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>4.0 inch - 25-49</title>
+      <s:price currency="USD">4.95</s:price>
+      <s:sku>patches-for-hoodies-40-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>4.0 inch - 50-99</title>
+      <s:price currency="USD">4.29</s:price>
+      <s:sku>patches-for-hoodies-40-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>4.0 inch - 100-199</title>
+      <s:price currency="USD">3.17</s:price>
+      <s:sku>patches-for-hoodies-40-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>4.0 inch - 200-499</title>
+      <s:price currency="USD">2.24</s:price>
+      <s:sku>patches-for-hoodies-40-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>4.0 inch - 500-999</title>
+      <s:price currency="USD">1.64</s:price>
+      <s:sku>patches-for-hoodies-40-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>4.0 inch - 1000+</title>
+      <s:price currency="USD">1.47</s:price>
+      <s:sku>patches-for-hoodies-40-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>4.5 inch - 25-49</title>
+      <s:price currency="USD">5.55</s:price>
+      <s:sku>patches-for-hoodies-45-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>4.5 inch - 50-99</title>
+      <s:price currency="USD">4.82</s:price>
+      <s:sku>patches-for-hoodies-45-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>4.5 inch - 100-199</title>
+      <s:price currency="USD">3.57</s:price>
+      <s:sku>patches-for-hoodies-45-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>4.5 inch - 200-499</title>
+      <s:price currency="USD">2.52</s:price>
+      <s:sku>patches-for-hoodies-45-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>4.5 inch - 500-999</title>
+      <s:price currency="USD">1.83</s:price>
+      <s:sku>patches-for-hoodies-45-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>4.5 inch - 1000+</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>patches-for-hoodies-45-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>5.0 inch - 25-49</title>
+      <s:price currency="USD">6.18</s:price>
+      <s:sku>patches-for-hoodies-50-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>5.0 inch - 50-99</title>
+      <s:price currency="USD">5.37</s:price>
+      <s:sku>patches-for-hoodies-50-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>5.0 inch - 100-199</title>
+      <s:price currency="USD">3.96</s:price>
+      <s:sku>patches-for-hoodies-50-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>5.0 inch - 200-499</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>patches-for-hoodies-50-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>5.0 inch - 500-999</title>
+      <s:price currency="USD">2.04</s:price>
+      <s:sku>patches-for-hoodies-50-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>5.0 inch - 1000+</title>
+      <s:price currency="USD">1.82</s:price>
+      <s:sku>patches-for-hoodies-50-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>6.0 inch - 25-49</title>
+      <s:price currency="USD">7.41</s:price>
+      <s:sku>patches-for-hoodies-60-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>6.0 inch - 50-99</title>
+      <s:price currency="USD">6.44</s:price>
+      <s:sku>patches-for-hoodies-60-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>6.0 inch - 100-199</title>
+      <s:price currency="USD">4.77</s:price>
+      <s:sku>patches-for-hoodies-60-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>6.0 inch - 200-499</title>
+      <s:price currency="USD">3.36</s:price>
+      <s:sku>patches-for-hoodies-60-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>6.0 inch - 500-999</title>
+      <s:price currency="USD">2.46</s:price>
+      <s:sku>patches-for-hoodies-60-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>6.0 inch - 1000+</title>
+      <s:price currency="USD">2.19</s:price>
+      <s:sku>patches-for-hoodies-60-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>7.0 inch - 25-49</title>
+      <s:price currency="USD">8.64</s:price>
+      <s:sku>patches-for-hoodies-70-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>7.0 inch - 50-99</title>
+      <s:price currency="USD">7.52</s:price>
+      <s:sku>patches-for-hoodies-70-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>7.0 inch - 100-199</title>
+      <s:price currency="USD">5.57</s:price>
+      <s:sku>patches-for-hoodies-70-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>7.0 inch - 200-499</title>
+      <s:price currency="USD">3.90</s:price>
+      <s:sku>patches-for-hoodies-70-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>7.0 inch - 500-999</title>
+      <s:price currency="USD">2.85</s:price>
+      <s:sku>patches-for-hoodies-70-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>7.0 inch - 1000+</title>
+      <s:price currency="USD">2.55</s:price>
+      <s:sku>patches-for-hoodies-70-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>8.0 inch - 25-49</title>
+      <s:price currency="USD">9.87</s:price>
+      <s:sku>patches-for-hoodies-80-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>8.0 inch - 50-99</title>
+      <s:price currency="USD">8.58</s:price>
+      <s:sku>patches-for-hoodies-80-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>8.0 inch - 100-199</title>
+      <s:price currency="USD">6.35</s:price>
+      <s:sku>patches-for-hoodies-80-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>8.0 inch - 200-499</title>
+      <s:price currency="USD">4.47</s:price>
+      <s:sku>patches-for-hoodies-80-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>8.0 inch - 500-999</title>
+      <s:price currency="USD">3.26</s:price>
+      <s:sku>patches-for-hoodies-80-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>8.0 inch - 1000+</title>
+      <s:price currency="USD">2.94</s:price>
+      <s:sku>patches-for-hoodies-80-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>9.0 inch - 25-49</title>
+      <s:price currency="USD">11.10</s:price>
+      <s:sku>patches-for-hoodies-90-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>9.0 inch - 50-99</title>
+      <s:price currency="USD">9.65</s:price>
+      <s:sku>patches-for-hoodies-90-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>9.0 inch - 100-199</title>
+      <s:price currency="USD">7.14</s:price>
+      <s:sku>patches-for-hoodies-90-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>9.0 inch - 200-499</title>
+      <s:price currency="USD">5.01</s:price>
+      <s:sku>patches-for-hoodies-90-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>9.0 inch - 500-999</title>
+      <s:price currency="USD">3.68</s:price>
+      <s:sku>patches-for-hoodies-90-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>9.0 inch - 1000+</title>
+      <s:price currency="USD">3.29</s:price>
+      <s:sku>patches-for-hoodies-90-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>10.0 inch - 25-49</title>
+      <s:price currency="USD">12.33</s:price>
+      <s:sku>patches-for-hoodies-100-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>10.0 inch - 50-99</title>
+      <s:price currency="USD">10.73</s:price>
+      <s:sku>patches-for-hoodies-100-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>10.0 inch - 100-199</title>
+      <s:price currency="USD">7.95</s:price>
+      <s:sku>patches-for-hoodies-100-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>10.0 inch - 200-499</title>
+      <s:price currency="USD">5.58</s:price>
+      <s:sku>patches-for-hoodies-100-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>10.0 inch - 500-999</title>
+      <s:price currency="USD">4.08</s:price>
+      <s:sku>patches-for-hoodies-100-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>10.0 inch - 1000+</title>
+      <s:price currency="USD">3.65</s:price>
+      <s:sku>patches-for-hoodies-100-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>11.0 inch - 25-49</title>
+      <s:price currency="USD">13.58</s:price>
+      <s:sku>patches-for-hoodies-110-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>11.0 inch - 50-99</title>
+      <s:price currency="USD">11.81</s:price>
+      <s:sku>patches-for-hoodies-110-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>11.0 inch - 100-199</title>
+      <s:price currency="USD">8.73</s:price>
+      <s:sku>patches-for-hoodies-110-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>11.0 inch - 200-499</title>
+      <s:price currency="USD">6.14</s:price>
+      <s:sku>patches-for-hoodies-110-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>11.0 inch - 500-999</title>
+      <s:price currency="USD">4.49</s:price>
+      <s:sku>patches-for-hoodies-110-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>11.0 inch - 1000+</title>
+      <s:price currency="USD">4.01</s:price>
+      <s:sku>patches-for-hoodies-110-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>12.0 inch - 25-49</title>
+      <s:price currency="USD">14.82</s:price>
+      <s:sku>patches-for-hoodies-120-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>12.0 inch - 50-99</title>
+      <s:price currency="USD">12.89</s:price>
+      <s:sku>patches-for-hoodies-120-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>12.0 inch - 100-199</title>
+      <s:price currency="USD">9.53</s:price>
+      <s:sku>patches-for-hoodies-120-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>12.0 inch - 200-499</title>
+      <s:price currency="USD">6.71</s:price>
+      <s:sku>patches-for-hoodies-120-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>12.0 inch - 500-999</title>
+      <s:price currency="USD">4.89</s:price>
+      <s:sku>patches-for-hoodies-120-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591366228</id>
+      <title>12.0 inch - 1000+</title>
+      <s:price currency="USD">4.38</s:price>
+      <s:sku>patches-for-hoodies-120-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/7820591300692</id>
+    <published>2025-11-03T11:01:52-05:00</published>
+    <updated>2025-11-03T11:01:52-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/patches-for-jeans"/>
+    <title>Custom Patches For Jeans</title>
+    <s:type>embroidered</s:type>
+    <s:vendor>Patch Kraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/JeanPatchMOCK.png?v=1762185714"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Patch Kraze<br>
+        <strong>Type: </strong>embroidered<br>
+        <strong>Price: </strong>
+            0.38 - 14.82
+            <a href="https://patchkraze.com/products/patches-for-jeans">(96 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Custom patches with embroidered design.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Embroidered Patches</s:tag>
+    <s:tag>patches</s:tag>
+    <s:tag>Popular</s:tag>
+    <s:tag>rush</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>1.0 inch - 25-49</title>
+      <s:price currency="USD">1.23</s:price>
+      <s:sku>patches-for-jeans-10-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>1.0 inch - 50-99</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>patches-for-jeans-10-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>1.0 inch - 100-199</title>
+      <s:price currency="USD">0.80</s:price>
+      <s:sku>patches-for-jeans-10-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>1.0 inch - 200-499</title>
+      <s:price currency="USD">0.57</s:price>
+      <s:sku>patches-for-jeans-10-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>1.0 inch - 500-999</title>
+      <s:price currency="USD">0.41</s:price>
+      <s:sku>patches-for-jeans-10-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>1.0 inch - 1000+</title>
+      <s:price currency="USD">0.38</s:price>
+      <s:sku>patches-for-jeans-10-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>1.5 inch - 25-49</title>
+      <s:price currency="USD">1.86</s:price>
+      <s:sku>patches-for-jeans-15-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>1.5 inch - 50-99</title>
+      <s:price currency="USD">1.62</s:price>
+      <s:sku>patches-for-jeans-15-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>1.5 inch - 100-199</title>
+      <s:price currency="USD">1.19</s:price>
+      <s:sku>patches-for-jeans-15-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>1.5 inch - 200-499</title>
+      <s:price currency="USD">0.84</s:price>
+      <s:sku>patches-for-jeans-15-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>1.5 inch - 500-999</title>
+      <s:price currency="USD">0.62</s:price>
+      <s:sku>patches-for-jeans-15-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>1.5 inch - 1000+</title>
+      <s:price currency="USD">0.56</s:price>
+      <s:sku>patches-for-jeans-15-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>2.0 inch - 25-49</title>
+      <s:price currency="USD">2.48</s:price>
+      <s:sku>patches-for-jeans-20-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>2.0 inch - 50-99</title>
+      <s:price currency="USD">2.15</s:price>
+      <s:sku>patches-for-jeans-20-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>2.0 inch - 100-199</title>
+      <s:price currency="USD">1.59</s:price>
+      <s:sku>patches-for-jeans-20-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>2.0 inch - 200-499</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>patches-for-jeans-20-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>2.0 inch - 500-999</title>
+      <s:price currency="USD">0.81</s:price>
+      <s:sku>patches-for-jeans-20-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>2.0 inch - 1000+</title>
+      <s:price currency="USD">0.74</s:price>
+      <s:sku>patches-for-jeans-20-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>2.5 inch - 25-49</title>
+      <s:price currency="USD">3.11</s:price>
+      <s:sku>patches-for-jeans-25-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>2.5 inch - 50-99</title>
+      <s:price currency="USD">2.69</s:price>
+      <s:sku>patches-for-jeans-25-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>2.5 inch - 100-199</title>
+      <s:price currency="USD">2.00</s:price>
+      <s:sku>patches-for-jeans-25-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>2.5 inch - 200-499</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>patches-for-jeans-25-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>2.5 inch - 500-999</title>
+      <s:price currency="USD">1.02</s:price>
+      <s:sku>patches-for-jeans-25-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>2.5 inch - 1000+</title>
+      <s:price currency="USD">0.92</s:price>
+      <s:sku>patches-for-jeans-25-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>3.0 inch - 25-49</title>
+      <s:price currency="USD">3.71</s:price>
+      <s:sku>patches-for-jeans-30-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>3.0 inch - 50-99</title>
+      <s:price currency="USD">3.21</s:price>
+      <s:sku>patches-for-jeans-30-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>3.0 inch - 100-199</title>
+      <s:price currency="USD">2.39</s:price>
+      <s:sku>patches-for-jeans-30-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>3.0 inch - 200-499</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>patches-for-jeans-30-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>3.0 inch - 500-999</title>
+      <s:price currency="USD">1.22</s:price>
+      <s:sku>patches-for-jeans-30-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>3.0 inch - 1000+</title>
+      <s:price currency="USD">1.10</s:price>
+      <s:sku>patches-for-jeans-30-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>3.5 inch - 25-49</title>
+      <s:price currency="USD">4.31</s:price>
+      <s:sku>patches-for-jeans-35-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>3.5 inch - 50-99</title>
+      <s:price currency="USD">3.75</s:price>
+      <s:sku>patches-for-jeans-35-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>3.5 inch - 100-199</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>patches-for-jeans-35-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>3.5 inch - 200-499</title>
+      <s:price currency="USD">1.95</s:price>
+      <s:sku>patches-for-jeans-35-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>3.5 inch - 500-999</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>patches-for-jeans-35-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>3.5 inch - 1000+</title>
+      <s:price currency="USD">1.26</s:price>
+      <s:sku>patches-for-jeans-35-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>4.0 inch - 25-49</title>
+      <s:price currency="USD">4.95</s:price>
+      <s:sku>patches-for-jeans-40-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>4.0 inch - 50-99</title>
+      <s:price currency="USD">4.29</s:price>
+      <s:sku>patches-for-jeans-40-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>4.0 inch - 100-199</title>
+      <s:price currency="USD">3.17</s:price>
+      <s:sku>patches-for-jeans-40-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>4.0 inch - 200-499</title>
+      <s:price currency="USD">2.24</s:price>
+      <s:sku>patches-for-jeans-40-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>4.0 inch - 500-999</title>
+      <s:price currency="USD">1.64</s:price>
+      <s:sku>patches-for-jeans-40-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>4.0 inch - 1000+</title>
+      <s:price currency="USD">1.47</s:price>
+      <s:sku>patches-for-jeans-40-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>4.5 inch - 25-49</title>
+      <s:price currency="USD">5.55</s:price>
+      <s:sku>patches-for-jeans-45-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>4.5 inch - 50-99</title>
+      <s:price currency="USD">4.82</s:price>
+      <s:sku>patches-for-jeans-45-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>4.5 inch - 100-199</title>
+      <s:price currency="USD">3.57</s:price>
+      <s:sku>patches-for-jeans-45-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>4.5 inch - 200-499</title>
+      <s:price currency="USD">2.52</s:price>
+      <s:sku>patches-for-jeans-45-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>4.5 inch - 500-999</title>
+      <s:price currency="USD">1.83</s:price>
+      <s:sku>patches-for-jeans-45-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>4.5 inch - 1000+</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>patches-for-jeans-45-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>5.0 inch - 25-49</title>
+      <s:price currency="USD">6.18</s:price>
+      <s:sku>patches-for-jeans-50-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>5.0 inch - 50-99</title>
+      <s:price currency="USD">5.37</s:price>
+      <s:sku>patches-for-jeans-50-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>5.0 inch - 100-199</title>
+      <s:price currency="USD">3.96</s:price>
+      <s:sku>patches-for-jeans-50-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>5.0 inch - 200-499</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>patches-for-jeans-50-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>5.0 inch - 500-999</title>
+      <s:price currency="USD">2.04</s:price>
+      <s:sku>patches-for-jeans-50-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>5.0 inch - 1000+</title>
+      <s:price currency="USD">1.82</s:price>
+      <s:sku>patches-for-jeans-50-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>6.0 inch - 25-49</title>
+      <s:price currency="USD">7.41</s:price>
+      <s:sku>patches-for-jeans-60-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>6.0 inch - 50-99</title>
+      <s:price currency="USD">6.44</s:price>
+      <s:sku>patches-for-jeans-60-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>6.0 inch - 100-199</title>
+      <s:price currency="USD">4.77</s:price>
+      <s:sku>patches-for-jeans-60-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>6.0 inch - 200-499</title>
+      <s:price currency="USD">3.36</s:price>
+      <s:sku>patches-for-jeans-60-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>6.0 inch - 500-999</title>
+      <s:price currency="USD">2.46</s:price>
+      <s:sku>patches-for-jeans-60-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>6.0 inch - 1000+</title>
+      <s:price currency="USD">2.19</s:price>
+      <s:sku>patches-for-jeans-60-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>7.0 inch - 25-49</title>
+      <s:price currency="USD">8.64</s:price>
+      <s:sku>patches-for-jeans-70-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>7.0 inch - 50-99</title>
+      <s:price currency="USD">7.52</s:price>
+      <s:sku>patches-for-jeans-70-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>7.0 inch - 100-199</title>
+      <s:price currency="USD">5.57</s:price>
+      <s:sku>patches-for-jeans-70-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>7.0 inch - 200-499</title>
+      <s:price currency="USD">3.90</s:price>
+      <s:sku>patches-for-jeans-70-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>7.0 inch - 500-999</title>
+      <s:price currency="USD">2.85</s:price>
+      <s:sku>patches-for-jeans-70-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>7.0 inch - 1000+</title>
+      <s:price currency="USD">2.55</s:price>
+      <s:sku>patches-for-jeans-70-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>8.0 inch - 25-49</title>
+      <s:price currency="USD">9.87</s:price>
+      <s:sku>patches-for-jeans-80-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>8.0 inch - 50-99</title>
+      <s:price currency="USD">8.58</s:price>
+      <s:sku>patches-for-jeans-80-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>8.0 inch - 100-199</title>
+      <s:price currency="USD">6.35</s:price>
+      <s:sku>patches-for-jeans-80-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>8.0 inch - 200-499</title>
+      <s:price currency="USD">4.47</s:price>
+      <s:sku>patches-for-jeans-80-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>8.0 inch - 500-999</title>
+      <s:price currency="USD">3.26</s:price>
+      <s:sku>patches-for-jeans-80-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>8.0 inch - 1000+</title>
+      <s:price currency="USD">2.94</s:price>
+      <s:sku>patches-for-jeans-80-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>9.0 inch - 25-49</title>
+      <s:price currency="USD">11.10</s:price>
+      <s:sku>patches-for-jeans-90-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>9.0 inch - 50-99</title>
+      <s:price currency="USD">9.65</s:price>
+      <s:sku>patches-for-jeans-90-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>9.0 inch - 100-199</title>
+      <s:price currency="USD">7.14</s:price>
+      <s:sku>patches-for-jeans-90-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>9.0 inch - 200-499</title>
+      <s:price currency="USD">5.01</s:price>
+      <s:sku>patches-for-jeans-90-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>9.0 inch - 500-999</title>
+      <s:price currency="USD">3.68</s:price>
+      <s:sku>patches-for-jeans-90-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>9.0 inch - 1000+</title>
+      <s:price currency="USD">3.29</s:price>
+      <s:sku>patches-for-jeans-90-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>10.0 inch - 25-49</title>
+      <s:price currency="USD">12.33</s:price>
+      <s:sku>patches-for-jeans-100-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>10.0 inch - 50-99</title>
+      <s:price currency="USD">10.73</s:price>
+      <s:sku>patches-for-jeans-100-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>10.0 inch - 100-199</title>
+      <s:price currency="USD">7.95</s:price>
+      <s:sku>patches-for-jeans-100-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>10.0 inch - 200-499</title>
+      <s:price currency="USD">5.58</s:price>
+      <s:sku>patches-for-jeans-100-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>10.0 inch - 500-999</title>
+      <s:price currency="USD">4.08</s:price>
+      <s:sku>patches-for-jeans-100-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>10.0 inch - 1000+</title>
+      <s:price currency="USD">3.65</s:price>
+      <s:sku>patches-for-jeans-100-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>11.0 inch - 25-49</title>
+      <s:price currency="USD">13.58</s:price>
+      <s:sku>patches-for-jeans-110-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>11.0 inch - 50-99</title>
+      <s:price currency="USD">11.81</s:price>
+      <s:sku>patches-for-jeans-110-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>11.0 inch - 100-199</title>
+      <s:price currency="USD">8.73</s:price>
+      <s:sku>patches-for-jeans-110-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>11.0 inch - 200-499</title>
+      <s:price currency="USD">6.14</s:price>
+      <s:sku>patches-for-jeans-110-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>11.0 inch - 500-999</title>
+      <s:price currency="USD">4.49</s:price>
+      <s:sku>patches-for-jeans-110-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>11.0 inch - 1000+</title>
+      <s:price currency="USD">4.01</s:price>
+      <s:sku>patches-for-jeans-110-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>12.0 inch - 25-49</title>
+      <s:price currency="USD">14.82</s:price>
+      <s:sku>patches-for-jeans-120-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>12.0 inch - 50-99</title>
+      <s:price currency="USD">12.89</s:price>
+      <s:sku>patches-for-jeans-120-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>12.0 inch - 100-199</title>
+      <s:price currency="USD">9.53</s:price>
+      <s:sku>patches-for-jeans-120-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>12.0 inch - 200-499</title>
+      <s:price currency="USD">6.71</s:price>
+      <s:sku>patches-for-jeans-120-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>12.0 inch - 500-999</title>
+      <s:price currency="USD">4.89</s:price>
+      <s:sku>patches-for-jeans-120-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591300692</id>
+      <title>12.0 inch - 1000+</title>
+      <s:price currency="USD">4.38</s:price>
+      <s:sku>patches-for-jeans-120-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://patchkraze.com/products/7820591267924</id>
+    <published>2025-11-03T11:01:51-05:00</published>
+    <updated>2025-11-03T11:01:51-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://patchkraze.com/products/patches-for-pants"/>
+    <title>Custom Patches For Pants</title>
+    <s:type>embroidered</s:type>
+    <s:vendor>Patch Kraze</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/PantPatchMOCK_1_49c22fc1-57a9-4d45-949f-d38d1fe228ec.png?v=1762185714"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Patch Kraze<br>
+        <strong>Type: </strong>embroidered<br>
+        <strong>Price: </strong>
+            0.38 - 14.82
+            <a href="https://patchkraze.com/products/patches-for-pants">(96 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Custom patches with embroidered design.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Embroidered Patches</s:tag>
+    <s:tag>patches</s:tag>
+    <s:tag>Popular</s:tag>
+    <s:tag>rush</s:tag>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>1.0 inch - 25-49</title>
+      <s:price currency="USD">1.23</s:price>
+      <s:sku>patches-for-pants-10-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>1.0 inch - 50-99</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>patches-for-pants-10-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>1.0 inch - 100-199</title>
+      <s:price currency="USD">0.80</s:price>
+      <s:sku>patches-for-pants-10-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>1.0 inch - 200-499</title>
+      <s:price currency="USD">0.57</s:price>
+      <s:sku>patches-for-pants-10-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>1.0 inch - 500-999</title>
+      <s:price currency="USD">0.41</s:price>
+      <s:sku>patches-for-pants-10-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>1.0 inch - 1000+</title>
+      <s:price currency="USD">0.38</s:price>
+      <s:sku>patches-for-pants-10-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>1.5 inch - 25-49</title>
+      <s:price currency="USD">1.86</s:price>
+      <s:sku>patches-for-pants-15-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>1.5 inch - 50-99</title>
+      <s:price currency="USD">1.62</s:price>
+      <s:sku>patches-for-pants-15-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>1.5 inch - 100-199</title>
+      <s:price currency="USD">1.19</s:price>
+      <s:sku>patches-for-pants-15-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>1.5 inch - 200-499</title>
+      <s:price currency="USD">0.84</s:price>
+      <s:sku>patches-for-pants-15-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>1.5 inch - 500-999</title>
+      <s:price currency="USD">0.62</s:price>
+      <s:sku>patches-for-pants-15-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>1.5 inch - 1000+</title>
+      <s:price currency="USD">0.56</s:price>
+      <s:sku>patches-for-pants-15-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>2.0 inch - 25-49</title>
+      <s:price currency="USD">2.48</s:price>
+      <s:sku>patches-for-pants-20-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>2.0 inch - 50-99</title>
+      <s:price currency="USD">2.15</s:price>
+      <s:sku>patches-for-pants-20-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>2.0 inch - 100-199</title>
+      <s:price currency="USD">1.59</s:price>
+      <s:sku>patches-for-pants-20-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>2.0 inch - 200-499</title>
+      <s:price currency="USD">1.07</s:price>
+      <s:sku>patches-for-pants-20-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>2.0 inch - 500-999</title>
+      <s:price currency="USD">0.81</s:price>
+      <s:sku>patches-for-pants-20-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>2.0 inch - 1000+</title>
+      <s:price currency="USD">0.74</s:price>
+      <s:sku>patches-for-pants-20-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>2.5 inch - 25-49</title>
+      <s:price currency="USD">3.11</s:price>
+      <s:sku>patches-for-pants-25-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>2.5 inch - 50-99</title>
+      <s:price currency="USD">2.69</s:price>
+      <s:sku>patches-for-pants-25-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>2.5 inch - 100-199</title>
+      <s:price currency="USD">2.00</s:price>
+      <s:sku>patches-for-pants-25-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>2.5 inch - 200-499</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>patches-for-pants-25-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>2.5 inch - 500-999</title>
+      <s:price currency="USD">1.02</s:price>
+      <s:sku>patches-for-pants-25-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>2.5 inch - 1000+</title>
+      <s:price currency="USD">0.92</s:price>
+      <s:sku>patches-for-pants-25-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>3.0 inch - 25-49</title>
+      <s:price currency="USD">3.71</s:price>
+      <s:sku>patches-for-pants-30-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>3.0 inch - 50-99</title>
+      <s:price currency="USD">3.21</s:price>
+      <s:sku>patches-for-pants-30-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>3.0 inch - 100-199</title>
+      <s:price currency="USD">2.39</s:price>
+      <s:sku>patches-for-pants-30-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>3.0 inch - 200-499</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>patches-for-pants-30-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>3.0 inch - 500-999</title>
+      <s:price currency="USD">1.22</s:price>
+      <s:sku>patches-for-pants-30-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>3.0 inch - 1000+</title>
+      <s:price currency="USD">1.10</s:price>
+      <s:sku>patches-for-pants-30-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>3.5 inch - 25-49</title>
+      <s:price currency="USD">4.31</s:price>
+      <s:sku>patches-for-pants-35-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>3.5 inch - 50-99</title>
+      <s:price currency="USD">3.75</s:price>
+      <s:sku>patches-for-pants-35-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>3.5 inch - 100-199</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>patches-for-pants-35-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>3.5 inch - 200-499</title>
+      <s:price currency="USD">1.95</s:price>
+      <s:sku>patches-for-pants-35-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>3.5 inch - 500-999</title>
+      <s:price currency="USD">1.41</s:price>
+      <s:sku>patches-for-pants-35-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>3.5 inch - 1000+</title>
+      <s:price currency="USD">1.26</s:price>
+      <s:sku>patches-for-pants-35-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>4.0 inch - 25-49</title>
+      <s:price currency="USD">4.95</s:price>
+      <s:sku>patches-for-pants-40-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>4.0 inch - 50-99</title>
+      <s:price currency="USD">4.29</s:price>
+      <s:sku>patches-for-pants-40-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>4.0 inch - 100-199</title>
+      <s:price currency="USD">3.17</s:price>
+      <s:sku>patches-for-pants-40-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>4.0 inch - 200-499</title>
+      <s:price currency="USD">2.24</s:price>
+      <s:sku>patches-for-pants-40-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>4.0 inch - 500-999</title>
+      <s:price currency="USD">1.64</s:price>
+      <s:sku>patches-for-pants-40-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>4.0 inch - 1000+</title>
+      <s:price currency="USD">1.47</s:price>
+      <s:sku>patches-for-pants-40-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>4.5 inch - 25-49</title>
+      <s:price currency="USD">5.55</s:price>
+      <s:sku>patches-for-pants-45-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>4.5 inch - 50-99</title>
+      <s:price currency="USD">4.82</s:price>
+      <s:sku>patches-for-pants-45-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>4.5 inch - 100-199</title>
+      <s:price currency="USD">3.57</s:price>
+      <s:sku>patches-for-pants-45-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>4.5 inch - 200-499</title>
+      <s:price currency="USD">2.52</s:price>
+      <s:sku>patches-for-pants-45-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>4.5 inch - 500-999</title>
+      <s:price currency="USD">1.83</s:price>
+      <s:sku>patches-for-pants-45-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>4.5 inch - 1000+</title>
+      <s:price currency="USD">1.67</s:price>
+      <s:sku>patches-for-pants-45-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>5.0 inch - 25-49</title>
+      <s:price currency="USD">6.18</s:price>
+      <s:sku>patches-for-pants-50-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>5.0 inch - 50-99</title>
+      <s:price currency="USD">5.37</s:price>
+      <s:sku>patches-for-pants-50-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>5.0 inch - 100-199</title>
+      <s:price currency="USD">3.96</s:price>
+      <s:sku>patches-for-pants-50-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>5.0 inch - 200-499</title>
+      <s:price currency="USD">2.79</s:price>
+      <s:sku>patches-for-pants-50-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>5.0 inch - 500-999</title>
+      <s:price currency="USD">2.04</s:price>
+      <s:sku>patches-for-pants-50-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>5.0 inch - 1000+</title>
+      <s:price currency="USD">1.82</s:price>
+      <s:sku>patches-for-pants-50-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>6.0 inch - 25-49</title>
+      <s:price currency="USD">7.41</s:price>
+      <s:sku>patches-for-pants-60-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>6.0 inch - 50-99</title>
+      <s:price currency="USD">6.44</s:price>
+      <s:sku>patches-for-pants-60-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>6.0 inch - 100-199</title>
+      <s:price currency="USD">4.77</s:price>
+      <s:sku>patches-for-pants-60-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>6.0 inch - 200-499</title>
+      <s:price currency="USD">3.36</s:price>
+      <s:sku>patches-for-pants-60-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>6.0 inch - 500-999</title>
+      <s:price currency="USD">2.46</s:price>
+      <s:sku>patches-for-pants-60-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>6.0 inch - 1000+</title>
+      <s:price currency="USD">2.19</s:price>
+      <s:sku>patches-for-pants-60-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>7.0 inch - 25-49</title>
+      <s:price currency="USD">8.64</s:price>
+      <s:sku>patches-for-pants-70-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>7.0 inch - 50-99</title>
+      <s:price currency="USD">7.52</s:price>
+      <s:sku>patches-for-pants-70-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>7.0 inch - 100-199</title>
+      <s:price currency="USD">5.57</s:price>
+      <s:sku>patches-for-pants-70-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>7.0 inch - 200-499</title>
+      <s:price currency="USD">3.90</s:price>
+      <s:sku>patches-for-pants-70-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>7.0 inch - 500-999</title>
+      <s:price currency="USD">2.85</s:price>
+      <s:sku>patches-for-pants-70-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>7.0 inch - 1000+</title>
+      <s:price currency="USD">2.55</s:price>
+      <s:sku>patches-for-pants-70-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>8.0 inch - 25-49</title>
+      <s:price currency="USD">9.87</s:price>
+      <s:sku>patches-for-pants-80-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>8.0 inch - 50-99</title>
+      <s:price currency="USD">8.58</s:price>
+      <s:sku>patches-for-pants-80-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>8.0 inch - 100-199</title>
+      <s:price currency="USD">6.35</s:price>
+      <s:sku>patches-for-pants-80-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>8.0 inch - 200-499</title>
+      <s:price currency="USD">4.47</s:price>
+      <s:sku>patches-for-pants-80-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>8.0 inch - 500-999</title>
+      <s:price currency="USD">3.26</s:price>
+      <s:sku>patches-for-pants-80-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>8.0 inch - 1000+</title>
+      <s:price currency="USD">2.94</s:price>
+      <s:sku>patches-for-pants-80-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>9.0 inch - 25-49</title>
+      <s:price currency="USD">11.10</s:price>
+      <s:sku>patches-for-pants-90-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>9.0 inch - 50-99</title>
+      <s:price currency="USD">9.65</s:price>
+      <s:sku>patches-for-pants-90-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>9.0 inch - 100-199</title>
+      <s:price currency="USD">7.14</s:price>
+      <s:sku>patches-for-pants-90-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>9.0 inch - 200-499</title>
+      <s:price currency="USD">5.01</s:price>
+      <s:sku>patches-for-pants-90-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>9.0 inch - 500-999</title>
+      <s:price currency="USD">3.68</s:price>
+      <s:sku>patches-for-pants-90-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>9.0 inch - 1000+</title>
+      <s:price currency="USD">3.29</s:price>
+      <s:sku>patches-for-pants-90-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>10.0 inch - 25-49</title>
+      <s:price currency="USD">12.33</s:price>
+      <s:sku>patches-for-pants-100-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>10.0 inch - 50-99</title>
+      <s:price currency="USD">10.73</s:price>
+      <s:sku>patches-for-pants-100-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>10.0 inch - 100-199</title>
+      <s:price currency="USD">7.95</s:price>
+      <s:sku>patches-for-pants-100-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>10.0 inch - 200-499</title>
+      <s:price currency="USD">5.58</s:price>
+      <s:sku>patches-for-pants-100-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>10.0 inch - 500-999</title>
+      <s:price currency="USD">4.08</s:price>
+      <s:sku>patches-for-pants-100-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>10.0 inch - 1000+</title>
+      <s:price currency="USD">3.65</s:price>
+      <s:sku>patches-for-pants-100-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>11.0 inch - 25-49</title>
+      <s:price currency="USD">13.58</s:price>
+      <s:sku>patches-for-pants-110-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>11.0 inch - 50-99</title>
+      <s:price currency="USD">11.81</s:price>
+      <s:sku>patches-for-pants-110-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>11.0 inch - 100-199</title>
+      <s:price currency="USD">8.73</s:price>
+      <s:sku>patches-for-pants-110-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>11.0 inch - 200-499</title>
+      <s:price currency="USD">6.14</s:price>
+      <s:sku>patches-for-pants-110-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>11.0 inch - 500-999</title>
+      <s:price currency="USD">4.49</s:price>
+      <s:sku>patches-for-pants-110-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>11.0 inch - 1000+</title>
+      <s:price currency="USD">4.01</s:price>
+      <s:sku>patches-for-pants-110-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>12.0 inch - 25-49</title>
+      <s:price currency="USD">14.82</s:price>
+      <s:sku>patches-for-pants-120-25-49</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>12.0 inch - 50-99</title>
+      <s:price currency="USD">12.89</s:price>
+      <s:sku>patches-for-pants-120-50-99</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>12.0 inch - 100-199</title>
+      <s:price currency="USD">9.53</s:price>
+      <s:sku>patches-for-pants-120-100-199</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>12.0 inch - 200-499</title>
+      <s:price currency="USD">6.71</s:price>
+      <s:sku>patches-for-pants-120-200-499</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>12.0 inch - 500-999</title>
+      <s:price currency="USD">4.89</s:price>
+      <s:sku>patches-for-pants-120-500-999</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://patchkraze.com/products/7820591267924</id>
+      <title>12.0 inch - 1000+</title>
+      <s:price currency="USD">4.38</s:price>
+      <s:sku>patches-for-pants-120-1000plus</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

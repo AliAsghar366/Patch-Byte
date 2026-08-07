@@ -1,0 +1,5 @@
+- Theme JavaScript is organized as single-responsibility ES modules under `cdn/shop/t/38/assets/`, each exposing functionality consumed via the `@theme/*` importmap entries declared in the HTML head.
+- UI components extend the shared `Component` base class from `component.js`, which provides declarative shadow DOM, automatic `[ref]` element binding, and event delegation through `on:<event>` attributes.
+- Static site routing follows a convention where every page lives as `<path>.html` or `<path>/index.html` inside `patchkraze.com/`, with clean URLs resolved by the catch-all handler rather than framework routing.
+- Redirects are maintained as plain key-value maps (`permanentRedirects`, `temporaryRedirects`) at the top of `server.js` instead of per-route middleware, keeping URL migrations centralized.
+- CDN assets are accessed through the local `/cdn/` prefix, with the server transparently proxying unknown paths to Shopify's CDN so the same URLs work both locally and in production.

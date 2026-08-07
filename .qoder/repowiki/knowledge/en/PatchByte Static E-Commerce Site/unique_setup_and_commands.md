@@ -1,0 +1,1 @@
+`npm start` launches the frontend Express server at the workspace root; site build and data seeding are performed via PowerShell scripts in `scripts/` rather than npm commands.

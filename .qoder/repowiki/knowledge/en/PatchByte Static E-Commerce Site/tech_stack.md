@@ -1,0 +1,1 @@
+Node.js ≥18 with Express 5 and Stripe SDK for the frontend server; PowerShell for build/migration scripts; Supabase as the database backend; Netlify and Vercel as hosting platforms.

@@ -1,0 +1,1 @@
+Platform configuration and build scripts that deploy the PatchByte static site to Netlify and Vercel, plus a Supabase migration script for cart, order, and contact tables.

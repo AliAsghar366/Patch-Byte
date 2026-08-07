@@ -1,0 +1,1 @@
+PowerShell scripts that download Shopify CDN assets, rewrite HTML URLs, inject a client-side script, rebrand site text, and seed product metadata into a Supabase database from static HTML pages.

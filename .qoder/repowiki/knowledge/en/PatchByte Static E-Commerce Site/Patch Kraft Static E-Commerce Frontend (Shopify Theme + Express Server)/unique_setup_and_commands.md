@@ -1,0 +1,1 @@
+Run locally with `npm start` (executes `node server.js`) which reads `STRIPE_SECRET_KEY` and `STRIPE_PUBLISHABLE_KEY` from a sibling `.env` file; deploy to Vercel using the provided `vercel.json` which routes all requests through `server.js` and includes only `patchkraze.com/**/*.html`, `js/**`, and `cdn/shop/t/**`.

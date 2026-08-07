@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: ""
+title: PatchByte Static E-Commerce Site
+scope:
+    - .env.example
+    - .gitignore
+    - package-lock.json
+    - package.json
+source_files: []
+depends_on: []
+related_to: []

@@ -1,0 +1,14 @@
+{
+  "name": "patchbyte",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node frontend/server.js",
+    "build": "echo no build needed"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^5.2.1",
+    "stripe": "^18.1.0",
+    "dotenv": "^16.5.0"
+  }
+}

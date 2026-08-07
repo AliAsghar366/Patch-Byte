@@ -1,0 +1,165 @@
+[build]
+  command   = "node netlify-build.js"
+  publish   = "public"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# --- Missing product page redirects (301 permanent) ---
+[[redirects]]
+  from   = "/products/genuine-leather-patches"
+  to     = "/products/leather-patches"
+  status = 301
+
+[[redirects]]
+  from   = "/products/chrome-flex-patches"
+  to     = "/products/full-color-flex-patches"
+  status = 301
+
+[[redirects]]
+  from   = "/products/rubber-patches-for-hats"
+  to     = "/products/pvc-rubber-patches"
+  status = 301
+
+
+[[redirects]]
+  from   = "/products/core-365-ce002-adult-drive-performance-visor-2"
+  to     = "/collections/all"
+  status = 301
+
+[[redirects]]
+  from   = "/products/custom-keychains"
+  to     = "/collections/all"
+  status = 301
+
+# --- Collection redirects ---
+[[redirects]]
+  from   = "/collections/blanks"
+  to     = "/collections/patch-kraze-blanks"
+  status = 301
+
+# --- Missing policy redirect ---
+[[redirects]]
+  from   = "/policies/shipping-policy"
+  to     = "/policies/refund-policy"
+  status = 301
+
+# --- Missing page redirects ---
+[[redirects]]
+  from   = "/pages/heatpress-for-garments"
+  to     = "/blogs/patches/the-complete-guide-to-heat-pressing-custom-patches-temperature-time-techniques"
+  status = 302
+
+[[redirects]]
+  from   = "/pages/heatpress-for-hats"
+  to     = "/blogs/patches/the-complete-guide-to-heat-pressing-custom-patches-temperature-time-techniques"
+  status = 302
+
+[[redirects]]
+  from   = "/pages/iron-for-garments"
+  to     = "/blogs/patches/the-complete-guide-to-heat-pressing-custom-patches-temperature-time-techniques"
+  status = 302
+
+[[redirects]]
+  from   = "/pages/peel-and-stick"
+  to     = "/blogs/patches/the-complete-guide-to-heat-pressing-custom-patches-temperature-time-techniques"
+  status = 302
+
+[[redirects]]
+  from   = "/pages/order-issues"
+  to     = "/pages/contact"
+  status = 302
+
+[[redirects]]
+  from   = "/pages/faq"
+  to     = "/pages/contact"
+  status = 302
+
+[[redirects]]
+  from   = "/pages/satisfaction-guarantee"
+  to     = "/policies/refund-policy"
+  status = 302
+
+[[redirects]]
+  from   = "/pages/printhouse"
+  to     = "/"
+  status = 302
+
+[[redirects]]
+  from   = "/pages/pod"
+  to     = "/"
+  status = 302
+
+# --- Clean URLs ---
+[[redirects]]
+  from   = "/products/:slug"
+  to     = "/products/:slug.html"
+  status = 200
+
+[[redirects]]
+  from   = "/collections/:slug"
+  to     = "/collections/:slug.html"
+  status = 200
+
+[[redirects]]
+  from   = "/collections/:slug/index.html"
+  to     = "/collections/:slug/index.html"
+  status = 200
+
+[[redirects]]
+  from   = "/pages/:slug"
+  to     = "/pages/:slug.html"
+  status = 200
+
+[[redirects]]
+  from   = "/blogs/:section/:slug"
+  to     = "/blogs/:section/:slug.html"
+  status = 200
+
+[[redirects]]
+  from   = "/policies/:slug"
+  to     = "/policies/:slug.html"
+  status = 200
+
+# --- Cart / Checkout (index.html already in folder) ---
+[[redirects]]
+  from   = "/cart"
+  to     = "/cart/index.html"
+  status = 200
+
+[[redirects]]
+  from   = "/checkout"
+  to     = "/checkout/index.html"
+  status = 200
+
+# --- Proxy CDN product images to Shopify ---
+[[redirects]]
+  from   = "/cdn/shop/files/*"
+  to     = "https://cdn.shopify.com/s/files/1/0661/2965/7940/files/:splat"
+  status = 200
+  force  = true
+
+# --- Proxy other Shopify CDN assets ---
+[[redirects]]
+  from   = "/cdn/s/*"
+  to     = "https://cdn.shopify.com/s/:splat"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from   = "/cdn/shopifycloud/*"
+  to     = "https://cdn.shopify.com/shopifycloud/:splat"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from   = "/cdn/wpm/*"
+  to     = "https://cdn.shopify.com/wpm/:splat"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from   = "/cdn/fonts/*"
+  to     = "https://cdn.shopify.com/fonts/:splat"
+  status = 200
+  force  = true

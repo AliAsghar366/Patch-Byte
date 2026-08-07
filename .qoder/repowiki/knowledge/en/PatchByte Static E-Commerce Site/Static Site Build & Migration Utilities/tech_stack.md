@@ -1,0 +1,1 @@
+Pure PowerShell with .NET `System.Net.WebClient`/`Invoke-WebRequest`, `System.Text.RegularExpressions`, and JSON serialization via `ConvertTo-Json`; communicates with Shopify CDN and a Supabase Postgres instance over HTTPS/TLS 1.2.

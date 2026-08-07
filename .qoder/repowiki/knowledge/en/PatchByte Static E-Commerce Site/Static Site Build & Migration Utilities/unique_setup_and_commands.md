@@ -1,0 +1,1 @@
+Scripts target a fixed local path `C:\Users\MOS\Desktop\New folder (2)\frontend\patchkraze.com` and must be run from PowerShell; `seed-products.ps1` requires network access to `hjnowvzxusjjyhxxgdji.supabase.co` and embeds an anonymous API key in plaintext.

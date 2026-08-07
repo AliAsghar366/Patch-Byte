@@ -1,0 +1,1 @@
+Static Shopify Dawn theme site for Patch Kraft served by a lightweight Express/Node server that proxies CDN assets, handles Stripe payment intents, and maps clean URLs to prebuilt HTML pages.

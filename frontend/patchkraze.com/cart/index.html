@@ -1,0 +1,185 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cart – Patch Kraft</title>
+  <link rel="icon" type="image/jpeg" href="/cdn/shop/files/Patch_Kraft_Logo.jpg">
+  <link href="/cdn/shop/t/38/assets/base.css" rel="stylesheet">
+  <script src="/js/patchbyte.js"></script>
+  <style>
+    body { font-family: 'Work Sans', system-ui, sans-serif; margin: 0; background: #f9fafb; color: #111827; }
+    .pb-topbar { background:#fff; border-bottom:1px solid #e5e7eb; padding:0 1.5rem; display:flex; align-items:center; justify-content:space-between; height:64px; position:sticky; top:0; z-index:100; }
+    .pb-logo { display:flex; align-items:center; gap:0.5rem; text-decoration:none; }
+    .pb-logo img { height:2rem; width:auto; object-fit:contain; }
+    .pb-nav-links { display:flex; gap:1.5rem; list-style:none; margin:0; padding:0; }
+    .pb-nav-links a { text-decoration:none; color:#374151; font-size:0.875rem; font-weight:500; }
+    .pb-nav-links a:hover { color:#10b981; }
+    .pb-wrap { max-width:900px; margin:0 auto; padding:2rem 1rem; }
+    h1 { font-size:1.75rem; font-weight:700; margin:0 0 1.5rem; }
+    .pb-cart-table { width:100%; border-collapse:collapse; background:#fff; border-radius:12px; overflow:hidden; border:1px solid #e5e7eb; }
+    .pb-cart-table th { background:#f3f4f6; padding:.75rem 1rem; text-align:left; font-size:.8125rem; font-weight:600; color:#6b7280; text-transform:uppercase; letter-spacing:.05em; }
+    .pb-cart-table td { padding:.875rem 1rem; border-top:1px solid #f3f4f6; vertical-align:middle; font-size:.9375rem; }
+    .pb-item-img { width:64px; height:64px; object-fit:contain; border-radius:8px; background:#f9fafb; border:1px solid #e5e7eb; }
+    .pb-item-info { display:flex; align-items:center; gap:1rem; }
+    .pb-item-name { font-weight:600; color:#111827; }
+    .pb-item-props { font-size:.8125rem; color:#9ca3af; margin-top:.2rem; }
+    .pb-qty-wrap { display:flex; align-items:center; gap:.5rem; }
+    .pb-qty-btn { width:28px; height:28px; border:1px solid #d1d5db; background:#fff; border-radius:6px; cursor:pointer; font-size:1rem; display:flex; align-items:center; justify-content:center; transition:background .12s; }
+    .pb-qty-btn:hover { background:#f3f4f6; }
+    .pb-qty-val { min-width:28px; text-align:center; font-weight:600; }
+    .pb-remove { background:none; border:none; color:#ef4444; cursor:pointer; font-size:.875rem; padding:.25rem .5rem; border-radius:4px; }
+    .pb-remove:hover { background:#fef2f2; }
+    .pb-summary { background:#fff; border-radius:12px; border:1px solid #e5e7eb; padding:1.5rem; margin-top:1.5rem; display:flex; flex-direction:column; align-items:flex-end; gap:.75rem; }
+    .pb-summary-row { display:flex; gap:3rem; font-size:1rem; font-weight:700; }
+    .pb-checkout-btn { background:#10b981; color:#fff; border:none; padding:.875rem 2.5rem; border-radius:100px; font-size:1.0625rem; font-weight:700; cursor:pointer; text-decoration:none; display:inline-block; transition:background .15s; }
+    .pb-checkout-btn:hover { background:#059669; }
+    .pb-empty { text-align:center; padding:4rem 1rem; }
+    .pb-empty p { color:#6b7280; font-size:1.125rem; margin-bottom:1.5rem; }
+    .pb-shop-btn { display:inline-block; background:#10b981; color:#fff; padding:.75rem 2rem; border-radius:100px; text-decoration:none; font-weight:600; }
+    @media(max-width:600px) {
+      .pb-cart-table thead { display:none; }
+      .pb-cart-table td { display:block; border-top:none; padding:.5rem 1rem; }
+      .pb-cart-table tr { border-top:1px solid #f3f4f6; display:block; padding:.5rem 0; }
+    }
+  </style>
+</head>
+<body>
+  <header class="pb-topbar">
+    <a class="pb-logo" href="/">
+      <img src="/cdn/shop/files/Patch_Kraft_Logo.jpg" alt="Patch Kraft">
+      <span style="font-weight:700;font-size:1.1rem;color:#111827;">Patch Kraft</span>
+    </a>
+    <nav>
+      <ul class="pb-nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/collections/all">Shop</a></li>
+        <li><a href="/checkout">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="pb-wrap">
+    <h1>Your Cart</h1>
+
+    <div id="pb-cart-loading" style="text-align:center;padding:3rem;color:#6b7280;">Loading…</div>
+
+    <div id="pb-cart-empty" class="pb-empty" style="display:none;">
+      <p>Your cart is empty.</p>
+      <a href="/collections/all" class="pb-shop-btn">Shop Now</a>
+    </div>
+
+    <div id="pb-cart-content" style="display:none;">
+      <table class="pb-cart-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Total</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="pb-cart-body"></tbody>
+      </table>
+      <div class="pb-summary">
+        <div class="pb-summary-row">
+          <span>Total</span>
+          <span id="pb-cart-total">$0.00</span>
+        </div>
+        <a href="/checkout" class="pb-checkout-btn">Proceed to Checkout &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  (async function () {
+    var loadingEl = document.getElementById('pb-cart-loading');
+    var emptyEl   = document.getElementById('pb-cart-empty');
+    var contentEl = document.getElementById('pb-cart-content');
+    var bodyEl    = document.getElementById('pb-cart-body');
+    var totalEl   = document.getElementById('pb-cart-total');
+
+    function fmt(n) { return '$' + (n || 0).toFixed(2); }
+
+    function propsText(props) {
+      if (!props || typeof props !== 'object') return '';
+      return Object.entries(props)
+        .filter(function(e) { return !e[0].startsWith('_'); })
+        .map(function(e) { return e[0] + ': ' + e[1]; }).join(' – ');
+    }
+
+    function renderItem(item) {
+      var imgSrc = (item.properties && item.properties._image) || '';
+      var imgHtml = imgSrc
+        ? '<img class="pb-item-img" src="' + imgSrc + '" alt="" loading="lazy">'
+        : '<div style="width:64px;height:64px;background:#f3f4f6;border-radius:8px;border:1px solid #e5e7eb;flex-shrink:0;"></div>';
+
+      var props = propsText(item.properties);
+      var line  = (item.unit_price || 0) * (item.quantity || 1);
+
+      var tr = document.createElement('tr');
+      tr.id = 'cart-row-' + item.id;
+      tr.innerHTML =
+        '<td><div class="pb-item-info">' + imgHtml +
+          '<div><div class="pb-item-name">' + (item.product_name || item.product_slug) + '</div>' +
+          (props ? '<div class="pb-item-props">' + props + '</div>' : '') +
+          '</div></div></td>' +
+        '<td>' + fmt(item.unit_price) + '</td>' +
+        '<td><div class="pb-qty-wrap">' +
+          '<button class="pb-qty-btn" data-id="' + item.id + '" data-delta="-1">-</button>' +
+          '<span class="pb-qty-val">' + item.quantity + '</span>' +
+          '<button class="pb-qty-btn" data-id="' + item.id + '" data-delta="1">+</button>' +
+          '</div></td>' +
+        '<td>' + fmt(line) + '</td>' +
+        '<td><button class="pb-remove" data-id="' + item.id + '" data-qty="0">Remove</button></td>';
+      return tr;
+    }
+
+    async function renderCart() {
+      if (!window.PatchByte) { loadingEl.textContent = 'Not available.'; return; }
+      var items = await window.PatchByte.getCart();
+      loadingEl.style.display = 'none';
+
+      if (!items || items.length === 0) {
+        emptyEl.style.display = '';
+        return;
+      }
+
+      bodyEl.innerHTML = '';
+      var total = 0;
+      items.forEach(function(item) {
+        total += (item.unit_price || 0) * (item.quantity || 1);
+        bodyEl.appendChild(renderItem(item));
+      });
+      totalEl.textContent = fmt(total);
+      contentEl.style.display = '';
+    }
+
+    async function handleUpdate(id, newQty) {
+      await window.PatchByte.updateCartItem(id, newQty);
+      await renderCart();
+    }
+
+    document.addEventListener('click', function(e) {
+      var btn = e.target.closest('.pb-qty-btn, .pb-remove');
+      if (!btn) return;
+      var id    = btn.getAttribute('data-id');
+      var delta = btn.getAttribute('data-delta');
+      var qty   = btn.getAttribute('data-qty');
+
+      if (delta !== null) {
+        var row   = document.getElementById('cart-row-' + id);
+        var valEl = row && row.querySelector('.pb-qty-val');
+        var cur   = valEl ? parseInt(valEl.textContent, 10) : 1;
+        handleUpdate(id, cur + parseInt(delta, 10));
+      } else if (qty !== null) {
+        handleUpdate(id, parseInt(qty, 10));
+      }
+    });
+
+    await renderCart();
+  }());
+  </script>
+</body>
+</html>

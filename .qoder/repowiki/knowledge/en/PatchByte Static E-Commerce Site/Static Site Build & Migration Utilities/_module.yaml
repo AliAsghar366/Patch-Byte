@@ -1,0 +1,14 @@
+schema_version: 1
+module_path: scripts
+title: Static Site Build & Migration Utilities
+scope:
+    - download-images.ps1
+    - fix-urls.ps1
+    - inject-patchbyte.ps1
+    - rebrand.ps1
+    - seed-products.ps1
+source_files: []
+depends_on: []
+related_to:
+    - path: frontend
+    - path: infra

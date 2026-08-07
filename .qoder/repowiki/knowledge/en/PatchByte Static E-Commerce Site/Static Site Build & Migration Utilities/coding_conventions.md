@@ -1,0 +1,5 @@
+- Each script defines a `$base` variable pointing to the static site root and derives all file paths relative to it.
+- HTML files are read and written as UTF-8 via `[System.Text.Encoding]::UTF8` to preserve special characters.
+- Content extraction uses `[regex]::Matches`/`Match` against HTML source rather than a DOM parser.
+- Progress reporting follows a `total / ok / fail` counter pattern printed to stdout after each batch iteration.
+- Network calls enforce `[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12` before making HTTPS requests.
