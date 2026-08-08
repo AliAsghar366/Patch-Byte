@@ -2382,14 +2382,260 @@ first.parentNode.insertBefore(script, first);
 </style>
 
 <div class="hero-patch-kraze">
-  <!-- Ordering Process Banner -->
-  <img
-    class="hero-banner"
-    src="/cdn/shop/files/order-process-banner.jpg"
-    alt="The PatchKraft Ordering Process"
-    loading="eager"
-  >
+  <!-- Hero Carousel: desktop (1-6.jpg) and mobile (m1-m6.jpg) banners swap via <picture> -->
+  <div class="hero-carousel" data-hero-carousel>
+    <div class="hero-carousel__track" data-hero-track>
+      <div class="hero-carousel__slide">
+        <picture>
+          <source media="(min-width: 768px)" srcset="/hero/1.jpg">
+          <img src="/hero/m7.jpg" alt="Professional identity patches and name badges for healthcare teams" width="1080" height="600" fetchpriority="high" loading="eager">
+        </picture>
+      </div>
+      <div class="hero-carousel__slide">
+        <picture>
+          <source media="(min-width: 768px)" srcset="/hero/2.jpg">
+          <img src="/hero/m8.jpg" alt="Premium custom patches and personalized apparel for brands and teams" width="1080" height="600" loading="lazy">
+        </picture>
+      </div>
+      <div class="hero-carousel__slide">
+        <picture>
+          <source media="(min-width: 768px)" srcset="/hero/3.jpg">
+          <img src="/hero/m9.jpg" alt="Wear your identity — custom patches for jackets, hoodies, caps, bags and more" width="1080" height="600" loading="lazy">
+        </picture>
+      </div>
+      <div class="hero-carousel__slide">
+        <picture>
+          <source media="(min-width: 768px)" srcset="/hero/4.jpg">
+          <img src="/hero/m10.jpg" alt="Unlimited color DTF transfers for vibrant, durable apparel prints" width="1080" height="600" loading="lazy">
+        </picture>
+      </div>
+      <div class="hero-carousel__slide">
+        <picture>
+          <source media="(min-width: 768px)" srcset="/hero/5.jpg">
+          <img src="/hero/m11.jpg" alt="Professional identity, perfectly stitched — embroidered name patches and logo badges" width="1080" height="600" loading="lazy">
+        </picture>
+      </div>
+      <div class="hero-carousel__slide">
+        <picture>
+          <source media="(min-width: 768px)" srcset="/hero/6.jpg">
+          <img src="/hero/m12.jpg" alt="Premium leather patches for jackets and riding gear" width="1080" height="600" loading="lazy">
+        </picture>
+      </div>
+    </div>
+
+    <button class="hero-carousel__arrow hero-carousel__arrow--prev" type="button" data-hero-prev aria-label="Previous banner">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+    <button class="hero-carousel__arrow hero-carousel__arrow--next" type="button" data-hero-next aria-label="Next banner">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+
+    <div class="hero-carousel__dots" data-hero-dots role="tablist" aria-label="Banner navigation"></div>
+  </div>
 </div>
+
+<style>
+  .hero-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  .hero-carousel__track {
+    display: flex;
+    will-change: transform;
+  }
+  .hero-carousel__slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+  }
+  .hero-carousel__slide picture,
+  .hero-carousel__slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  /* Prev / Next arrows — appear on hover */
+  .hero-carousel__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background: rgb(255 255 255 / 0.85);
+    color: #111827;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.18);
+    opacity: 0;
+    transition: opacity 0.25s ease, background-color 0.25s ease;
+  }
+  .hero-carousel:hover .hero-carousel__arrow,
+  .hero-carousel:focus-within .hero-carousel__arrow {
+    opacity: 1;
+  }
+  .hero-carousel__arrow:hover {
+    background: #ffffff;
+  }
+  .hero-carousel__arrow--prev { left: 1rem; }
+  .hero-carousel__arrow--next { right: 1rem; }
+  /* On touch screens there is no hover — keep arrows gently visible */
+  @media (hover: none) {
+    .hero-carousel__arrow { opacity: 0.55; }
+  }
+
+  /* Dots */
+  .hero-carousel__dots {
+    position: absolute;
+    bottom: 0.875rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 999px;
+    background: rgb(0 0 0 / 0.28);
+  }
+  .hero-carousel__dot {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: rgb(255 255 255 / 0.6);
+    cursor: pointer;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+  }
+  .hero-carousel__dot:hover {
+    background: #ffffff;
+    transform: scale(1.25);
+  }
+  .hero-carousel__dot.is-active {
+    background: #d7263d;
+    transform: scale(1.2);
+  }
+</style>
+
+<script>
+(function () {
+  'use strict';
+  var root = document.querySelector('[data-hero-carousel]');
+  if (!root) return;
+
+  var track = root.querySelector('[data-hero-track]');
+  var slides = Array.prototype.slice.call(track.children);
+  var dotsWrap = root.querySelector('[data-hero-dots]');
+  var prevBtn = root.querySelector('[data-hero-prev]');
+  var nextBtn = root.querySelector('[data-hero-next]');
+  var COUNT = slides.length;
+  var INTERVAL = 4000; // 4s autoplay
+  var DURATION = 600;  // transition ms (keep in sync with CSS below)
+
+  var prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Build the dots
+  var dots = [];
+  slides.forEach(function (_, i) {
+    var dot = document.createElement('button');
+    dot.type = 'button';
+    dot.className = 'hero-carousel__dot';
+    dot.setAttribute('role', 'tab');
+    dot.setAttribute('aria-label', 'Go to banner ' + (i + 1));
+    dot.addEventListener('click', function () { goTo(i, false); restart(); });
+    dotsWrap.appendChild(dot);
+    dots.push(dot);
+  });
+
+  // Clone the first slide so the 6 -> 1 wrap is a smooth right-to-left loop
+  var clone = slides[0].cloneNode(true);
+  clone.setAttribute('aria-hidden', 'true');
+  clone.classList.add('hero-carousel__slide--clone');
+  track.appendChild(clone);
+  var TOTAL = COUNT + 1;
+
+  var current = 0;
+  var timer = null;
+  var snapTimer = null;
+
+  function setTransform(index, animated) {
+    track.style.transition = animated ? 'transform ' + DURATION + 'ms cubic-bezier(0.25, 0.46, 0.45, 0.94)' : 'none';
+    track.style.transform = 'translateX(' + (-index * 100) + '%)';
+  }
+
+  function updateDots() {
+    var active = current % COUNT;
+    dots.forEach(function (d, i) {
+      d.classList.toggle('is-active', i === active);
+      d.setAttribute('aria-selected', i === active ? 'true' : 'false');
+    });
+  }
+
+  function goTo(index, animated) {
+    setTransform(index, animated);
+    current = index;
+    updateDots();
+    // After the animated 6 -> clone slide, snap back to the real first slide
+    if (animated && current === COUNT) {
+      clearTimeout(snapTimer);
+      snapTimer = setTimeout(function () { goTo(0, false); }, DURATION + 30);
+    }
+  }
+
+  function next() {
+    goTo(current + 1, true);
+  }
+
+  function prev() {
+    if (current === 0) {
+      // Jump to the clone instantly, then slide back to the last real slide
+      goTo(TOTAL - 1, false);
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () { goTo(COUNT - 1, true); });
+      });
+    } else {
+      goTo(current - 1, true);
+    }
+  }
+
+  function start() {
+    stop();
+    if (prefersReduced) return;
+    timer = setInterval(next, INTERVAL);
+  }
+  function stop() {
+    if (timer) { clearInterval(timer); timer = null; }
+  }
+  function restart() {
+    start();
+  }
+
+  prevBtn.addEventListener('click', function () { prev(); restart(); });
+  nextBtn.addEventListener('click', function () { next(); restart(); });
+
+  // Pause while hovered or focused, resume on leave
+  root.addEventListener('mouseenter', stop);
+  root.addEventListener('mouseleave', start);
+  root.addEventListener('focusin', stop);
+  root.addEventListener('focusout', start);
+
+  // Handle screen-size changes live (e.g. rotating a tablet) — <picture>
+  // swaps the image automatically, nothing else needed.
+  window.addEventListener('resize', function () {
+    // force re-layout so the translate stays at a whole slide
+    setTransform(current, false);
+  });
+
+  goTo(0, false);
+  start();
+})();
+</script>
 </div><div id="shopify-section-template--18420323024980__shop_all_patches" class="shopify-section section-shop-all-patches">
 
 <style>
