@@ -1,0 +1,52 @@
+/* ============================================================
+   PatchByte responsive layer
+   Loaded on every page via patchbyte.js. Keeps the site fluid
+   at every screen size without fighting the theme's own CSS.
+   ============================================================ */
+
+/* 1. Fluid media — never let images/videos/iframes overflow */
+img,
+video,
+iframe,
+canvas {
+  max-width: 100%;
+}
+
+/* 2. Defensive: never allow horizontal page scroll on any viewport.
+   overflow: clip does NOT create a scroll container, so sticky
+   headers keep working (unlike overflow: hidden). */
+@supports (overflow: clip) {
+  html {
+    overflow-x: clip;
+  }
+}
+
+/* 3. Custom page containers: breathe on very large displays */
+@media (min-width: 1600px) {
+  .pb-wrap {
+    max-width: 1200px;
+  }
+}
+
+/* 4. Small phones: roomier tap targets & breathing room */
+@media (max-width: 480px) {
+  .pb-qty-btn {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  .pb-remove {
+    padding: 0.5rem 0.75rem;
+  }
+  .pb-topbar {
+    padding: 0 1rem;
+  }
+}
+
+/* 5. Very narrow screens: keep the checkout row-2/row-3 grids stacked
+   (they collapse at 480px, this also covers edge widths in between) */
+@media (max-width: 640px) {
+  .pb-row-2,
+  .pb-row-3 {
+    grid-template-columns: 1fr !important;
+  }
+}

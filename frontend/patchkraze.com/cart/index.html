@@ -39,8 +39,13 @@
     .pb-shop-btn { display:inline-block; background:#10b981; color:#fff; padding:.75rem 2rem; border-radius:100px; text-decoration:none; font-weight:600; }
     @media(max-width:600px) {
       .pb-cart-table thead { display:none; }
-      .pb-cart-table td { display:block; border-top:none; padding:.5rem 1rem; }
-      .pb-cart-table tr { border-top:1px solid #f3f4f6; display:block; padding:.5rem 0; }
+      .pb-cart-table td { display:block; border-top:none; padding:.375rem 1rem; }
+      .pb-cart-table td::before { content:attr(data-label); display:block; font-size:.6875rem; font-weight:600; color:#9ca3af; text-transform:uppercase; letter-spacing:.04em; margin-bottom:.15rem; }
+      .pb-cart-table td[data-label=""]::before { content:none; }
+      .pb-cart-table tr { border-top:1px solid #f3f4f6; display:block; padding:.75rem 0; }
+      .pb-item-info { align-items:flex-start; }
+      .pb-summary { align-items:center; text-align:center; }
+      .pb-checkout-btn { width:100%; text-align:center; box-sizing:border-box; }
     }
   </style>
 </head>
@@ -121,18 +126,18 @@
       var tr = document.createElement('tr');
       tr.id = 'cart-row-' + item.id;
       tr.innerHTML =
-        '<td><div class="pb-item-info">' + imgHtml +
+        '<td data-label=""><div class="pb-item-info">' + imgHtml +
           '<div><div class="pb-item-name">' + (item.product_name || item.product_slug) + '</div>' +
           (props ? '<div class="pb-item-props">' + props + '</div>' : '') +
           '</div></div></td>' +
-        '<td>' + fmt(item.unit_price) + '</td>' +
-        '<td><div class="pb-qty-wrap">' +
+        '<td data-label="Price">' + fmt(item.unit_price) + '</td>' +
+        '<td data-label="Qty"><div class="pb-qty-wrap">' +
           '<button class="pb-qty-btn" data-id="' + item.id + '" data-delta="-1">-</button>' +
           '<span class="pb-qty-val">' + item.quantity + '</span>' +
           '<button class="pb-qty-btn" data-id="' + item.id + '" data-delta="1">+</button>' +
           '</div></td>' +
-        '<td>' + fmt(line) + '</td>' +
-        '<td><button class="pb-remove" data-id="' + item.id + '" data-qty="0">Remove</button></td>';
+        '<td data-label="Total">' + fmt(line) + '</td>' +
+        '<td data-label=""><button class="pb-remove" data-id="' + item.id + '" data-qty="0">Remove</button></td>';
       return tr;
     }
 

@@ -207,7 +207,14 @@
         })
       });
       var data = await res.json();
-      if (!res.ok) throw new Error(data.error || 'Could not initialize payment.');
+      if (!res.ok) {
+        var msg = data.error || 'Could not initialize payment.';
+        // Never surface raw API-key errors (or the key itself) to customers
+        if (/api key|invalid api/i.test(msg)) {
+          msg = 'Payment is temporarily unavailable. Please try again later or contact support.';
+        }
+        throw new Error(msg);
+      }
       return data.clientSecret;
     }
 

@@ -30,6 +30,15 @@
     } catch (e) { /* keep bundled defaults */ }
   })();
 
+  // Inject the shared responsive stylesheet (served from /js/patchbyte.css)
+  // early so the layout is correct before first paint.
+  (function () {
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = '/js/patchbyte.css';
+    document.head.appendChild(link);
+  })();
+
   // ── Session ───────────────────────────────────────────────────────────────
 
   function getSession() {
