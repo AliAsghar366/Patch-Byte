@@ -2430,7 +2430,7 @@ first.parentNode.insertBefore(script, first);
       <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
     </button>
 
-    <div class="hero-carousel__dots" data-hero-dots role="tablist" aria-label="Banner navigation"></div>
+    <div class="hero-carousel__dots" data-hero-dots role="group" aria-label="Banner navigation"></div>
   </div>
 </div>
 
@@ -2546,9 +2546,8 @@ first.parentNode.insertBefore(script, first);
     var dot = document.createElement('button');
     dot.type = 'button';
     dot.className = 'hero-carousel__dot';
-    dot.setAttribute('role', 'tab');
     dot.setAttribute('aria-label', 'Go to banner ' + (i + 1));
-    dot.addEventListener('click', function () { goTo(i, false); restart(); });
+    dot.addEventListener('click', function () { clearTimeout(snapTimer); goTo(i, false); start(); });
     dotsWrap.appendChild(dot);
     dots.push(dot);
   });
@@ -2573,7 +2572,8 @@ first.parentNode.insertBefore(script, first);
     var active = current % COUNT;
     dots.forEach(function (d, i) {
       d.classList.toggle('is-active', i === active);
-      d.setAttribute('aria-selected', i === active ? 'true' : 'false');
+      if (i === active) d.setAttribute('aria-current', 'true');
+      else d.removeAttribute('aria-current');
     });
   }
 
@@ -2589,10 +2589,20 @@ first.parentNode.insertBefore(script, first);
   }
 
   function next() {
-    goTo(current + 1, true);
+    clearTimeout(snapTimer);
+    if (current === COUNT) {
+      // Already sitting on the clone: snap to the start, then advance
+      goTo(0, false);
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () { goTo(1, true); });
+      });
+    } else {
+      goTo(current + 1, true);
+    }
   }
 
   function prev() {
+    clearTimeout(snapTimer);
     if (current === 0) {
       // Jump to the clone instantly, then slide back to the last real slide
       goTo(TOTAL - 1, false);
@@ -2612,12 +2622,8 @@ first.parentNode.insertBefore(script, first);
   function stop() {
     if (timer) { clearInterval(timer); timer = null; }
   }
-  function restart() {
-    start();
-  }
-
-  prevBtn.addEventListener('click', function () { prev(); restart(); });
-  nextBtn.addEventListener('click', function () { next(); restart(); });
+  prevBtn.addEventListener('click', function () { prev(); start(); });
+  nextBtn.addEventListener('click', function () { next(); start(); });
 
   // Pause while hovered or focused, resume on leave
   root.addEventListener('mouseenter', stop);
