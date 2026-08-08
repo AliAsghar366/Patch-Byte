@@ -15,6 +15,11 @@
 
 const stripe = require('stripe');
 
+// The Stripe publishable key is PUBLIC by design (it ships in every Stripe.js
+// embed), so it serves as a fallback — the payment form loads even before the
+// dashboard env var is set. The SECRET key is never exposed.
+const FALLBACK_STRIPE_PUBLISHABLE_KEY = 'pk_live_51TwKpCJP7cxbSa1MyPuoZmNZB4gmyEmsZNNAz3LHyFqpZhWEAPedN3ZQ2D80h23cgBH3bHsD0YTGVSINSKN8Up0V00zCiG3Cla';
+
 // Supabase fallbacks bundled with the site (public anon credentials) so the
 // cart/checkout still work even if the env vars are not set in the dashboard.
 const FALLBACK_SUPABASE_URL = 'https://hjnowvzxusjjyhxxgdji.supabase.co';
@@ -52,7 +57,7 @@ exports.handler = async (event) => {
   }
 
   if (path === '/stripe-config' && method === 'GET') {
-    return json(200, { publishableKey: process.env.STRIPE_PUBLISHABLE_KEY || '' });
+    return json(200, { publishableKey: process.env.STRIPE_PUBLISHABLE_KEY || FALLBACK_STRIPE_PUBLISHABLE_KEY });
   }
 
   if (path === '/supabase-config' && method === 'GET') {
@@ -74,7 +79,7 @@ exports.handler = async (event) => {
       return json(400, { error: 'Invalid amount.' });
     }
     if (!process.env.STRIPE_SECRET_KEY) {
-      return json(500, { error: 'Stripe is not configured on the server.' });
+      return json(500, { error: 'Stripe payments are not configured yet — add your Stripe secret key to the host dashboard to accept payments.' });
     }
     try {
       const client = stripe(process.env.STRIPE_SECRET_KEY);

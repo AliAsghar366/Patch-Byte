@@ -46,7 +46,7 @@ app.post('/cart/add', (req, res) => {
 // Stripe PaymentIntent endpoint (used by checkout page)
 app.post('/api/create-payment-intent', async (req, res) => {
     if (!stripe) {
-        return res.status(500).json({ error: 'Stripe is not configured on the server.' });
+        return res.status(500).json({ error: 'Stripe payments are not configured yet — add your Stripe secret key to the host dashboard (Settings → Environment Variables) to accept payments.' });
     }
     try {
         const { amount, metadata } = req.body || {};
@@ -67,9 +67,14 @@ app.post('/api/create-payment-intent', async (req, res) => {
     }
 });
 
-// Expose publishable key to frontend so it never has to guess
+// Expose publishable key to frontend so it never has to guess.
+// The publishable key is PUBLIC by design (it ships in every Stripe.js embed),
+// so it also serves as a fallback — the payment form loads even before the
+// dashboard env var is set. The SECRET key is never exposed and must be set
+// in the host dashboard (Vercel/Netlify) for charges to work.
+const FALLBACK_STRIPE_PUBLISHABLE_KEY = 'pk_live_51TwKpCJP7cxbSa1MyPuoZmNZB4gmyEmsZNNAz3LHyFqpZhWEAPedN3ZQ2D80h23cgBH3bHsD0YTGVSINSKN8Up0V00zCiG3Cla';
 app.get('/api/stripe-config', (_req, res) => {
-    res.json({ publishableKey: process.env.STRIPE_PUBLISHABLE_KEY || '' });
+    res.json({ publishableKey: process.env.STRIPE_PUBLISHABLE_KEY || FALLBACK_STRIPE_PUBLISHABLE_KEY });
 });
 
 // Expose Supabase config to the frontend (falls back to the values bundled
