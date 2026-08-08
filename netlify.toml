@@ -5,6 +5,16 @@
 [build.environment]
   NODE_VERSION = "18"
 
+# --- API endpoints (Netlify Function) ---
+# Runs the Express app in netlify/functions/api.js so Stripe checkout and
+# config endpoints work on the static deployment. Env vars must be set in
+# the Netlify dashboard (STRIPE_SECRET_KEY, STRIPE_PUBLISHABLE_KEY,
+# SUPABASE_URL, SUPABASE_ANON_KEY).
+[[redirects]]
+  from   = "/api/*"
+  to     = "/.netlify/functions/api/:splat"
+  status = 200
+
 # --- Missing product page redirects (301 permanent) ---
 [[redirects]]
   from   = "/products/genuine-leather-patches"

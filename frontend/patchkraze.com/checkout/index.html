@@ -238,6 +238,8 @@
       await waitForStripe();
       var publishableKey = await getStripeKey();
       if (!publishableKey || !window.Stripe) {
+        // Show the form + error instead of leaving a blank page
+        mainEl.style.display = '';
         showError('Payment system is not configured. Please contact support.');
         placeBtn.disabled = true;
         return;
@@ -251,6 +253,8 @@
         paymentElement.mount('#pb-payment-element');
         mainEl.style.display = '';
       } catch (err) {
+        // Show the form + error instead of leaving a blank page
+        mainEl.style.display = '';
         showError(err.message || 'Could not load payment form.');
         placeBtn.disabled = true;
         console.error('[PatchByte] Stripe init error:', err);
