@@ -1,12 +1,45 @@
 {
-  "buildCommand": "",
-  "outputDirectory": ".",
+  "buildCommand": "node netlify-build.js",
+  "outputDirectory": "public",
   "functions": {
     "api/index.js": {
-      "includeFiles": "frontend/patchkraze.com/**/*.html,frontend/patchkraze.com/robots.txt,frontend/js/**,frontend/patchkraze.com/cdn/shop/t/**,frontend/patchkraze.com/cdn/fonts/**,frontend/patchkraze.com/cdn/shop/files/Patch_Kraft_Logo.jpg"
+      "maxDuration": 10,
+      "includeFiles": "frontend/server.js"
     }
   },
+  "redirects": [
+    { "source": "/products/genuine-leather-patches", "destination": "/products/leather-patches", "permanent": true },
+    { "source": "/products/chrome-flex-patches", "destination": "/products/full-color-flex-patches", "permanent": true },
+    { "source": "/products/rubber-patches-for-hats", "destination": "/products/pvc-rubber-patches", "permanent": true },
+    { "source": "/products/core-365-ce002-adult-drive-performance-visor-2", "destination": "/collections/all", "permanent": true },
+    { "source": "/products/custom-keychains", "destination": "/collections/all", "permanent": true },
+    { "source": "/policies/shipping-policy", "destination": "/policies/refund-policy", "permanent": true },
+    { "source": "/collections/blanks", "destination": "/collections/patch-kraze-blanks", "permanent": true },
+    { "source": "/pages/heatpress-for-garments", "destination": "/blogs/patches/the-complete-guide-to-heat-pressing-custom-patches-temperature-time-techniques", "permanent": false },
+    { "source": "/pages/heatpress-for-hats", "destination": "/blogs/patches/the-complete-guide-to-heat-pressing-custom-patches-temperature-time-techniques", "permanent": false },
+    { "source": "/pages/iron-for-garments", "destination": "/blogs/patches/the-complete-guide-to-heat-pressing-custom-patches-temperature-time-techniques", "permanent": false },
+    { "source": "/pages/peel-and-stick", "destination": "/blogs/patches/the-complete-guide-to-heat-pressing-custom-patches-temperature-time-techniques", "permanent": false },
+    { "source": "/pages/order-issues", "destination": "/pages/contact", "permanent": false },
+    { "source": "/pages/faq", "destination": "/pages/contact", "permanent": false },
+    { "source": "/pages/satisfaction-guarantee", "destination": "/policies/refund-policy", "permanent": false },
+    { "source": "/pages/printhouse", "destination": "/", "permanent": false },
+    { "source": "/pages/pod", "destination": "/", "permanent": false }
+  ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
+    { "source": "/api/(.*)", "destination": "/api/index" },
+    { "source": "/products/:slug", "destination": "/products/:slug.html" },
+    { "source": "/collections/:slug", "destination": "/collections/:slug.html" },
+    { "source": "/pages/:slug", "destination": "/pages/:slug.html" },
+    { "source": "/blogs/:section/:slug", "destination": "/blogs/:section/:slug.html" },
+    { "source": "/policies/:slug", "destination": "/policies/:slug.html" },
+    { "source": "/cart", "destination": "/cart/index.html" },
+    { "source": "/checkout", "destination": "/checkout/index.html" },
+    { "source": "/cdn/shop/files/(.*)", "destination": "https://cdn.shopify.com/s/files/1/0661/2965/7940/files/$1" },
+    { "source": "/cdn/shop/t/(.*)", "destination": "https://cdn.shopify.com/s/files/1/0661/2965/7940/t/$1" },
+    { "source": "/cdn/shop/videos/(.*)", "destination": "https://cdn.shopify.com/s/files/1/0661/2965/7940/videos/$1" },
+    { "source": "/cdn/shopifycloud/(.*)", "destination": "https://cdn.shopify.com/shopifycloud/$1" },
+    { "source": "/cdn/wpm/(.*)", "destination": "https://cdn.shopify.com/wpm/$1" },
+    { "source": "/cdn/fonts/(.*)", "destination": "https://cdn.shopify.com/fonts/$1" },
+    { "source": "/cdn/s/(.*)", "destination": "https://cdn.shopify.com/s/$1" }
   ]
 }

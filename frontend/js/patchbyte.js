@@ -164,10 +164,32 @@
   // ── Fetch intercept ───────────────────────────────────────────────────────
 
   window._pbOriginalFetch = window.fetch.bind(window);
+  window._pbOriginalSendBeacon = navigator.sendBeacon.bind(navigator);
 
   window.fetch = async function (url, options) {
     var urlStr = (typeof url === 'string') ? url
       : (url instanceof Request ? url.url : String(url));
+
+    // Swallow Shopify-platform-only endpoints (analytics beacons, web pixels,
+    // Shopify Pay, checkout preloads) that don't exist on this static host.
+    // Returning an empty 200 keeps the console clean and nothing depends on
+    // them. This also prevents a network round-trip per beacon.
+    if (/\/\.well-known\/shopify\/|\/web-pixels|\/shopify_pay\/|\/checkouts\/internal\/|\/monorail\/|\/api\/collect/.test(urlStr)) {
+      return new Response(JSON.stringify({ ok: true }), {
+        status: 200, headers: { 'Content-Type': 'application/json' }
+      });
+    }
+
+    // Analytics beacons use navigator.sendBeacon (not fetch), which would
+    // otherwise 404 against this static host. Swallow them too.
+    if (navigator && typeof navigator.sendBeacon === 'function') {
+      navigator.sendBeacon = function (url, data) {
+        if (typeof url === 'string' && /\/\.well-known\/shopify\/|\/monorail\/|\/api\/collect/.test(url)) {
+          return true;
+        }
+        return window._pbOriginalSendBeacon.apply(navigator, arguments);
+      };
+    }
 
     if (urlStr.includes('/cart/add')) {
       return handleCartAdd(options);

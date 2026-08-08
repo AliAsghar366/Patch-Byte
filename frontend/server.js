@@ -108,6 +108,9 @@ app.use((req, res, next) => {
     }
     console.log(`Proxying CDN request: ${cdnPath} -> ${shopifyUrl}`);
     https.get(shopifyUrl, (proxyRes) => {
+        // Pass through Shopify's status code (previously always 200, which
+        // masked upstream 404s with an HTML error body)
+        res.status(proxyRes.statusCode || 200);
         res.set('Content-Type', proxyRes.headers['content-type'] || 'application/octet-stream');
         res.set('Cache-Control', 'public, max-age=86400');
         proxyRes.pipe(res);

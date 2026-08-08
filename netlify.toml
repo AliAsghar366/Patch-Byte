@@ -150,7 +150,23 @@
   to     = "https://cdn.shopify.com/s/files/1/0661/2965/7940/files/:splat"
   status = 200
 
-# --- Proxy other Shopify CDN assets ---
+# --- Theme assets (CSS/JS) ---
+# The pages reference clean names (/cdn/shop/t/38/assets/base.css) but only
+# version-suffixed copies are downloaded locally, so proxy these to Shopify's
+# CDN. MUST come before the /cdn/s/* catch-all below (which would map them to
+# the wrong URL and 404).
+[[redirects]]
+  from   = "/cdn/shop/t/*"
+  to     = "https://cdn.shopify.com/s/files/1/0661/2965/7940/t/:splat"
+  status = 200
+
+# --- Videos (hosted on Shopify, rarely used) ---
+[[redirects]]
+  from   = "/cdn/shop/videos/*"
+  to     = "https://cdn.shopify.com/s/files/1/0661/2965/7940/videos/:splat"
+  status = 200
+
+# --- Other Shopify CDN assets ---
 [[redirects]]
   from   = "/cdn/s/*"
   to     = "https://cdn.shopify.com/s/:splat"
