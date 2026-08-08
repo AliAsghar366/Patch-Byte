@@ -14,6 +14,35 @@ const ROOT = path.join(__dirname, 'patchkraze.com');
 
 app.use(express.json());
 
+// Shopify-compatible cart endpoint (for /cart/add.js requests)
+app.post('/cart/add.js', (req, res) => {
+    console.log('[Server] /cart/add.js endpoint hit');
+    // This endpoint is intercepted by patchbyte.js on the client side
+    // We just return a success response here since the actual cart logic
+    // is handled by the client-side Supabase integration
+    res.json({
+        id: Date.now(),
+        title: 'Item',
+        quantity: 1,
+        price: 0,
+        handle: 'product',
+        key: 'product:' + Date.now()
+    });
+});
+
+app.post('/cart/add', (req, res) => {
+    console.log('[Server] /cart/add endpoint hit');
+    // Same as above for /cart/add endpoint
+    res.json({
+        id: Date.now(),
+        title: 'Item',
+        quantity: 1,
+        price: 0,
+        handle: 'product',
+        key: 'product:' + Date.now()
+    });
+});
+
 // Stripe PaymentIntent endpoint (used by checkout page)
 app.post('/api/create-payment-intent', async (req, res) => {
     if (!stripe) {
@@ -43,7 +72,24 @@ app.get('/api/stripe-config', (_req, res) => {
     res.json({ publishableKey: process.env.STRIPE_PUBLISHABLE_KEY || '' });
 });
 
-// Proxy all /cdn/ paths to Shopify CDN
+// Expose Supabase config to the frontend (falls back to the values bundled
+// with the site so cart/checkout still work even without env vars).
+app.get('/api/supabase-config', (_req, res) => {
+    res.json({
+        supabaseUrl: process.env.SUPABASE_URL || 'https://hjnowvzxusjjyhxxgdji.supabase.co',
+        supabaseAnonKey: process.env.SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhqbm93dnp4dXNqanloeHhnZGppIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg5NjE2MzgsImV4cCI6MjA5NDUzNzYzOH0.vf-N61uWE7A3vaEgxFPNYvKvggZ7ppl1JnEldm3Ofxs'
+    });
+});
+
+// Serve static assets — patchkraze.com/ first, then frontend/ root.
+// These run BEFORE the CDN proxy so locally downloaded assets (logos,
+// product images, theme files) are served directly instead of being
+// proxied to Shopify (many of those CDN URLs now return 404).
+app.use(express.static(ROOT));
+app.use(express.static(__dirname));
+
+// Proxy remaining /cdn/ paths to Shopify CDN (fallback for files that
+// were not downloaded locally).
 app.use((req, res, next) => {
     if (!req.path.startsWith('/cdn')) {
         return next();
@@ -70,10 +116,6 @@ app.use((req, res, next) => {
         res.status(404).send('Not found');
     });
 });
-
-// Serve static assets — patchkraze.com/ first, then frontend/ root
-app.use(express.static(ROOT));
-app.use(express.static(__dirname));
 
 // Permanent redirects for moved/renamed product pages
 const permanentRedirects = {

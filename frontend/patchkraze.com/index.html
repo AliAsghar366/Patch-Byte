@@ -1215,7 +1215,7 @@ first.parentNode.insertBefore(script, first);
   data-shs-logs-sample-rate="1"
   data-shs-beacon-endpoint="/api/collect"
 ></script>
-<script src="/frontend/frontend/js/patchbyte.js"></script>
+<script src="/js/patchbyte.js"></script>
 </head>
 
   <body class="page-width-narrow card-hover-effect-lift">
@@ -1420,13 +1420,7 @@ first.parentNode.insertBefore(script, first);
       </button>
 
       <div class="pk-actions">
-        
-        <a href="/account" class="pk-action-item" style="text-decoration:none;">
-          <span class="pk-action-title">Hello, sign in</span>
-          <span class="pk-action-sub">Account & Reorder</span>
-        </a>
-        
-        <button class="pk-action-item" onclick="document.querySelector('cart-drawer-component').open()" style="background:transparent; border:none; cursor:pointer;">
+        <button class="pk-action-item" onclick="window.location.href='/cart'" style="background:transparent; border:none; cursor:pointer;">
            <cart-icon
   class="
     header-actions__cart-icon
@@ -1493,7 +1487,7 @@ first.parentNode.insertBefore(script, first);
     </a>
     <div class="pk-mobile-icons lg:pk-hidden desktop:hidden">
        <button class="pk-icon-btn" onclick="document.querySelector('#search-modal dialog')?.showModal()"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button>
-       <button class="pk-icon-btn" onclick="document.querySelector('cart-drawer-component').open()">
+       <button class="pk-icon-btn" onclick="window.location.href='/cart'">
           <cart-icon
   class="
     header-actions__cart-icon
@@ -1871,7 +1865,7 @@ first.parentNode.insertBefore(script, first);
 >
   
 <p>
-        Have an account? <a href="/customer_authentication/redirect?locale=en&region_country=US">Log in</a> to check out faster.
+        
       </p><a
       class="button cart-items__empty-button"
       href="/collections/all"
@@ -4423,7 +4417,7 @@ rgb(var(--color-border-rgb) / 1.0); --border-radius:
       <div>
         <h3 class="footer-col-title">Customer Care</h3>
         <ul class="footer-nav-list">
-          <li class="footer-nav-item"><a href="/account" class="footer-nav-link">My Account</a></li>
+          
           <li class="footer-nav-item"><a href="/pages/contact" class="footer-nav-link">Contact Us</a></li>
           <li class="footer-nav-item"><a href="/pages/order-issues" class="footer-nav-link">Order Issue Form</a></li>
           <li class="footer-nav-item"><a href="/pages/satisfaction-guarantee" class="footer-nav-link">Satisfaction Guarantee</a></li>

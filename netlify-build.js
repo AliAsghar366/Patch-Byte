@@ -13,14 +13,24 @@ function copyDir(src, dest, skip) {
   }
 }
 
-// HTML pages — skip the nested cdn/ folder inside patchkraze.com
-copyDir('frontend/patchkraze.com', 'public', ['patchkraze.com/cdn']);
+// HTML pages — skip the accidental nested cdn/cdn scrape artifact AND the
+// 600+MB product-image folder (product images still exist on Shopify's CDN,
+// so they proxy through the netlify.toml redirect; only the logo ships
+// locally because Shopify no longer serves that file).
+copyDir('frontend/patchkraze.com', 'public', ['patchkraze.com/cdn/cdn', 'patchkraze.com/cdn/shop/files']);
 
 // Theme CSS/JS — use updated source which has more files
 copyDir('frontend/patchkraze.com/cdn/shop/t', 'public/cdn/shop/t');
 
 // Fonts (served locally so they don't depend on external CDN)
 copyDir('frontend/patchkraze.com/cdn/fonts', 'public/cdn/fonts');
+
+// Logo — Shopify's CDN no longer serves this file, so ship it locally
+fs.mkdirSync('public/cdn/shop/files', { recursive: true });
+fs.copyFileSync(
+  'frontend/patchkraze.com/cdn/shop/files/Patch_Kraft_Logo.jpg',
+  'public/cdn/shop/files/Patch_Kraft_Logo.jpg'
+);
 
 // patchbyte.js
 copyDir('frontend/js', 'public/js');

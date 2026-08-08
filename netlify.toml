@@ -132,12 +132,13 @@
   to     = "/checkout/index.html"
   status = 200
 
-# --- Proxy CDN product images to Shopify ---
+# --- Proxy CDN product images to Shopify (only if not present locally) ---
+# No force: locally downloaded files (logo, product images) win, missing
+# ones fall through to Shopify's CDN.
 [[redirects]]
   from   = "/cdn/shop/files/*"
   to     = "https://cdn.shopify.com/s/files/1/0661/2965/7940/files/:splat"
   status = 200
-  force  = true
 
 # --- Proxy other Shopify CDN assets ---
 [[redirects]]

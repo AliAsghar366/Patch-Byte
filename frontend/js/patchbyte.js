@@ -10,11 +10,25 @@
   var SB_URL = 'https://hjnowvzxusjjyhxxgdji.supabase.co';
   var SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhqbm93dnp4dXNqanloeHhnZGppIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg5NjE2MzgsImV4cCI6MjA5NDUzNzYzOH0.vf-N61uWE7A3vaEgxFPNYvKvggZ7ppl1JnEldm3Ofxs';
 
-  var HEADERS = {
-    'apikey': SB_KEY,
-    'Authorization': 'Bearer ' + SB_KEY,
-    'Content-Type': 'application/json'
-  };
+  function getHeaders() {
+    return {
+      'apikey': SB_KEY,
+      'Authorization': 'Bearer ' + SB_KEY,
+      'Content-Type': 'application/json'
+    };
+  }
+
+  // Load Supabase credentials from the server (env-configurable) and fall
+  // back to the bundled defaults above. Resolves quickly; every Supabase
+  // call awaits it so the first cart request always uses the right config.
+  var configPromise = (async function () {
+    try {
+      var res = await fetch('/api/supabase-config');
+      var cfg = await res.json();
+      if (cfg && cfg.supabaseUrl) SB_URL = cfg.supabaseUrl;
+      if (cfg && cfg.supabaseAnonKey) SB_KEY = cfg.supabaseAnonKey;
+    } catch (e) { /* keep bundled defaults */ }
+  })();
 
   // ── Session ───────────────────────────────────────────────────────────────
 
@@ -30,12 +44,15 @@
 
   // ── Supabase REST helpers (use saved original fetch) ──────────────────────
 
-  function sbFetch(path, init) {
+  async function sbFetch(path, init) {
+    await configPromise;
+    init = init || {};
+    init.headers = Object.assign({}, getHeaders(), init.headers || {});
     return (window._pbOriginalFetch || fetch)(SB_URL + '/rest/v1/' + path, init);
   }
 
   async function sbGet(path) {
-    var res = await sbFetch(path, { headers: HEADERS });
+    var res = await sbFetch(path, {});
     if (!res.ok) return [];
     return res.json();
   }
@@ -43,7 +60,7 @@
   async function sbPost(table, data) {
     var res = await sbFetch(table, {
       method: 'POST',
-      headers: Object.assign({}, HEADERS, { 'Prefer': 'return=representation' }),
+      headers: { 'Prefer': 'return=representation' },
       body: JSON.stringify(data)
     });
     var text = await res.text();
@@ -53,7 +70,7 @@
   async function sbPatch(table, match, data) {
     var res = await sbFetch(table + '?' + match, {
       method: 'PATCH',
-      headers: Object.assign({}, HEADERS, { 'Prefer': 'return=representation' }),
+      headers: { 'Prefer': 'return=representation' },
       body: JSON.stringify(data)
     });
     var text = await res.text();
@@ -61,7 +78,7 @@
   }
 
   async function sbDelete(table, match) {
-    await sbFetch(table + '?' + match, { method: 'DELETE', headers: HEADERS });
+    await sbFetch(table + '?' + match, { method: 'DELETE' });
   }
 
   // ── Cart CRUD ─────────────────────────────────────────────────────────────
@@ -164,6 +181,7 @@
 
   async function handleCartAdd(options) {
     try {
+      console.log('[PatchByte] handleCartAdd called', options);
       var pathname = window.location.pathname;
       var slugMatch = pathname.match(/\/products\/([^/]+)/);
       var product_slug = slugMatch ? slugMatch[1] : 'unknown';
@@ -194,6 +212,16 @@
       } else if (ogMeta) {
         unit_price = parseFloat(ogMeta.getAttribute('content')) || 0;
       }
+
+      // If no price found, try to get from price display elements
+      if (unit_price === 0) {
+        var priceEl = document.querySelector('.price, .product-price, [data-price]');
+        if (priceEl) {
+          unit_price = parseFloat(priceEl.textContent.replace(/[^0-9.]/g, '')) || 0;
+        }
+      }
+
+      console.log('[PatchByte] Adding to cart:', { product_slug, product_name, unit_price, quantity, properties });
 
       // Capture product image for cart display
       var product_image = '';
@@ -290,11 +318,15 @@
   // ── Fix cart icon → navigate to /cart ────────────────────────────────────
 
   function wireCartIcon() {
+    function navToCart() { window.location.href = '/cart'; }
+
     function goToCart(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      e.stopImmediatePropagation();
-      window.location.href = '/cart';
+      if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+      }
+      navToCart();
     }
 
     // Scan every button and redirect cart-related ones to /cart
@@ -317,6 +349,17 @@
         btn.addEventListener('click', goToCart, true); // capture beats bubble
       }
     });
+
+    // The Shopify cart drawer cannot render Supabase cart data on this
+    // static site (it would open empty), so make opening it navigate to
+    // the real /cart page instead — this is what happens after "Add to
+    // Cart" on product pages.
+    var drawer = document.querySelector('cart-drawer-component');
+    if (drawer) {
+      drawer.open = navToCart;
+      drawer.showDialog = navToCart;
+      if (typeof drawer.show === 'function') drawer.show = navToCart;
+    }
   }
 
   // ── Init ──────────────────────────────────────────────────────────────────

@@ -3,7 +3,7 @@
   "outputDirectory": ".",
   "functions": {
     "api/index.js": {
-      "includeFiles": "frontend/patchkraze.com/**/*.html,frontend/patchkraze.com/robots.txt,frontend/js/**,frontend/cdn/shop/t/**"
+      "includeFiles": "frontend/patchkraze.com/**/*.html,frontend/patchkraze.com/robots.txt,frontend/js/**,frontend/patchkraze.com/cdn/shop/t/**,frontend/patchkraze.com/cdn/fonts/**,frontend/patchkraze.com/cdn/shop/files/Patch_Kraft_Logo.jpg"
     }
   },
   "rewrites": [
