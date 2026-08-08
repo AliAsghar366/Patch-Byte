@@ -32,9 +32,24 @@ function json(status, body) {
   };
 }
 
+// Sanity cap for client-supplied amounts: $100,000 (in cents). Prevents
+// absurd live charges if the checkout page (or a caller) sends a bogus total.
+const MAX_AMOUNT_CENTS = 10000000;
+
 exports.handler = async (event) => {
-  const path = (event.path || '').replace(/^\/api/, '') || '/';
+  // event.path is normally the original request path (/api/...); some gateway
+  // configs deliver the internal function path instead — accept both, and a
+  // trailing slash.
+  const path = (event.path || '')
+    .replace(/^\/api/, '')
+    .replace(/^\/\.netlify\/functions\/api/, '')
+    .replace(/\/$/, '') || '/';
   const method = event.httpMethod || 'GET';
+
+  // Preflight support for cross-origin callers (not used same-origin today).
+  if (method === 'OPTIONS') {
+    return json(204, null);
+  }
 
   if (path === '/stripe-config' && method === 'GET') {
     return json(200, { publishableKey: process.env.STRIPE_PUBLISHABLE_KEY || '' });
@@ -49,9 +64,13 @@ exports.handler = async (event) => {
 
   if (path === '/create-payment-intent' && method === 'POST') {
     let body = {};
-    try { body = JSON.parse(event.body || '{}'); } catch (e) { /* ignore */ }
+    try {
+      body = typeof event.body === 'object' && event.body !== null
+        ? event.body
+        : JSON.parse(event.body || '{}');
+    } catch (e) { /* ignore */ }
     const amountCents = Math.round(Number(body.amount));
-    if (!amountCents || amountCents <= 0) {
+    if (!amountCents || amountCents <= 0 || amountCents > MAX_AMOUNT_CENTS) {
       return json(400, { error: 'Invalid amount.' });
     }
     if (!process.env.STRIPE_SECRET_KEY) {
