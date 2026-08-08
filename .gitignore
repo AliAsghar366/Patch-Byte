@@ -2,8 +2,12 @@
 node_modules/
 frontend/node_modules/
 
+# Freebuff workspace metadata
+.freebuff/
+
 # Downloaded CDN images (large binary assets)
 frontend/cdn/shop/files/
+frontend/patchkraze.com/cdn/shop/files/
 
 # Netlify build output (generated at deploy time)
 /public/
