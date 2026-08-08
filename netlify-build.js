@@ -31,6 +31,10 @@ fs.copyFileSync(
   'frontend/patchkraze.com/cdn/shop/files/Patch_Kraft_Logo.jpg',
   'public/cdn/shop/files/Patch_Kraft_Logo.jpg'
 );
+fs.copyFileSync(
+  'frontend/patchkraze.com/cdn/shop/files/order-process-banner.jpg',
+  'public/cdn/shop/files/order-process-banner.jpg'
+);
 
 // patchbyte.js
 copyDir('frontend/js', 'public/js');

@@ -2242,36 +2242,12 @@ first.parentNode.insertBefore(script, first);
 <style>
   .hero-patch-kraze {
     width: 100%;
-    background-color: #111827; /* gray-900 - fallback */
-    padding: 5rem 1rem;
-    position: relative;
-    overflow: hidden;
+    background-color: #ffffff;
   }
-  .hero-bg-video {
-    position: absolute;
-    top: 0;
-    left: 0;
+  .hero-banner {
+    display: block;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
-    pointer-events: none;
-  }
-  .hero-bg-video.desktop-only { display: block; }
-  .hero-bg-video.mobile-only { display: none; }
-  @media (max-width: 767px) {
-    .hero-bg-video.desktop-only { display: none; }
-    .hero-bg-video.mobile-only { display: block; }
-  }
-  .hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(17, 24, 39, 0.55); /* dark tint for text readability */
-    z-index: 1;
-    pointer-events: none;
+    height: auto;
   }
   .hero-container {
     max-width: 1280px;
@@ -2406,75 +2382,13 @@ first.parentNode.insertBefore(script, first);
 </style>
 
 <div class="hero-patch-kraze">
-  <!-- Background Video: Desktop -->
-  <video class="hero-bg-video desktop-only" autoplay muted loop playsinline preload="auto">
-    <source src="https://cdn.shopify.com/videos/c/o/v/ed01baa43cef4b548cf87e21b7d3347f.mp4" type="video/mp4">
-  </video>
-  <!-- Background Video: Mobile -->
-  <video class="hero-bg-video mobile-only" autoplay muted loop playsinline preload="auto">
-    <source src="https://cdn.shopify.com/videos/c/o/v/e5e7c87c243a4ed3b633e3c850b1d23d.mp4" type="video/mp4">
-  </video>
-  <!-- Dark overlay for text readability -->
-  <div class="hero-overlay"></div>
-
-  <div class="hero-container">
-    <div class="hero-content">
-      
-      <!-- Left Content -->
-      <div class="hero-text-side">
-        <!-- Heading -->
-        <h1 class="hero-heading">
-          Premium Custom Patches with Low 10-Piece Minimums
-        </h1>
-
-        <!-- Description -->
-        <p class="hero-description">
-          15+ premium heat-pressable patch styles that apply in just 20 seconds. 5-day rush shipping available for select patch types.
-        </p>
-
-        <!-- Benefits -->
-        <div class="hero-benefits">
-          <div class="hero-benefit-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            <span>Free Shipping</span>
-          </div>
-          <div class="hero-benefit-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            <span>Low Minimums</span>
-          </div>
-          <div class="hero-benefit-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            <span>No Setup Fees</span>
-          </div>
-        </div>
-
-        <!-- CTA Buttons -->
-        <div class="hero-actions">
-          <a href="/collections/custom-patches" class="btn-primary-patch">
-            Shop Custom Patches
-          </a>
-          <a href="/collections/rush-order" class="btn-secondary-patch">
-            Shop 5 Day Rush Patches
-          </a>
-        </div>
-      </div>
-
-      <!-- Right Content -->
-      <div class="hero-image-side">
-        <div class="hero-img-wrapper">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0661/2965/7940/files/hero-section-image.png?v=1770374577"
-            alt="Custom patches on black baseball cap with sample designs"
-            width="1200"
-            height="1200"
-            class="hero-img"
-            loading="eager"
-          >
-        </div>
-      </div>
-
-    </div>
-  </div>
+  <!-- Ordering Process Banner -->
+  <img
+    class="hero-banner"
+    src="/cdn/shop/files/order-process-banner.jpg"
+    alt="The PatchKraft Ordering Process"
+    loading="eager"
+  >
 </div>
 </div><div id="shopify-section-template--18420323024980__shop_all_patches" class="shopify-section section-shop-all-patches">
 
