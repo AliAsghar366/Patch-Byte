@@ -7,7 +7,9 @@ frontend/node_modules/
 
 # Downloaded CDN images (large binary assets)
 frontend/cdn/shop/files/
-frontend/patchkraze.com/cdn/shop/files/
+frontend/patchkraze.com/cdn/shop/files/*
+# ...except the ordering-process cards, which the homepage uses and ships locally
+!frontend/patchkraze.com/cdn/shop/files/order-process-*.png
 
 # Netlify build output (generated at deploy time)
 /public/

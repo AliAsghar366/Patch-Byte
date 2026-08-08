@@ -35,6 +35,14 @@ fs.copyFileSync(
   'frontend/patchkraze.com/cdn/shop/files/order-process-banner.jpg',
   'public/cdn/shop/files/order-process-banner.jpg'
 );
+// Ordering-process step cards (text is baked into the images, so they ship
+// locally — Shopify's CDN returns 404 for them)
+for (let i = 1; i <= 4; i++) {
+  fs.copyFileSync(
+    `frontend/patchkraze.com/cdn/shop/files/order-process-${i}.png`,
+    `public/cdn/shop/files/order-process-${i}.png`
+  );
+}
 
 // patchbyte.js
 copyDir('frontend/js', 'public/js');
