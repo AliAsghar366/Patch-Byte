@@ -17,3 +17,4 @@ wget-log.txt
 
 # Secrets
 .env
+/.netlify/
