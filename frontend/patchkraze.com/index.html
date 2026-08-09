@@ -3300,8 +3300,13 @@ first.parentNode.insertBefore(script, first);
     text-align: center;
   }
   .feature-icon {
-    font-size: 3rem; /* 5xl */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 1.5rem;
+  }
+  .feature-icon svg {
+    display: block;
   }
   .feature-title {
     font-size: 1.25rem; /* xl */
@@ -3345,7 +3350,7 @@ first.parentNode.insertBefore(script, first);
     <!-- Headline and Subtitle -->
     <div class="credibility-header">
       <h2 class="credibility-title">
-        #1 Site In The USA To Order Personalized Embroidery Patches
+        #1 Site To Order Personalized Embroidery Patches
       </h2>
       <p class="credibility-subtitle">
         Out of so many reasons, let's focus on the top three ones why we are the best team to customize embroidered patches for you.
@@ -3357,21 +3362,27 @@ first.parentNode.insertBefore(script, first);
       
       <!-- Feature 1 -->
       <div class="credibility-feature">
-        <div class="feature-icon">?</div>
+        <div class="feature-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#d7263d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9.5-8 11-4.5-1.5-8-6-8-11V5l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
         <h3 class="feature-title">High-Quality Materials</h3>
         <p class="feature-desc">We use premium threads and durable fabrics to ensure long-lasting emblems that withstand wear and tear.</p>
       </div>
 
       <!-- Feature 2 -->
       <div class="credibility-feature">
-        <div class="feature-icon">??</div>
+        <div class="feature-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#d7263d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="12" r="3"/><rect x="14" y="3" width="4" height="9" rx="1"/><path d="M13 18l2.5-2.5L18 18l-2.5 2.5L13 18z"/></svg>
+        </div>
         <h3 class="feature-title">All Shapes & Sizes</h3>
         <p class="feature-desc">From classic circles and squares to unique shapes, we can create crests in virtually any size to match your vision.</p>
       </div>
 
       <!-- Feature 3 -->
       <div class="credibility-feature">
-        <div class="feature-icon">%</div>
+        <div class="feature-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#d7263d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4L11 3.8A2 2 0 0 0 9.6 3.2H4a1 1 0 0 0-1 1v5.6c0 .5.2 1 .6 1.4l9.6 9.6a2 2 0 0 0 2.8 0l4.6-4.6a2 2 0 0 0 0-2.8z"/><circle cx="7.5" cy="7.5" r="1.2" fill="#d7263d" stroke="none"/></svg>
+        </div>
         <h3 class="feature-title">Cost-Effective Prices</h3>
         <p class="feature-desc">You can order our cool Velcro patches at your desired rates. Yes, our prices will never fall out of your budget.</p>
       </div>
@@ -4523,9 +4534,8 @@ rgb(var(--color-border-rgb) / 1.0); --border-radius:
 
         <div class="footer-contact-block">
           <span class="contact-title">Phone</span>
-          Mon-Fri: 8:00am - 12:00am EST<br>
-          Sat-Sun: 9:00am - 5:00pm EST<br>
-          <a href="tel:909-931-6231" class="footer-nav-link">909-931-6231</a>
+          US: <a href="tel:+14064792035" class="footer-nav-link">+1 406-479-2035</a><br>
+          UK: <a href="tel:+447737143286" class="footer-nav-link">+44 7737 143286</a>
         </div>
 
         <div class="footer-contact-block">
@@ -4533,14 +4543,15 @@ rgb(var(--color-border-rgb) / 1.0); --border-radius:
         </div>
 
         <div class="footer-contact-block">
-          <span class="contact-title">Address</span>
-          2720 NJ-42<br>
-          Sickerville, NJ 08081
+          <span class="contact-title">US Address</span>
+          1001 S Main St, Ste 500<br>
+          Kalispell, MT 59901-1498
         </div>
 
         <div class="footer-contact-block">
-          1848 W 11th St Suite G<br>
-          Upland, CA 91786
+          <span class="contact-title">UK Address</span>
+          Office 1246, 85 Dunstall Hill<br>
+          Wolverhampton, England WV6 0SR
         </div>
       </div>
     
