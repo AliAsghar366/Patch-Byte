@@ -14,6 +14,23 @@ const PORT = process.env.PORT || 3000;
 const ROOT = path.join(__dirname, 'patchkraze.com');
 
 app.use(express.json());
+app.disable('x-powered-by');
+
+// Security headers: storefront gets nosniff/referrer; admin API responses
+// are never cached; the admin page resists framing/clickjacking and only
+// loads its own scripts.
+app.use((req, res, next) => {
+    res.set('X-Content-Type-Options', 'nosniff');
+    res.set('Referrer-Policy', 'no-referrer');
+    if (req.path.startsWith('/api/admin')) {
+        res.set('Cache-Control', 'no-store, no-cache, must-revalidate, private');
+    }
+    if (req.path.startsWith('/admin')) {
+        res.set('X-Frame-Options', 'DENY');
+        res.set('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'");
+    }
+    next();
+});
 
 // Shopify-compatible cart endpoint (for /cart/add.js requests)
 app.post('/cart/add.js', (req, res) => {
@@ -102,7 +119,12 @@ const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'TahaRizvi1214';
 if (!process.env.ADMIN_PASSWORD) {
     console.warn('[Admin] ADMIN_PASSWORD is not set — using the built-in default. Set ADMIN_PASSWORD in the environment to override.');
 }
-const ADMIN_SECRET = process.env.ADMIN_TOKEN_SECRET || ADMIN_PASSWORD || 'patchbyte-insecure-dev-secret';
+// Token signing secret — NEVER a hardcoded constant. Prefer a dedicated
+// ADMIN_TOKEN_SECRET; otherwise tokens are signed with the admin password.
+const ADMIN_SECRET = process.env.ADMIN_TOKEN_SECRET || ADMIN_PASSWORD;
+if (!process.env.ADMIN_TOKEN_SECRET) {
+    console.warn('[Admin] ADMIN_TOKEN_SECRET is not set — session tokens are signed with the admin password. Set ADMIN_TOKEN_SECRET for stronger sessions.');
+}
 const ADMIN_TOKEN_TTL_MS = 12 * 60 * 60 * 1000; // 12 hours
 const ADMIN_URL = process.env.SUPABASE_URL || 'https://hjnowvzxusjjyhxxgdji.supabase.co';
 const ADMIN_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY || '';
@@ -158,9 +180,30 @@ function verifyToken(token) {
     }
 }
 
+function clientIp(req) {
+    const fwd = req.headers['x-forwarded-for'];
+    return (typeof fwd === 'string' ? fwd.split(',')[0].trim() : '') || req.socket.remoteAddress || 'unknown';
+}
+
+function safeEqual(a, b) {
+    const ba = Buffer.from(String(a));
+    const bb = Buffer.from(String(b));
+    return ba.length === bb.length && crypto.timingSafeEqual(ba, bb);
+}
+
 function requireAdmin(req, res, next) {
     const auth = req.headers.authorization || '';
-    const token = auth.startsWith('Bearer ') ? auth.slice(7) : '';
+    let token = auth.startsWith('Bearer ') ? auth.slice(7) : '';
+    if (!token) {
+        // Fall back to the HttpOnly session cookie set at login.
+        const cookies = String(req.headers.cookie || '').split(';');
+        for (const c of cookies) {
+            const eq = c.indexOf('=');
+            if (eq === -1) continue;
+            const key = c.slice(0, eq).trim();
+            if (key === 'pk_admin') token = decodeURIComponent(c.slice(eq + 1).trim());
+        }
+    }
     if (!verifyToken(token)) {
         return res.status(401).json({ error: 'Unauthorized. Please sign in again.' });
     }
@@ -195,21 +238,61 @@ function isMissingColumn(errMsg) {
     return /PGRST204|column.*does not exist|Could not find/.test(String(errMsg || ''));
 }
 
+// In-memory brute-force throttle. On serverless hosts the counter resets on
+// cold starts — it still raises the bar, but for production-grade protection
+// prefer a managed rate limiter at the edge (e.g. Vercel/Netlify WAF).
+const loginAttempts = new Map();
+const MAX_LOGIN_ATTEMPTS = 8;
+const LOGIN_WINDOW_MS = 15 * 60 * 1000;
+const LOCKOUT_MS = 15 * 60 * 1000;
+
 app.post('/api/admin/login', async (req, res) => {
-    if (!ADMIN_PASSWORD) {
-        return res.status(503).json({ error: 'Admin password is not configured. Set ADMIN_PASSWORD in the server environment (Settings → Environment Variables on Vercel/Netlify, or .env locally), then restart.' });
+    const ip = clientIp(req);
+    const now = Date.now();
+    const rec = loginAttempts.get(ip) || { count: 0, windowStart: now, lockedUntil: 0 };
+    if (rec.lockedUntil > now) {
+        const mins = Math.ceil((rec.lockedUntil - now) / 60000);
+        return res.status(429).json({ error: 'Too many failed attempts. Try again in ' + mins + ' minute(s).' });
     }
+    if (now - rec.windowStart > LOGIN_WINDOW_MS) {
+        rec.count = 0;
+        rec.windowStart = now;
+    }
+
     const password = (req.body && req.body.password) || '';
-    if (password !== ADMIN_PASSWORD) {
+    if (!safeEqual(password, ADMIN_PASSWORD)) {
+        rec.count += 1;
+        if (rec.count >= MAX_LOGIN_ATTEMPTS) {
+            rec.lockedUntil = now + LOCKOUT_MS;
+            rec.count = 0;
+        }
+        loginAttempts.set(ip, rec);
         return res.status(401).json({ error: 'Incorrect password.' });
     }
-    const payload = { sub: 'admin', exp: Date.now() + ADMIN_TOKEN_TTL_MS };
+    loginAttempts.delete(ip);
+
+    const payload = { sub: 'admin', exp: now + ADMIN_TOKEN_TTL_MS };
+    const token = signToken(payload);
+    // HttpOnly cookie (immune to XSS reads) alongside the client-side token.
+    const isHttps = req.secure || String(req.headers['x-forwarded-proto'] || '').split(',')[0].trim() === 'https';
+    res.cookie('pk_admin', token, {
+        httpOnly: true,
+        sameSite: 'strict',
+        secure: isHttps,
+        maxAge: ADMIN_TOKEN_TTL_MS,
+        path: '/'
+    });
     res.json({
-        token: signToken(payload),
+        token,
         expiresAt: payload.exp,
         schema: (await isLegacySchema()) ? 'legacy' : 'migrated',
         warning: ADMIN_USES_ANON ? 'SUPABASE_SERVICE_ROLE_KEY is not set — using the public anon key. Set it in the environment for full admin access.' : null
     });
+});
+
+app.post('/api/admin/logout', (req, res) => {
+    res.clearCookie('pk_admin', { path: '/' });
+    res.json({ ok: true });
 });
 
 app.get('/api/admin/me', requireAdmin, async (req, res) => {
@@ -620,7 +703,9 @@ app.get('/api/admin/export', requireAdmin, async (req, res) => {
         const rows = result.data || [];
         const esc = v => {
             const s = (v === null || v === undefined) ? '' : (typeof v === 'object' ? JSON.stringify(v) : String(v));
-            return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+            // Guard against CSV formula injection (=, +, -, @ leading cells).
+            const guarded = /^[=+\-@]/.test(s) ? "'" + s : s;
+            return /[",\n]/.test(guarded) ? '"' + guarded.replace(/"/g, '""') + '"' : guarded;
         };
         const header = ['id', 'created_at', 'customer_name', 'customer_email', 'customer_phone', 'total', 'status', 'payment_status', 'refunded_amount', 'tracking_number', 'tracking_url', 'shipping_address', 'notes', 'admin_notes', 'payment_intent_id'];
         const lines = [header.join(',')];
@@ -641,6 +726,14 @@ app.get('/api/admin/export', requireAdmin, async (req, res) => {
 // These run BEFORE the CDN proxy so locally downloaded assets (logos,
 // product images, theme files) are served directly instead of being
 // proxied to Shopify (many of those CDN URLs now return 404).
+// Server source / package files must never be downloadable.
+const BLOCKED_STATIC = ['/server.js', '/package.json', '/package-lock.json', '/vercel.json', '/netlify-build.js', '/start-server.bat', '/.env', '/.env.example'];
+app.use((req, res, next) => {
+    if (BLOCKED_STATIC.includes(req.path.toLowerCase())) {
+        return res.status(404).end();
+    }
+    next();
+});
 app.use(express.static(ROOT));
 app.use(express.static(__dirname));
 

@@ -125,6 +125,8 @@
   }
 
   function logout(expired) {
+    // Best-effort server-side logout to clear the HttpOnly session cookie.
+    try { fetch(API + '/logout', { method: 'POST', headers: { 'Authorization': 'Bearer ' + token() } }).catch(function () {}); } catch (e) { /* ignore */ }
     sessionStorage.removeItem(TOKEN_KEY);
     showLogin();
     if (expired) {
