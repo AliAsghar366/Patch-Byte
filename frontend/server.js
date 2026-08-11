@@ -127,7 +127,12 @@ if (!process.env.ADMIN_TOKEN_SECRET) {
 }
 const ADMIN_TOKEN_TTL_MS = 12 * 60 * 60 * 1000; // 12 hours
 const ADMIN_URL = process.env.SUPABASE_URL || 'https://hjnowvzxusjjyhxxgdji.supabase.co';
-const ADMIN_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY || '';
+const BUNDLED_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhqbm93dnp4dXNqanloeHhnZGppIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg5NjE2MzgsImV4cCI6MjA5NDUzNzYzOH0.vf-N61uWE7A3vaEgxFPNYvKvggZ7ppl1JnEldm3Ofxs';
+// Server key for admin reads/writes. The service role key bypasses RLS; the
+// anon key (or the bundled fallback) still works but sees only what RLS
+// allows — after admin-migration.sql that means no order reads, so the
+// portal shows empty data until SUPABASE_SERVICE_ROLE_KEY is set on the host.
+const ADMIN_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY || BUNDLED_ANON_KEY;
 const ADMIN_USES_ANON = !process.env.SUPABASE_SERVICE_ROLE_KEY; // warn when falling back to the anon key
 
 // Column sets tried in order until Supabase accepts one, so the portal keeps
@@ -340,7 +345,7 @@ app.get('/api/admin/orders', requireAdmin, async (req, res) => {
             const errMsg = typeof result.data === 'string' ? result.data : JSON.stringify(result.data);
             if (!isMissingColumn(errMsg)) break; // real error — stop laddering
         }
-        if (!result.ok) throw new Error(typeof result.data === 'string' ? result.data : 'Failed to load orders');
+        if (!result.ok) throw new Error(typeof result.data === 'string' ? result.data : 'Failed to load orders (Supabase ' + result.status + ')');
 
         res.json({ orders: result.data || [], total: result.count || 0, page, perPage });
     } catch (err) {
@@ -562,7 +567,7 @@ app.get('/api/admin/stats', requireAdmin, async (req, res) => {
             const errMsg = typeof ordersRes.data === 'string' ? ordersRes.data : JSON.stringify(ordersRes.data);
             if (!isMissingColumn(errMsg)) break;
         }
-        if (!ordersRes.ok) throw new Error(typeof ordersRes.data === 'string' ? ordersRes.data : 'Failed to load stats');
+        if (!ordersRes.ok) throw new Error(typeof ordersRes.data === 'string' ? ordersRes.data : 'Failed to load stats (Supabase ' + ordersRes.status + ')');
 
         const itemsRes = await supabase('order_items?select=product_name,product_slug,unit_price,quantity&limit=10000');
 
