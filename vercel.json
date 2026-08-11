@@ -34,6 +34,8 @@
     { "source": "/policies/:slug", "destination": "/policies/:slug.html" },
     { "source": "/cart", "destination": "/cart/index.html" },
     { "source": "/checkout", "destination": "/checkout/index.html" },
+    { "source": "/admin", "destination": "/admin/index.html" },
+    { "source": "/admin/", "destination": "/admin/index.html" },
     { "source": "/cdn/shop/files/(.*)", "destination": "https://cdn.shopify.com/s/files/1/0661/2965/7940/files/$1" },
     { "source": "/cdn/shop/t/(.*)", "destination": "https://cdn.shopify.com/s/files/1/0661/2965/7940/t/$1" },
     { "source": "/cdn/shop/videos/(.*)", "destination": "https://cdn.shopify.com/s/files/1/0661/2965/7940/videos/$1" },
