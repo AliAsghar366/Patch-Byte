@@ -1,100 +1,19 @@
-// Netlify Function — PatchByte API (Stripe + Supabase config endpoints).
+// Netlify Function — PatchByte API.
 //
-// netlify.toml rewrites /api/* to this function. It implements the three
-// API endpoints directly (no Express, no serverless-http) so the bundle is
-// trivial and deploys reliably on Netlify's build image:
+// Routes the full Express app (frontend/server.js) through serverless-http,
+// so ALL API endpoints work on Netlify: the storefront's stripe/supabase
+// config and payment-intent endpoints AND the /api/admin/* portal endpoints
+// (login, orders, stats, refunds, export).
 //
-//   GET  /api/stripe-config      → { publishableKey }
-//   GET  /api/supabase-config    → { supabaseUrl, supabaseAnonKey }
-//   POST /api/create-payment-intent → { clientSecret }
+// netlify.toml rewrites /api/* to this function.
 //
 // Env vars come from the Netlify dashboard (NOT from .env, which is
 // gitignored and local-only). Set in Netlify → Site settings → Environment
 // variables: STRIPE_SECRET_KEY, STRIPE_PUBLISHABLE_KEY, SUPABASE_URL,
-// SUPABASE_ANON_KEY.
+// SUPABASE_ANON_KEY, ADMIN_PASSWORD, ADMIN_TOKEN_SECRET,
+// SUPABASE_SERVICE_ROLE_KEY.
 
-const stripe = require('stripe');
+const serverless = require('serverless-http');
+const app = require('../../frontend/server.js');
 
-// The Stripe publishable key is PUBLIC by design (it ships in every Stripe.js
-// embed), so it serves as a fallback — the payment form loads even before the
-// dashboard env var is set. The SECRET key is never exposed.
-const FALLBACK_STRIPE_PUBLISHABLE_KEY = 'pk_live_51TwKpCJP7cxbSa1MyPuoZmNZB4gmyEmsZNNAz3LHyFqpZhWEAPedN3ZQ2D80h23cgBH3bHsD0YTGVSINSKN8Up0V00zCiG3Cla';
-
-// Supabase fallbacks bundled with the site (public anon credentials) so the
-// cart/checkout still work even if the env vars are not set in the dashboard.
-const FALLBACK_SUPABASE_URL = 'https://hjnowvzxusjjyhxxgdji.supabase.co';
-const FALLBACK_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhqbm93dnp4dXNqanloeHhnZGppIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg5NjE2MzgsImV4cCI6MjA5NDUzNzYzOH0.vf-N61uWE7A3vaEgxFPNYvKvggZ7ppl1JnEldm3Ofxs';
-
-function json(status, body) {
-  return {
-    statusCode: status,
-    headers: {
-      'Content-Type': 'application/json',
-      'Access-Control-Allow-Origin': '*',
-      'Cache-Control': 'no-store',
-    },
-    body: JSON.stringify(body),
-  };
-}
-
-// Sanity cap for client-supplied amounts: $100,000 (in cents). Prevents
-// absurd live charges if the checkout page (or a caller) sends a bogus total.
-const MAX_AMOUNT_CENTS = 10000000;
-
-exports.handler = async (event) => {
-  // event.path is normally the original request path (/api/...); some gateway
-  // configs deliver the internal function path instead — accept both, and a
-  // trailing slash.
-  const path = (event.path || '')
-    .replace(/^\/api/, '')
-    .replace(/^\/\.netlify\/functions\/api/, '')
-    .replace(/\/$/, '') || '/';
-  const method = event.httpMethod || 'GET';
-
-  // Preflight support for cross-origin callers (not used same-origin today).
-  if (method === 'OPTIONS') {
-    return json(204, null);
-  }
-
-  if (path === '/stripe-config' && method === 'GET') {
-    return json(200, { publishableKey: process.env.STRIPE_PUBLISHABLE_KEY || FALLBACK_STRIPE_PUBLISHABLE_KEY });
-  }
-
-  if (path === '/supabase-config' && method === 'GET') {
-    return json(200, {
-      supabaseUrl: process.env.SUPABASE_URL || FALLBACK_SUPABASE_URL,
-      supabaseAnonKey: process.env.SUPABASE_ANON_KEY || FALLBACK_SUPABASE_ANON_KEY,
-    });
-  }
-
-  if (path === '/create-payment-intent' && method === 'POST') {
-    let body = {};
-    try {
-      body = typeof event.body === 'object' && event.body !== null
-        ? event.body
-        : JSON.parse(event.body || '{}');
-    } catch (e) { /* ignore */ }
-    const amountCents = Math.round(Number(body.amount));
-    if (!amountCents || amountCents <= 0 || amountCents > MAX_AMOUNT_CENTS) {
-      return json(400, { error: 'Invalid amount.' });
-    }
-    if (!process.env.STRIPE_SECRET_KEY) {
-      return json(500, { error: 'Stripe payments are not configured yet — add your Stripe secret key to the host dashboard to accept payments.' });
-    }
-    try {
-      const client = stripe(process.env.STRIPE_SECRET_KEY);
-      const paymentIntent = await client.paymentIntents.create({
-        amount: amountCents,
-        currency: 'usd',
-        automatic_payment_methods: { enabled: true },
-        metadata: body.metadata || {},
-      });
-      return json(200, { clientSecret: paymentIntent.client_secret });
-    } catch (err) {
-      console.error('[Stripe] create-payment-intent error:', err.message);
-      return json(400, { error: err.message });
-    }
-  }
-
-  return json(404, { error: 'Not found.' });
-};
+module.exports.handler = serverless(app);
