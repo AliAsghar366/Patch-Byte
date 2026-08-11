@@ -95,7 +95,13 @@ app.get('/api/supabase-config', (_req, res) => {
 //   ADMIN_PASSWORD, SUPABASE_SERVICE_ROLE_KEY
 // Optional: ADMIN_TOKEN_SECRET (used to sign session tokens), SUPABASE_URL.
 
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || '';
+// Built-in default so the portal works without configuring env vars. Always
+// overridable via ADMIN_PASSWORD in the environment (recommended for real
+// deployments).
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'TahaRizvi1214';
+if (!process.env.ADMIN_PASSWORD) {
+    console.warn('[Admin] ADMIN_PASSWORD is not set — using the built-in default. Set ADMIN_PASSWORD in the environment to override.');
+}
 const ADMIN_SECRET = process.env.ADMIN_TOKEN_SECRET || ADMIN_PASSWORD || 'patchbyte-insecure-dev-secret';
 const ADMIN_TOKEN_TTL_MS = 12 * 60 * 60 * 1000; // 12 hours
 const ADMIN_URL = process.env.SUPABASE_URL || 'https://hjnowvzxusjjyhxxgdji.supabase.co';
