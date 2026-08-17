@@ -43,6 +43,33 @@ for (let i = 1; i <= 4; i++) {
     `public/cdn/shop/files/order-process-${i}.png`
   );
 }
+// Patch category card images (homepage + mega menu). These are brand-new
+// images that never existed on Shopify's CDN, so they must ship locally or
+// the /cdn/shop/files/* proxy would 404 them in production. The rest of each
+// category's set stays in the source folder for future use.
+const PATCH_CATEGORY_IMAGES = [
+  'embroidered-patches-1.jpg',
+  '3d-embroidered-patches-1.jpg',
+  'full-color-printed-patches-1.jpg',
+  'pvc-rubber-patches-1.jpg',
+  'genuine-leather-patches-1.jpg',
+  'faux-leather-patches-1.jpg',
+  'woven-patches-1.jpg',
+  'tpu-full-color-patches-1.jpg',
+  'chenille-patches-1.jpg',
+  'silicone-transfers-1.jpg',
+  'custom-embroidered-name-patches-1.jpg',
+  'dtf-transfers-1.jpg',
+  'chrome-flex-patches-1.jpg',
+  'custom-tackle-twill-letters-1.jpg',
+  'custom-pvc-keychains-1.jpg'
+];
+for (const name of PATCH_CATEGORY_IMAGES) {
+  fs.copyFileSync(
+    `frontend/patchkraze.com/cdn/shop/files/${name}`,
+    `public/cdn/shop/files/${name}`
+  );
+}
 
 // patchbyte.js
 copyDir('frontend/js', 'public/js');

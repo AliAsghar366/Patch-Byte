@@ -10,6 +10,23 @@ frontend/cdn/shop/files/
 frontend/patchkraze.com/cdn/shop/files/*
 # ...except the ordering-process cards, which the homepage uses and ships locally
 !frontend/patchkraze.com/cdn/shop/files/order-process-*.png
+# ...and the patch category card images (new assets, shipped locally — they
+# don't exist on Shopify's CDN, so the /cdn/shop/files/* proxy would 404 them)
+!frontend/patchkraze.com/cdn/shop/files/embroidered-patches-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/3d-embroidered-patches-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/full-color-printed-patches-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/pvc-rubber-patches-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/genuine-leather-patches-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/faux-leather-patches-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/woven-patches-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/tpu-full-color-patches-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/chenille-patches-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/silicone-transfers-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/custom-embroidered-name-patches-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/dtf-transfers-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/chrome-flex-patches-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/custom-tackle-twill-letters-1.jpg
+!frontend/patchkraze.com/cdn/shop/files/custom-pvc-keychains-1.jpg
 
 # Netlify build output (generated at deploy time)
 /public/
